@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10131a">
+<meta name="description" content="Listen to 138 audio previews of free Polyend Tracker CE PTFX generators by Aisjam.">
+<title>Polyend Tracker CE — Audio Demos | Aisjam</title>
+<style>
+:root{color-scheme:dark;--bg:#10131a;--panel:#1b202b;--edge:#333b4a;--ink:#f2f4f8;--muted:#a5b0c3;--accent:#a2f3ba;--focus:#76c7ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--accent)}button,input{font:inherit}button{cursor:pointer}.wrap{max-width:1140px;margin:auto;padding:25px 20px 150px}.eyebrow{font-weight:750;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-size:.78rem}h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:12px 0}header p{color:var(--muted);max-width:780px}.links{display:flex;flex-wrap:wrap;gap:15px;margin:20px 0 30px}.tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:18px}input{border:1px solid var(--edge);background:var(--panel);color:var(--ink);padding:12px 15px;border-radius:10px;flex:1;min-width:220px}.filters{display:flex;gap:7px;flex-wrap:wrap}.filters button,.play{background:var(--panel);color:var(--ink);border:1px solid var(--edge);border-radius:8px;padding:10px 13px}.filters button[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}button:hover{border-color:var(--focus)}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.count{color:var(--muted);margin:0 0 18px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:15px}.card{background:var(--panel);border:1px solid var(--edge);border-radius:14px;padding:19px;min-width:0}.card h2{font-size:1.2rem;margin:0 0 5px;overflow-wrap:anywhere}.tag{font-size:.76rem;color:var(--accent);text-transform:uppercase;letter-spacing:.09em}.card p{font-size:.85rem;color:var(--muted);margin:7px 0 15px}.demos{display:grid;gap:8px}.demo{display:flex;align-items:center;gap:12px;background:#121722;padding:9px;border-radius:8px}.play{width:65px;padding:7px 10px;flex-shrink:0}.demo-name{min-width:0;font-size:.88rem;overflow-wrap:anywhere}.demo-name small{display:block;color:var(--muted)}.card-footer{margin-top:15px;font-size:.88rem}.player{position:fixed;bottom:0;left:0;right:0;z-index:10;background:#202734;border-top:1px solid #495367;box-shadow:0 -10px 30px #0005}.player-inner{max-width:1140px;margin:auto;padding:10px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}.playing{font-size:.86rem;flex:1;min-width:180px}.playing strong{display:block}audio{width:min(100%,580px);height:42px;flex:2}.notice{color:var(--muted)}@media(max-width:700px){.wrap{padding-bottom:170px}.player-inner{gap:6px}audio{flex-basis:100%}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<div class="eyebrow">Aisjam / Polyend Tracker CE</div>
+<h1>Hear the generators.</h1>
+<p>Browse sound demos for free <code>.ptfx</code> generators for the original Polyend Tracker running Community Edition. These are recorded examples, not live synthesis. Each sound links back to its generator file.</p>
+<div class="links"><a href="https://github.com/Aisjam/polyendtracker_Effects">GitHub repository &amp; README</a><a href="https://github.com/polyend/tracker-ce">Tracker CE</a></div>
+</header>
+<section aria-label="Find generators">
+<div class="tools"><input id="search" type="search" placeholder="Search generators, demo names or genres…" aria-label="Search demos"><div id="filters" class="filters" role="group" aria-label="Category"></div></div>
+<p class="count" id="count" aria-live="polite">Loading demonstrations…</p>
+<div id="results" class="grid"></div>
+</section>
+</main>
+<div class="player"><div class="player-inner"><div class="playing" id="now" aria-live="polite"><strong>Ready to listen</strong>Select a demo to play.</div><audio id="audio" controls preload="none" aria-label="Audio preview player"></audio></div></div>
+<script>
+'use strict';
+const source='Audio/demo-sources.json';
+const repo='https://github.com/Aisjam/polyendtracker_Effects/blob/main/';
+const search=document.getElementById('search'),filters=document.getElementById('filters'),results=document.getElementById('results'),count=document.getElementById('count'),audio=document.getElementById('audio'),now=document.getElementById('now');
+let catalog=[],category='All',active='';
+const categories=['All','Synth','Drum','Percussion'];
+function label(name){return name.replace(/\.ptfx$/i,'').replace(/^Gen_(?:Drum_|Perc_)?\d+_/i,'').replace(/_/g,' ').replace(/\bWT\b/g,'WT');}
+function displayDemo(d,i){const path=d.source||'';const file=path.split(/[\\/]/).pop()||'';const name=file.replace(/\.wav$/i,'').replace(/^(?:BASS|LEAD|KEYS|DRONE|DRUM|PERC|FX|PAD|SYNTH|SFX)_/i,'').replace(/_(?:WT|C4scan)$/i,'').replace(/_/g,' ');return name&&name!=='Demo-'+(i+1)?name:'Demo '+(i+1);}
+function make(tag,cls,content){const n=document.createElement(tag);if(cls)n.className=cls;if(content!=null)n.textContent=content;return n}
+function redraw(){
+ filters.replaceChildren();for(const c of categories){const b=make('button','',c);b.type='button';b.setAttribute('aria-pressed',String(c===category));b.onclick=()=>{category=c;redraw()};filters.append(b)}
+ results.replaceChildren();const term=search.value.trim().toLowerCase();const selected=catalog.filter(g=>(category==='All'||g.category===category)&&([g.generator,g.category,...g.demos.map((d,i)=>displayDemo(d,i)+' '+(d.genre||''))].join(' ').toLowerCase().includes(term)));
+ count.textContent=selected.length+' generators · '+selected.reduce((n,g)=>n+g.demos.length,0)+' demos';
+ if(!selected.length){results.append(make('p','notice','No matching demos. Try another search.'));return}
+ for(const g of selected){
+ const card=make('article','card');const tag=make('div','tag',g.category);card.append(tag,make('h2','',label(g.generator)));
+ const note=make('p','',g.generator);card.append(note);
+ const demos=make('div','demos');
+ for(let i=0;i<g.demos.length;i++){const d=g.demos[i];if(!/^Audio\/(?:Drum|Percussion|Synth)\/[A-Za-z0-9_-]+\/Demo-[1-9][0-9]*\.wav$/.test(d.destination||''))continue;
+ const item=make('div','demo');const btn=make('button','play',active===d.destination&&!audio.paused?'Pause':'Play');btn.type='button';const description=make('div','demo-name',displayDemo(d,i));description.append(make('small','',d.genre||'Demo '+(i+1)));
+ btn.onclick=()=>{if(active===d.destination){if(audio.paused)audio.play().catch(()=>{});else audio.pause();}else{active=d.destination;audio.src='./'+d.destination;now.replaceChildren(make('strong','',label(g.generator)),document.createTextNode(displayDemo(d,i)));audio.play().catch(()=>{});}updateButtons();};
+ item.append(btn,description);demos.append(item)}
+ card.append(demos);const footer=make('div','card-footer');const link=make('a','','Get '+g.generator);link.href=repo+'Effects/Generators/'+encodeURIComponent(g.category)+'/'+encodeURIComponent(g.generator);link.target='_blank';link.rel='noopener noreferrer';footer.append(link);card.append(footer);results.append(card)}
+ updateButtons();
+}
+function updateButtons(){for(const b of results.querySelectorAll('.play')){const item=b.parentElement;const card=b.closest('.card');const g=catalog.find(x=>x.generator===card.querySelector('p').textContent);if(!g)continue;const index=Array.from(item.parentElement.children).indexOf(item);const d=g.demos[index];b.textContent=d&&d.destination===active&&!audio.paused?'Pause':'Play';}}
+search.addEventListener('input',redraw);audio.addEventListener('play',updateButtons);audio.addEventListener('pause',updateButtons);audio.addEventListener('ended',updateButtons);
+fetch('./'+source).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{catalog=data.filter(g=>categories.includes(g.category)&&Array.isArray(g.demos));redraw()}).catch(e=>{count.textContent='Unable to load the demo index.';results.replaceChildren(make('p','notice','Please reload this page or check '+source+' ('+e.message+').'))});
+</script>
+</body>
+</html>
