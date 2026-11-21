@@ -1,0 +1,186 @@
+{
+  "Gen_01_OSC.ptfx": {
+    "simple": "A starting point for basses, leads and chip sounds. It makes one of 16 waveforms, then lets you bend, fold, sync and reduce its resolution. Choose a single cycle or a longer sample.",
+    "architecture": "Waveform selection → shape/sync/ring/fold/skew → bit crushing → cycle or timed sample."
+  },
+  "Gen_02_OSC_WT.ptfx": {
+    "simple": "A quick way to put many basic waveforms in one instrument. It makes 16 frames, one for each waveform, with the same shaping controls applied to them all. Scan Position to change waveform.",
+    "architecture": "16 waveform sources → shared shaping → wavetable frames."
+  },
+  "Gen_03_PWM_WT.ptfx": {
+    "simple": "For hollow, moving leads and basses. It changes the width of the selected wave across a wavetable, then adds optional folding and drive.",
+    "architecture": "Oscillator → pulse-width sweep → fold/drive → wavetable."
+  },
+  "Gen_04_FM_WT.ptfx": {
+    "simple": "For bells, bright basses and metallic digital tones. One oscillator bends the phase of another, giving an FM-style sound. The amount can change across the wavetable. C means carrier, the main tone; M means modulator, the wave shaping it.",
+    "architecture": "Carrier + phase modulator → ratio/index/feedback → wavetable sweep."
+  },
+  "Gen_05_PHASE_WT.ptfx": {
+    "simple": "For sharp digital basses, glassy tones and unusual moving shapes. It reshapes the timing within each wave cycle using 32 phase-shaping modes. Family chooses the left or right half of each paired Mode name. Some modes do not use every shaping control.",
+    "architecture": "Oscillator → phase-warp mode → depth/morph sweep → wavetable."
+  },
+  "Gen_06_ACID_WT.ptfx": {
+    "simple": "For squelchy acid bass and resonant leads. Saw and pulse sources feed a resonant filter-style sound, with different brightness sweeps spread across the wavetable.",
+    "architecture": "Saw/pulse/sub sources → resonant filter-style sweep → drive → wavetable."
+  },
+  "Gen_07_SYNC_WT.ptfx": {
+    "simple": "For cutting leads and tearing basses. It combines two waveforms with oscillator sync: one wave is repeatedly restarted by another. The sync movement is written into the frames.",
+    "architecture": "Master oscillator resets second oscillator → sync ratio sweep → wavetable."
+  },
+  "Gen_08_WAV_WT.ptfx": {
+    "simple": "For sounds that change from one custom shape into another. Set the start and end waveforms, wrapping, phase and folding; the generator fills in the frames between them. S means start and E means end.",
+    "architecture": "Start/end waveforms → wrap/phase/fold → interpolate → wavetable."
+  },
+  "Gen_09_STRING.ptfx": {
+    "simple": "For plucks and vintage string-machine pads. Plucked uses a vibrating-string model; Bowed layers filtered saw waves with an ensemble effect for a soft string-like sound.",
+    "architecture": "Plucked: strike → string damping; bowed: saw layers → filter → ensemble."
+  },
+  "Gen_10_NOISE.ptfx": {
+    "simple": "For hiss, wind, crackle, percussion layers and effects. It makes different kinds of random or clocked noise, with colour and rate controls and an optional sweep.",
+    "architecture": "Random/clocked noise → rate/colour shaping → sweep → sample."
+  },
+  "Gen_11_BUZZ.ptfx": {
+    "simple": "For pitched noise, rough bass and chip-like textures. It uses the noise family with a frequency control, so you can steer its buzzing or clocked character toward a note. Not every noise mode has a clear musical pitch.",
+    "architecture": "Clock/noise source → frequency-controlled buzzing → sample."
+  },
+  "Gen_12_UNISON.ptfx": {
+    "simple": "For thick leads, basses and pads. It stacks copies of a waveform at slightly different pitches, then blends them with a central voice and optional sub tone.",
+    "architecture": "Detuned oscillator layers + central/sub voice → mix → sample."
+  },
+  "Gen_13_FOLD_WT.ptfx": {
+    "simple": "For bright, rough or metallic tones. Wavefolding bends peaks back on themselves to add extra harmonics. The wavetable follows the selected folding path.",
+    "architecture": "Oscillator → folding depth sweep → wavetable."
+  },
+  "Gen_14_STRUCK.ptfx": {
+    "simple": "For plucked, struck-string notes and tuned accents. A short noise excitation circulates through a tuned delay loop, with damping and decay making the vibration fade.",
+    "architecture": "Noise strike → tuned feedback delay → damping → note."
+  },
+  "Gen_15_FORMANT_WT.ptfx": {
+    "simple": "For vowel-like leads and talking basses. It shapes a waveform around vocal-style resonances and lays out the changing vowel colour across a wavetable.",
+    "architecture": "Oscillator → vocal resonances → vowel sweep → wavetable."
+  },
+  "Gen_16_SUNSOFT.ptfx": {
+    "simple": "For crunchy game-style bass notes. It repitches an embedded sample into a chosen scale and passes each note through NES-style DPCM conversion. It makes a note chain, not a wavetable. Use Equal Slice: Chromatic = 12, Major/Minor/Dorian = 7, pentatonic scales = 5, Blues = 6. Reslice after changing Scale.",
+    "architecture": "Embedded sample → scale repitching → NES-style DPCM → sliced note chain."
+  },
+  "Gen_17_DONK.ptfx": {
+    "simple": "For short, knocking bass notes. A decaying FM-style tone is mixed with a low body and pitch punch, then driven for extra bite.",
+    "architecture": "FM-style tone + low body → pitch punch → drive → sample."
+  },
+  "Gen_18_HOOVER.ptfx": {
+    "simple": "For buzzing rave leads and thick basses. Moving pulse widths, linked saw/pulse waves, a sub tone and a chorus-like layer build a changing mono sample.",
+    "architecture": "Swept pulse/saw layers + sub → chorus-like mix → sample."
+  },
+  "Gen_19_NEURO_WT.ptfx": {
+    "simple": "For growling basses and aggressive moving textures. It combines Reese and FM-style sources with phase spreading, folding and distortion. Motion chooses how the colour changes across the frames.",
+    "architecture": "Reese/FM sources → phase spread/fold/distortion → wavetable."
+  },
+  "Gen_20_REESE.ptfx": {
+    "simple": "For rolling, beating basses. Detuned oscillators interfere with one another, making the sound rise and fall in strength. Blend and Sub control its weight.",
+    "architecture": "Detuned oscillators → beating → sub blend → bass sample."
+  },
+  "Gen_21_SUPERSAW.ptfx": {
+    "simple": "For large leads, chords and pads. It stacks detuned saw waves around a central voice. Brightness and Blend let you move from a clearer tone to a dense, moving sound.",
+    "architecture": "Central saw + detuned saw layers → blend/brightness → sample."
+  },
+  "Gen_Drum_1_Base.ptfx": {
+    "simple": "For a useful everyday electronic kit. Sine-wave bodies, noise bursts and metallic pulse waves make kicks, snares, claps, hats and other percussion.",
+    "architecture": "Sine bodies + noise + metallic pulses → kit hit chain."
+  },
+  "Gen_Drum_2_Tone.ptfx": {
+    "simple": "For drum-machine sounds with a digital edge. It blends analog-style tones and noise with stepped, low-resolution digital voices. Style gives you a starting sound; the other controls reshape it.",
+    "architecture": "Analog tones/noise + low-resolution digital voices → kit chain."
+  },
+  "Gen_Drum_3_Chip.ptfx": {
+    "simple": "For game-inspired beats and crunchy percussion. Pulse and triangle tones, small wave tables and clocked noise follow short pitch and volume programs.",
+    "architecture": "Pulse/triangle/wavetable/clocked noise → pitch programs → kit chain."
+  },
+  "Gen_Drum_4_FM.ptfx": {
+    "simple": "For deep kicks, metallic percussion and digital kits. Oscillators modulate one another with different pitch ratios and fading envelopes. Each drum uses an appropriate FM arrangement.",
+    "architecture": "FM oscillator pairs → drum-specific envelopes → kit chain."
+  },
+  "Gen_Drum_5_Phase.ptfx": {
+    "simple": "For synthetic drums with a sharp, unusual edge. Phase distortion changes the shape of each oscillator over the hit, with noise and drive adding texture.",
+    "architecture": "Oscillator phase distortion → noise/drive → kit chain."
+  },
+  "Gen_Drum_6_Six.ptfx": {
+    "simple": "For compact, lively analog-style kits. Damped ringing tones form the bodies, with filtered noise and metallic oscillators for the sharper sounds. MetalAcc6 and FullAcc8 include an accented snare.",
+    "architecture": "Damped ringing + noise attacks + metal voices → kit chain."
+  },
+  "Gen_Drum_7_Seven.ptfx": {
+    "simple": "For punchy PCM drum-machine sounds. It plays embedded drum samples, then changes their clock rate, envelopes, tone and bit resolution.",
+    "architecture": "Embedded PCM hits → clock/envelope/bit shaping → kit chain."
+  },
+  "Gen_Drum_8_Eight.ptfx": {
+    "simple": "For round bass drums, snappy snares and sizzling analog-style percussion. Ringing tone models, filtered noise and metallic pulse mixtures build the kit.",
+    "architecture": "Ringing tones + noise + metallic pulses → kit chain."
+  },
+  "Gen_Drum_9_Nine.ptfx": {
+    "simple": "For punchy dance kits. It combines synthesized drum bodies and noise with embedded PCM hats and cymbals. The metal tuning can be changed separately.",
+    "architecture": "Synth drum bodies + PCM metal parts → kit chain."
+  },
+  "Gen_Drum_10_Wave.ptfx": {
+    "simple": "For flexible digital percussion. Changing wave shapes, folding, noise and resolution reduction build a kit that can range from clean to crushed.",
+    "architecture": "Wave shaping/folding + noise + bit crushing → kit chain."
+  },
+  "Gen_Perc_01_Kick.ptfx": {
+    "simple": "For designing a single bass drum. Choose a sine-based, digital, chip, FM, phase, PCM or wave-based model, then shape the body, click and falling pitch.",
+    "architecture": "Bass drum model → falling pitch/body/click → kick."
+  },
+  "Gen_Perc_02_Snare.ptfx": {
+    "simple": "For one snare with control over its body and noisy wires. Models use different combinations of oscillators, noise, FM, chip programs or PCM playback.",
+    "architecture": "Oscillator body + noise/wire or PCM → snare."
+  },
+  "Gen_Perc_03_Clap.ptfx": {
+    "simple": "For handclap-style hits and burst effects. Several short bursts lead into a tail. Different models use filtered noise, chip noise, FM, phase shaping or PCM layers.",
+    "architecture": "Transient bursts → tail → clap."
+  },
+  "Gen_Perc_04_Hat.ptfx": {
+    "simple": "For short closed hats or longer open-hat sounds. It blends noisy and metallic parts, or shapes PCM hat material, with separate controls for the metallic tail.",
+    "architecture": "Metal/noise or PCM → decay → hat."
+  },
+  "Gen_Perc_05_Tom.ptfx": {
+    "simple": "For tuned fills and rounded percussion. Different ringing, digital and PCM models make a drum body with a controllable pitch bend and resonance.",
+    "architecture": "Resonant body → pitch bend → tom."
+  },
+  "Gen_Perc_06_Conga.ptfx": {
+    "simple": "For rounded hand-drum-style hits. Two related tone models make a body and strike, with a short pitch bend and adjustable body colour.",
+    "architecture": "Attack + ringing body → pitch bend → conga."
+  },
+  "Gen_Perc_07_Rim.ptfx": {
+    "simple": "For tight rimshots, clicks and ringing stick sounds. Different models combine a short strike with a ringing body. Ring controls shape the second part; the PCM model adds a resonator to its recorded hit.",
+    "architecture": "Stick attack + ring/PCM resonance → rim."
+  },
+  "Gen_Perc_08_Claves.ptfx": {
+    "simple": "For short wooden clicks and pitched accents. Tonal and chip-style models make a brief strike with a small ringing body. Hard changes the attack character.",
+    "architecture": "Hard attack + tonal resonance → claves."
+  },
+  "Gen_Perc_09_Cowbell.ptfx": {
+    "simple": "For clanging rhythmic accents. Paired tones or PCM bands create low and high components. Their balance, tuning relationship and damping set the clang.",
+    "architecture": "Paired metal tones or PCM → cowbell."
+  },
+  "Gen_Perc_10_Bell.ptfx": {
+    "simple": "For ringing bell-like accents. Paired tones, digital shaping or processed PCM produce a strike and a longer body. Inharm changes how closely the upper tones relate to the main pitch.",
+    "architecture": "Strike + inharmonic ringing body → bell."
+  },
+  "Gen_Perc_11_Cymbal.ptfx": {
+    "simple": "For metallic hits and noisy washes. Oscillator, noise, FM, chip and PCM models offer different kinds of metal, with density and damping controls.",
+    "architecture": "Metal/noise/FM/chip/PCM → density/damping → cymbal."
+  },
+  "Gen_Perc_12_Crash.ptfx": {
+    "simple": "For impact accents that open into a wash. It uses synthetic, chip or PCM metal sources. Bloom lets the wash rise and last longer; Spread changes the sound within a mono sample.",
+    "architecture": "Metal source → bloom/spread → crash."
+  },
+  "Gen_Perc_13_Ride.ptfx": {
+    "simple": "For a clear ping over a longer cymbal wash. Different tone, chip, FM, phase and PCM models provide the source. Balance and WashDec let the ping or wash lead.",
+    "architecture": "Ping + metallic wash → decay → ride."
+  },
+  "Gen_Perc_14_Maracas.ptfx": {
+    "simple": "For a single shaker gesture. The Eight model uses filtered noise with an initial hit and a group of small grains. Density and BurstTm control the rattle. Eight is intentionally the only model.",
+    "architecture": "Filtered noise burst → grains → maracas."
+  },
+  "Gen_Perc_15_Zap.ptfx": {
+    "simple": "For laser hits, disco tom effects and falling electronic blips. Sine, chip, FM, phase and wave-based models follow a strong downward pitch sweep.",
+    "architecture": "Oscillator → downward pitch sweep → zap."
+  }
+}
