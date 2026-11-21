@@ -34,7 +34,7 @@ const search=document.getElementById('search'),filters=document.getElementById('
 let catalog=[],category='All',active='';
 const categories=['All','Synth','Drum','Percussion'];
 function label(name){return name.replace(/\.ptfx$/i,'').replace(/^Gen_(?:Drum_|Perc_)?\d+_/i,'').replace(/_/g,' ').replace(/\bWT\b/g,'WT');}
-function displayDemo(d,i){const path=d.source||'';const file=path.split(/[\\/]/).pop()||'';const name=file.replace(/\.wav$/i,'').replace(/^(?:BASS|LEAD|KEYS|DRONE|DRUM|PERC|FX|PAD|SYNTH|SFX)_/i,'').replace(/_(?:WT|C4scan)$/i,'').replace(/_/g,' ');return name&&name!=='Demo-'+(i+1)?name:'Demo '+(i+1);}
+function displayDemo(d,i){if(d.name)return d.name;const path=d.source||'';const file=path.split(/[\\/]/).pop()||'';const name=file.replace(/\.wav$/i,'').replace(/^(?:BASS|LEAD|KEYS|DRONE|DRUM|PERC|FX|PAD|SYNTH|SFX)_/i,'').replace(/_(?:WT|C4scan)$/i,'').replace(/_/g,' ');return name&&name!=='Demo-'+(i+1)?name:'Demo '+(i+1);}
 function make(tag,cls,content){const n=document.createElement(tag);if(cls)n.className=cls;if(content!=null)n.textContent=content;return n}
 function redraw(){
  filters.replaceChildren();for(const c of categories){const b=make('button','',c);b.type='button';b.setAttribute('aria-pressed',String(c===category));b.onclick=()=>{category=c;redraw()};filters.append(b)}
@@ -46,7 +46,7 @@ function redraw(){
  const note=make('p','',g.generator);card.append(note);
  const demos=make('div','demos');
  for(let i=0;i<g.demos.length;i++){const d=g.demos[i];if(!/^Audio\/(?:Drum|Percussion|Synth)\/[A-Za-z0-9_-]+\/Demo-[1-9][0-9]*\.wav$/.test(d.destination||''))continue;
- const item=make('div','demo');const btn=make('button','play',active===d.destination&&!audio.paused?'Pause':'Play');btn.type='button';const description=make('div','demo-name',displayDemo(d,i));description.append(make('small','',d.genre||'Demo '+(i+1)));
+ const item=make('div','demo');const btn=make('button','play',active===d.destination&&!audio.paused?'Pause':'Play');btn.type='button';const description=make('div','demo-name',displayDemo(d,i));description.append(make('small','',d.genre||g.category));
  btn.onclick=()=>{if(active===d.destination){if(audio.paused)audio.play().catch(()=>{});else audio.pause();}else{active=d.destination;audio.src='./'+d.destination;now.replaceChildren(make('strong','',label(g.generator)),document.createTextNode(displayDemo(d,i)));audio.play().catch(()=>{});}updateButtons();};
  item.append(btn,description);demos.append(item)}
  card.append(demos);const footer=make('div','card-footer');const link=make('a','','Get '+g.generator);link.href=repo+'Effects/Generators/'+encodeURIComponent(g.category)+'/'+encodeURIComponent(g.generator);link.target='_blank';link.rel='noopener noreferrer';footer.append(link);card.append(footer);results.append(card)}
