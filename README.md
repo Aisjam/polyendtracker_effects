@@ -8,6 +8,12 @@ These plugins use [Polyend Tracker CE (Community Edition)](https://github.com/po
 
 A `.ptfx` file runs in the **Sample Editor**. Generators make audio that you can then play, slice, loop or use as a wavetable. You change the controls and render a new sound with Preview and Apply.
 
+## Listen to the audio demos
+
+**[▶ Open the interactive audio demo browser](https://aisjam.github.io/polyendtracker_Effects/)** — preview Synth, Drum and Percussion generators before downloading. Search by generator, genre or demo name, and play all three WAV examples for each generator directly in your browser.
+
+The browser uses the WAV files in [`Audio/`](Audio/) and their metadata in [`Audio/demo-sources.json`](Audio/demo-sources.json). If the site is not available yet, enable GitHub Pages under **Settings → Pages → Build and deployment → GitHub Actions**.
+
 ## Install
 
 1. Use firmware with CE's `.ptfx` Sample Editor support. If you need to install or update it, start with the [Polyend Tracker CE project and its firmware instructions](https://github.com/polyend/tracker-ce). Choose the firmware for your Tracker model; this collection is aimed at the original Tracker.
