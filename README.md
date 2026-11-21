@@ -8,6 +8,12 @@ These plugins use [Polyend Tracker CE (Community Edition)](https://github.com/po
 
 A `.ptfx` file runs in the **Sample Editor**. Generators make audio that you can then play, slice, loop or use as a wavetable. You change the controls and render a new sound with Preview and Apply.
 
+## From Contour to Polyend Tracker
+
+These generators grew out of the synthesizers and drum engines I developed for **Contour – Visual Tracker**, my own tracker and music-making project. I wanted to bring some of those sound-design ideas and synthesis methods to the original Polyend Tracker through Community Edition's `.ptfx` system.
+
+The Polyend versions adapt those ideas to the Tracker's sample-generation workflow and parameter controls. They aren't necessarily identical, feature-for-feature ports of the Contour instruments; they're another way to explore the synthesis engines and make sounds to use in your own music.
+
 ## Listen to the audio demos
 
 **[▶ Open the interactive audio demo browser](https://aisjam.github.io/polyendtracker_Effects/)** — preview Synth, Drum and Percussion generators before downloading. Search by generator, genre or demo name, and play all three WAV examples for each generator directly in your browser.
