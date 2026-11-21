@@ -4,7 +4,7 @@ Welcome! I build these tools to give the original (OG) Polyend Tracker a boost w
 
 This collection brings together classic waveforms, FM, phase distortion, wavetable shaping, plucked strings, thick detuned sounds, drum kits and individual percussion hits. There are also effects for adding the rough edges of older samplers and game consoles.
 
-These plugins use [Polyend Tracker CE (Community Edition)](https://github.com/polyend/tracker-ce). Thanks to Polyend and the CE community for opening up the Tracker and making projects like this possible.
+These plugins use [Polyend Tracker CE (Community Edition)](https://github.com/polyend/tracker-ce). Thanks to Polyend and the community for opening up the Tracker and making projects like this possible.
 
 A `.ptfx` file runs in the **Sample Editor**. Generators make audio that you can then play, slice, loop or use as a wavetable. You change the controls and render a new sound with Preview and Apply.
 
@@ -13,7 +13,7 @@ A `.ptfx` file runs in the **Sample Editor**. Generators make audio that you can
 1. Use firmware with CE's `.ptfx` Sample Editor support. If you need to install or update it, start with the [Polyend Tracker CE project and its firmware instructions](https://github.com/polyend/tracker-ce). Choose the firmware for your Tracker model; this collection is aimed at the original Tracker.
 2. Download this repository using **Code → Download ZIP**, then unzip it.
 3. Open [Generators](Generators) or [Effects](Effects). Copy the `.ptfx` files you want into an `Effects` folder at the root of your Tracker's SD card. You can use subfolders to keep them tidy.
-4. Put the card back in the Tracker. Open **Sample Editor**, go to the effect list, and choose **Load Effect...** to browse for a plugin.
+4. Put the card back in the Tracker. Open **Sample Editor**, go to the effect list, you will see them there.
 5. For a generator, start with an empty instrument slot. Set its controls, listen with **Preview**, then choose **Apply**. For an effect or converter, load a sample first.
 6. Save the sound as a sample or instrument when you are happy with it.
 
