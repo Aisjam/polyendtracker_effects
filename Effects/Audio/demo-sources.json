@@ -1,0 +1,1884 @@
+[
+  {
+    "generator": "Gen_01_OSC.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_HollowFoundation_CYC_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_01_OSC",
+        "genre": "Trance",
+        "sha256": "4c5dc3be12fbb6942f6628481a53190a5702a8408cb9d557dac22b698ee7cf32",
+        "destination": "Audio/Synth/Gen_01_OSC/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_BiasedFoldFlutter.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_01_OSC.ptfx",
+        "genre": "Acid house",
+        "sha256": "ec60e20202fff71a71110c5d0e091615992abe76ee11240af67700b08d73a2f6",
+        "destination": "Audio/Synth/Gen_01_OSC/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/KEYS/KEYS_HalfSineWoodBurnished.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_01_OSC.ptfx",
+        "genre": "Ambient",
+        "sha256": "858b6303659bafe5327f8bdf5da1daf62f07c43d0e76fc8faf075dae65a3084e",
+        "destination": "Audio/Synth/Gen_01_OSC/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_02_OSC_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/LEAD_RingCarousel_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_02_OSC_WT",
+        "genre": "Trance",
+        "sha256": "8f2909ae0176d369dcf0aa7690372b3059e892138a4a81465dce99e1b6188d26",
+        "destination": "Audio/Synth/Gen_02_OSC_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_SyncSpectrumBubble_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_02_OSC_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "bdaac77c790d98946c4fd67ef8d4e3bbaef814d9feaa80e848aaa8ed349c5b0b",
+        "destination": "Audio/Synth/Gen_02_OSC_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/LEAD/LEAD_SharkFin_WT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_02_OSC_WT.ptfx",
+        "genre": "Breakcore",
+        "sha256": "10f960a0cb7f511552ac87232a89f1f5099cd91932049416fb1e657fc5759ecc",
+        "destination": "Audio/Synth/Gen_02_OSC_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_03_PWM_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_SharkBite_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_03_PWM_WT",
+        "genre": "Trance",
+        "sha256": "c7da5cd63a3932d41fecfd48338f5b33825c2b684543868e22c0d9b24021209d",
+        "destination": "Audio/Synth/Gen_03_PWM_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_ElasticSquareBubble_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_03_PWM_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "5f5aa4f933e1c7e89974f7e38db93649c5ac9bd03bf21d62ed2f6e5e60c2e402",
+        "destination": "Audio/Synth/Gen_03_PWM_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/KEYS/KEYS_TriangularDewCeremony_WT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_03_PWM_WT.ptfx",
+        "genre": "Ambient",
+        "sha256": "cde1d4a3a4d67e2647a7ba0488a0b3a2744a00ab7c960aeef9576245bc3623f8",
+        "destination": "Audio/Synth/Gen_03_PWM_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_04_FM_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_FeedbackCoil_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_04_FM_WT",
+        "genre": "Trance",
+        "sha256": "84cbac701a7b17c906f83691ea35ed95d25f9013dca43656916f95fb14c57565",
+        "destination": "Audio/Synth/Gen_04_FM_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_FeedbackWireDrill_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_04_FM_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "24e79502d455e6b346e63b41490b4aac69137eb8559784acaf2963ab4a07234d",
+        "destination": "Audio/Synth/Gen_04_FM_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/DRONE/DRONE_BasaltChoirFilament_WT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_04_FM_WT.ptfx",
+        "genre": "Ambient",
+        "sha256": "47726bdd6329053cbc822497f2c1f04a2a54073e3c57fd3e3e981ec75e96fca6",
+        "destination": "Audio/Synth/Gen_04_FM_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_05_PHASE_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "generator": "Gen_05_PHASE_WT.ptfx",
+        "destination": "Audio/Synth/Gen_05_PHASE_WT/Demo-1.wav",
+        "parameters": {
+          "Family": 0.0,
+          "Mode": 0.0,
+          "Shape": 40.0,
+          "Morph": 50.0,
+          "Depth": 10.0,
+          "Sweep": 85.0,
+          "Motion": 0.0,
+          "Cross": 0.0,
+          "Window": 2.0,
+          "Frames": 2.0,
+          "Phase": 0.0,
+          "Drive": 0.0
+        },
+        "generator_sha256": "1cec06a6012b37c2384877b680dbea1ffc86feca445e1ae1cc86aef4fc359a39",
+        "processing": "3-second linear wavetable scan with interpolation, gain 0.8 and onset/release fades",
+        "frames": 138915
+      },
+      {
+        "generator": "Gen_05_PHASE_WT.ptfx",
+        "destination": "Audio/Synth/Gen_05_PHASE_WT/Demo-2.wav",
+        "parameters": {
+          "Family": 0.0,
+          "Mode": 5.0,
+          "Shape": 65.0,
+          "Morph": 50.0,
+          "Depth": 10.0,
+          "Sweep": 85.0,
+          "Motion": 0.0,
+          "Cross": 0.0,
+          "Window": 2.0,
+          "Frames": 2.0,
+          "Phase": 0.0,
+          "Drive": 0.0
+        },
+        "generator_sha256": "1cec06a6012b37c2384877b680dbea1ffc86feca445e1ae1cc86aef4fc359a39",
+        "processing": "3-second linear wavetable scan with interpolation, gain 0.8 and onset/release fades",
+        "frames": 138915
+      },
+      {
+        "generator": "Gen_05_PHASE_WT.ptfx",
+        "destination": "Audio/Synth/Gen_05_PHASE_WT/Demo-3.wav",
+        "parameters": {
+          "Family": 1.0,
+          "Mode": 0.0,
+          "Shape": 75.0,
+          "Morph": 50.0,
+          "Depth": 10.0,
+          "Sweep": 85.0,
+          "Motion": 0.0,
+          "Cross": 0.0,
+          "Window": 2.0,
+          "Frames": 2.0,
+          "Phase": 0.0,
+          "Drive": 0.0
+        },
+        "generator_sha256": "1cec06a6012b37c2384877b680dbea1ffc86feca445e1ae1cc86aef4fc359a39",
+        "processing": "3-second linear wavetable scan with interpolation, gain 0.8 and onset/release fades",
+        "frames": 138915
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_06_ACID_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_DualAcidEngine_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_05_ACID_WT",
+        "genre": "Trance",
+        "sha256": "203ad6d94c59a49102868d9417661cd0e3cc4bc54925a513549af99899293e49",
+        "destination": "Audio/Synth/Gen_06_ACID_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_CharcoalDust_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_05_ACID_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "9e9107dd8deb59ca01e906d7547bf33c1c3ba4213124901b3c877bd0018805f2",
+        "destination": "Audio/Synth/Gen_06_ACID_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/ATMOS/ATMOS_DistantCurrentWeather_WT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_05_ACID_WT.ptfx",
+        "genre": "Ambient",
+        "sha256": "f344f597c4e3f7ff1249a6c71bc6c0e42bc05a2fd7460b04b521890e53fa3668",
+        "destination": "Audio/Synth/Gen_06_ACID_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_07_SYNC_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_ResetHammer_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_06_SYNC_WT",
+        "genre": "Trance",
+        "sha256": "38f9f52daecdd28f31e2bf3596b8c436478aae5fa725a3d5c019a10f34400ef3",
+        "destination": "Audio/Synth/Gen_07_SYNC_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_SharkAnchorAir_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_06_SYNC_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "31e517331115a36e122a76fa993bd91a3e303012a9ff1eaf8a4af88eb0d9ab0a",
+        "destination": "Audio/Synth/Gen_07_SYNC_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/DRONE/DRONE_SawCathedralCavern_WT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_06_SYNC_WT.ptfx",
+        "genre": "Ambient",
+        "sha256": "6e8be54cd03770195dea43e4bc87eeb27f57f8d0d512ef23dac1d84965b49f6f",
+        "destination": "Audio/Synth/Gen_07_SYNC_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_08_WAV_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_SquareToShark_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_07_WAV_WT",
+        "genre": "Trance",
+        "sha256": "280d293a83dfc185803f27012f9a5c21507c4f88585c0af8f87ecbb57838c6eb",
+        "destination": "Audio/Synth/Gen_08_WAV_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_ParabolaRaspFlicker_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_07_WAV_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "7594dc99bd0e79027d0e393d963d41c5e124211c6d9898ddd82e468450b1a2d8",
+        "destination": "Audio/Synth/Gen_08_WAV_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/KEYS/KEYS_HalfMoonGlassFrost_WT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_07_WAV_WT.ptfx",
+        "genre": "Ambient",
+        "sha256": "75feb57dd4dd4b8989309fec7f14e7e972d3a7e1a6bd36cf9ac99b2c8799a310",
+        "destination": "Audio/Synth/Gen_08_WAV_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_09_STRING.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KEYS_NylonStarlight_SHOT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_08_STRING",
+        "genre": "Trance",
+        "sha256": "a3c4f784db2d418037a863767e9609c08c4166ef4a9df653021ac33498366ff9",
+        "destination": "Audio/Synth/Gen_09_STRING/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KEYS/KEYS_WirePluckDust.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_08_STRING.ptfx",
+        "genre": "Acid house",
+        "sha256": "a05a7c480106c44897c4e0792351b6f4fef2670c45b663e8d2047e39fb80d6ee",
+        "destination": "Audio/Synth/Gen_09_STRING/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/PAD/PAD_BowedLinenSoftHorizon.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_08_STRING.ptfx",
+        "genre": "Ambient",
+        "sha256": "a2b776243524b737a63ae1abfbcb72f30575e193d9c3d6f1e71674b1e4f5edd7",
+        "destination": "Audio/Synth/Gen_09_STRING/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_10_NOISE.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/ATMOS_ParticleVeil_SHOT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_09_NOISE",
+        "genre": "Trance",
+        "sha256": "af28d486a259181c7eb5a72776a2fb4772671227592643bca63c696470c2fe93",
+        "destination": "Audio/Synth/Gen_10_NOISE/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/FX/FX_MetalWindAir.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_09_NOISE.ptfx",
+        "genre": "Acid house",
+        "sha256": "cf582fc7f732ff0c445cc09166f78336ce742465e25bbce93808970b1ac014ac",
+        "destination": "Audio/Synth/Gen_10_NOISE/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/ATMOS/ATMOS_GustHorizonAirwash.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_09_NOISE.ptfx",
+        "genre": "Ambient",
+        "sha256": "03045821268acfac487a0e26bae10f1a69c53fe860f529ee27f4e338b1032a43",
+        "destination": "Audio/Synth/Gen_10_NOISE/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_11_BUZZ.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/LEAD_BuzzMetal_SHOT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_20_BUZZ",
+        "genre": "Trance",
+        "sha256": "e22882b617b00520fd29bf1a5f945368c4117af34a3586126c68baa61c14886e",
+        "destination": "Audio/Synth/Gen_11_BUZZ/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/BASS/BASS_MetalHarmonics.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_20_BUZZ.ptfx",
+        "genre": "Breakcore",
+        "sha256": "55d54e417ac9c8f760b43a510aa8c307aa5516f6b4b47c60ba004d5fa212fc91",
+        "destination": "Audio/Synth/Gen_11_BUZZ/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Drumfunk/Samples/BASS/BASS_VelvetBass.wav",
+        "manifest": "InstrumentPack/Drumfunk/_support/source_manifest.json",
+        "originalGenerator": "Gen_20_BUZZ.ptfx",
+        "genre": "Drumfunk",
+        "sha256": "47bdd3b14dfb3b6b23000db2bb8aac7071bd14bf64bf80145d5d602c165a7ecd",
+        "destination": "Audio/Synth/Gen_11_BUZZ/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_12_UNISON.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/LEAD_PulseEnsemble_LOOP_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_10_UNISON",
+        "genre": "Trance",
+        "sha256": "d3339143517772a03f214208fcb7c0309c71d1120a09ebd056544d1ca707f55b",
+        "destination": "Audio/Synth/Gen_12_UNISON/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KEYS/KEYS_TriangleEnsembleTelephone.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_10_UNISON.ptfx",
+        "genre": "Acid house",
+        "sha256": "4e99b526770848c9256bfcf1b8ab42a07dc0d20f17d159059c01731afa71b76a",
+        "destination": "Audio/Synth/Gen_12_UNISON/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/PAD/PAD_CurvedStringsHollowWaves.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_10_UNISON.ptfx",
+        "genre": "Ambient",
+        "sha256": "219940474c91ce7f558468708675856ea09d5440b38e7a855a3f9c257c0f2090",
+        "destination": "Audio/Synth/Gen_12_UNISON/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_13_FOLD_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_FoldSawClaw_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_11_FOLD_WT",
+        "genre": "Trance",
+        "sha256": "8ad416d79beaf78b0a920c28d707c58f40986ba375d4ab27aa3034d17cf9aa2f",
+        "destination": "Audio/Synth/Gen_13_FOLD_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_RectifiedRootSnap_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_11_FOLD_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "9f80b4a2ff00eb65bb23bec5e9162503702656b8cbd8cc0120279ca4fcdaa02d",
+        "destination": "Audio/Synth/Gen_13_FOLD_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/ATMOS/ATMOS_ParabolicFlareWeather_WT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_11_FOLD_WT.ptfx",
+        "genre": "Ambient",
+        "sha256": "06589528e6dbdc648864be0248d7853946c99a711d5c4025cb622fefc67f226e",
+        "destination": "Audio/Synth/Gen_13_FOLD_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_14_STRUCK.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KEYS_ResonatorStone_SHOT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_12_STRUCK",
+        "genre": "Trance",
+        "sha256": "ff83e1e4253ccee7a80d2f33b79306ab741727203350a148a5939c528357905a",
+        "destination": "Audio/Synth/Gen_14_STRUCK/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KEYS/KEYS_HardExcitation.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_12_STRUCK.ptfx",
+        "genre": "Breakcore",
+        "sha256": "8597de4b5b8175499c43cb2071f1b1a24c6191a2aa7a78b5ed0bfad58f0c20ad",
+        "destination": "Audio/Synth/Gen_14_STRUCK/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Drumfunk/Samples/KEYS/KEYS_BambooKey.wav",
+        "manifest": "InstrumentPack/Drumfunk/_support/source_manifest.json",
+        "originalGenerator": "Gen_12_STRUCK.ptfx",
+        "genre": "Drumfunk",
+        "sha256": "772d3f33cf4b44bf9260b0283417f1df7c21a6719b6f0576e38b6710a27e8198",
+        "destination": "Audio/Synth/Gen_14_STRUCK/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_15_FORMANT_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KEYS_VocalGlass_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_13_FORMANT_WT",
+        "genre": "Trance",
+        "sha256": "5d301db3b6894018961e8e1d56cbe6aecd8ef7ede4f99df2f91a5ded818b9137",
+        "destination": "Audio/Synth/Gen_15_FORMANT_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_ThroatBassAir_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_13_FORMANT_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "6f8d0134b34897781d9356e16cd46db5cc5018f4dba4112c5479c3c438e971f1",
+        "destination": "Audio/Synth/Gen_15_FORMANT_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/PAD/PAD_CurvedChantTide_WT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_13_FORMANT_WT.ptfx",
+        "genre": "Ambient",
+        "sha256": "a7f1fd6eaf604ce21be71a0e0b19e1039b2687aa633ed44be0035bc3560a72e8",
+        "destination": "Audio/Synth/Gen_15_FORMANT_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_16_SUNSOFT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "generator": "Gen_16_SUNSOFT.ptfx",
+        "destination": "Audio/Synth/Gen_16_SUNSOFT/Demo-1.wav",
+        "parameters": {
+          "Root": 0.0,
+          "Octave": 2.0,
+          "Scale": 1.0
+        },
+        "generator_sha256": "ea6314541067d73ab35d5b4fc27c546e8208a6c09b6eaedfdb643209d96bc10d",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 94815
+      },
+      {
+        "generator": "Gen_16_SUNSOFT.ptfx",
+        "destination": "Audio/Synth/Gen_16_SUNSOFT/Demo-2.wav",
+        "parameters": {
+          "Root": 5.0,
+          "Octave": 2.0,
+          "Scale": 2.0
+        },
+        "generator_sha256": "ea6314541067d73ab35d5b4fc27c546e8208a6c09b6eaedfdb643209d96bc10d",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 94815
+      },
+      {
+        "generator": "Gen_16_SUNSOFT.ptfx",
+        "destination": "Audio/Synth/Gen_16_SUNSOFT/Demo-3.wav",
+        "parameters": {
+          "Root": 7.0,
+          "Octave": 3.0,
+          "Scale": 5.0
+        },
+        "generator_sha256": "ea6314541067d73ab35d5b4fc27c546e8208a6c09b6eaedfdb643209d96bc10d",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 94815
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_17_DONK.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_DonkVessel_SHOT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_15_DONK",
+        "genre": "Trance",
+        "sha256": "2886c26ae7f958c60c37a523452c00cdd52207c169953e5004065966048707ab",
+        "destination": "Audio/Synth/Gen_17_DONK/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/BASS/BASS_RubberDonk.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_15_DONK.ptfx",
+        "genre": "Breakcore",
+        "sha256": "bd01dea425e046822ab4a678d1585514f53e98624c033aa4262cbdb820d030d2",
+        "destination": "Audio/Synth/Gen_17_DONK/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Drumfunk/Samples/BASS/BASS_CopperThud.wav",
+        "manifest": "InstrumentPack/Drumfunk/_support/source_manifest.json",
+        "originalGenerator": "Gen_15_DONK.ptfx",
+        "genre": "Drumfunk",
+        "sha256": "60c1790d751660406d2a8ec925c22ef96f968186e1f04b5e3accef1f707c8611",
+        "destination": "Audio/Synth/Gen_17_DONK/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_18_HOOVER.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/LEAD_HooverTurbine_LOOP_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_16_HOOVER",
+        "genre": "Trance",
+        "sha256": "86f1b35d7b80ce192c53558ea37695a7894fd94ea6e581fc58cb7f442d9b405f",
+        "destination": "Audio/Synth/Gen_18_HOOVER/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_SlowVacuumGrowl.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_16_HOOVER.ptfx",
+        "genre": "Acid house",
+        "sha256": "d2a944e0d5239cf419b4ed8e8b64a20c891fc04748e98d464e17e9c0524862c7",
+        "destination": "Audio/Synth/Gen_18_HOOVER/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/LEAD/LEAD_HooverReed.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_16_HOOVER.ptfx",
+        "genre": "Breakcore",
+        "sha256": "9654291d06d48a4bb6a796ca5abfc3a2c1e7c638ef323e789f14b47c9456da65",
+        "destination": "Audio/Synth/Gen_18_HOOVER/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_19_NEURO_WT.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_CombCrawler_WT_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_17_NEURO_WT",
+        "genre": "Trance",
+        "sha256": "6299c82b9b5825d18cdf2e2acedcc12860bf2e156613d3aed71348806a9d939d",
+        "destination": "Audio/Synth/Gen_19_NEURO_WT/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_WideJawBloom_WT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators/ptfx/Gen_17_NEURO_WT.ptfx",
+        "genre": "Acid house",
+        "sha256": "4b438ceb8f67674b8641702c31937754b1e7c6176f528b0120be57dac92f1e62",
+        "destination": "Audio/Synth/Gen_19_NEURO_WT/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/BASS/BASS_FoldSquish_WT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_17_NEURO_WT.ptfx",
+        "genre": "Breakcore",
+        "sha256": "507c4bd551278f958f1e267ad1a4232de4624805e2831b8b85944c990c37a41a",
+        "destination": "Audio/Synth/Gen_19_NEURO_WT/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_20_REESE.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/BASS_ReeseSquare_LOOP_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_18_REESE",
+        "genre": "Trance",
+        "sha256": "f836b0bf955162de62688e18943200bed2c3cceb8f2a26ffe50818d97acf135b",
+        "destination": "Audio/Synth/Gen_20_REESE/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/BASS/BASS_ReesePulseBubble.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_18_REESE.ptfx",
+        "genre": "Acid house",
+        "sha256": "1f02c764388f85092e0a10a43e2c72b75d7dd9e32486346b1d98ec631b480d36",
+        "destination": "Audio/Synth/Gen_20_REESE/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/BASS/BASS_SevenPulseSwarm.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_18_REESE.ptfx",
+        "genre": "Breakcore",
+        "sha256": "29019fa16bab79ebfc0f0cdd9a7dbf83006a9139182aa9ec164124354399e789",
+        "destination": "Audio/Synth/Gen_20_REESE/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_21_SUPERSAW.ptfx",
+    "category": "Synth",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/LEAD_AnthemSeven_LOOP_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_19_SUPERSAW",
+        "genre": "Trance",
+        "sha256": "3b2406d072d602d346e9909b36995e2d8bf53b037e7693219898ae49bf05dda5",
+        "destination": "Audio/Synth/Gen_21_SUPERSAW/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/PAD/PAD_SevenSawAirBloom.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_19_SUPERSAW.ptfx",
+        "genre": "Acid house",
+        "sha256": "68e68730881644794ce6c136c7ce3b399af24cf1690d63cff1bc38d18a01c653",
+        "destination": "Audio/Synth/Gen_21_SUPERSAW/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/PAD/PAD_SevenfoldDawnSoftHorizon.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_19_SUPERSAW.ptfx",
+        "genre": "Ambient",
+        "sha256": "6bfd383d874795820ab90f5af9d1b9547e37a1bb34aabd37cedebf3da74583f4",
+        "destination": "Audio/Synth/Gen_21_SUPERSAW/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_10_Wave.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_DigitalEdge_KIT4_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_10_Wave",
+        "genre": "Trance",
+        "sha256": "8d4f1c93a3d5847d55dee28afdc6deab13e6308ff61d1dd994d3813d8dac47a5",
+        "destination": "Audio/Drum/Gen_Drum_10_Wave/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/KIT/KIT_WaveRelics_KIT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_Drum_10_Wave.ptfx",
+        "genre": "Ambient",
+        "sha256": "b2910b8034de4d7334e9e35cbf74facabff1e4782558f11f597e9b2958e93ed5",
+        "destination": "Audio/Drum/Gen_Drum_10_Wave/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KIT/KIT_CrushedObjects_KIT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_10_Wave.ptfx",
+        "genre": "Breakcore",
+        "sha256": "a1c4ef3ae1a4a5aa0e95fa875890bcc73c4b9aa7d8ab03bf729a6ab669ed1e39",
+        "destination": "Audio/Drum/Gen_Drum_10_Wave/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_1_Base.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_BasePunch_KIT6_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_1_Base",
+        "genre": "Trance",
+        "sha256": "e2290930ba9b0b25d7659cfa218421a5e24ae90fa6dda1d0f3852721bc143ccf",
+        "destination": "Audio/Drum/Gen_Drum_1_Base/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_BaseCircuit_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_1_Base.ptfx",
+        "genre": "Acid house",
+        "sha256": "1513714e6f63bc1eb06712b5f0358d50429c69157c4b03927e3d0584d6497c1a",
+        "destination": "Audio/Drum/Gen_Drum_1_Base/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/KIT/KIT_SoftMachines_KIT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_Drum_1_Base.ptfx",
+        "genre": "Ambient",
+        "sha256": "38ee7745bf5cccb2171cbfbdda923b6fa19c1798482408f9000878386efc2993",
+        "destination": "Audio/Drum/Gen_Drum_1_Base/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_2_Tone.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_ToneHybrid_KIT8_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_2_Tone",
+        "genre": "Trance",
+        "sha256": "85ef62e3590247b9ffbcc9404d88ff14f95e76e47b63f8a8380f6f406082e374",
+        "destination": "Audio/Drum/Gen_Drum_2_Tone/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_HybridTone_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_2_Tone.ptfx",
+        "genre": "Acid house",
+        "sha256": "1c224999049e148fca04845be3892c67781ed59f09f0caba8d4d5f1825bd3154",
+        "destination": "Audio/Drum/Gen_Drum_2_Tone/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KIT/KIT_BentComponents_KIT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_2_Tone.ptfx",
+        "genre": "Breakcore",
+        "sha256": "53e4901a9f00a7533f71d235d65e78c12faed80623669a4f378c9bd5ef4d41a5",
+        "destination": "Audio/Drum/Gen_Drum_2_Tone/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_3_Chip.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_ChipVector_KIT4_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_3_Chip",
+        "genre": "Trance",
+        "sha256": "111fd8eae0c451196578ccae0241bce2fc9a11a61f3fa7cb0ce77da37033f7f2",
+        "destination": "Audio/Drum/Gen_Drum_3_Chip/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KIT/KIT_ArcadeFracture_KIT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_3_Chip.ptfx",
+        "genre": "Breakcore",
+        "sha256": "38f50a16300d088df3dbb4e218f4eb6d00b808958902aecfda0b39c86817b3a4",
+        "destination": "Audio/Drum/Gen_Drum_3_Chip/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Chiptune/Samples/KIT/KIT_ArcadeExtras_KIT.wav",
+        "manifest": "InstrumentPack/Chiptune/_support/sources.json",
+        "originalGenerator": "Gen_Drum_3_Chip",
+        "genre": "Chiptune",
+        "sha256": "ff04e6b65dc780487d91b8399fa5578883a812e444640521337a6486b7be382f",
+        "destination": "Audio/Drum/Gen_Drum_3_Chip/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_4_FM.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_FMImpact_KIT8_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_4_FM",
+        "genre": "Trance",
+        "sha256": "b0bc34eaea9837d85a6d66d3bd74842f097811e4b89ec976b9435dfc6f6113c7",
+        "destination": "Audio/Drum/Gen_Drum_4_FM/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_FMMetal_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_4_FM.ptfx",
+        "genre": "Acid house",
+        "sha256": "6eb067cc51e25d949b9479171ffd437b09bb2315e5d0fd53223368783bf72f73",
+        "destination": "Audio/Drum/Gen_Drum_4_FM/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/KIT/KIT_CeramicRitual_KIT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_Drum_4_FM.ptfx",
+        "genre": "Ambient",
+        "sha256": "d940493469961cacb84a7bab6d301ef69f4f55d703fc3b516e617bcc0cb43538",
+        "destination": "Audio/Drum/Gen_Drum_4_FM/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_5_Phase.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_PhaseChrome_KIT6_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_5_Phase",
+        "genre": "Trance",
+        "sha256": "8cbb7fa52023a25798509a578f2578014f29b28fbb30413c21cf4340d9adc560",
+        "destination": "Audio/Drum/Gen_Drum_5_Phase/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_PhaseClatter_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_5_Phase.ptfx",
+        "genre": "Acid house",
+        "sha256": "946f4567e4b4321682b260a3d39b71519a86e2e783f81863e1c887784b419b1f",
+        "destination": "Audio/Drum/Gen_Drum_5_Phase/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Ambient/Samples/KIT/KIT_PhaseStones_KIT.wav",
+        "manifest": "InstrumentPack/Ambient/_support/source_designs.json",
+        "originalGenerator": "Gen_Drum_5_Phase.ptfx",
+        "genre": "Ambient",
+        "sha256": "0694d22a3c017f3d9f3b4a913d2222ef881403dc4c7a2913b27c4939977e0ce9",
+        "destination": "Audio/Drum/Gen_Drum_5_Phase/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_6_Six.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_SixMachine_KIT6_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_6_Six",
+        "genre": "Trance",
+        "sha256": "519a5f3bd9dc2cc38bc18615d32f471c22092e0cd83c6dd71607b680794bd082",
+        "destination": "Audio/Drum/Gen_Drum_6_Six/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_SilverSix_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_6_Six.ptfx",
+        "genre": "Acid house",
+        "sha256": "4fd65c10016064484375aa74101239b07bf6e7be204dd433b43ac5b82873c72b",
+        "destination": "Audio/Drum/Gen_Drum_6_Six/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KIT/KIT_SixFurnace_KIT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_6_Six.ptfx",
+        "genre": "Breakcore",
+        "sha256": "b3541b1dd0eec8d14ac0182930e608d7aab21752f190c716d2e09e173c2e92b1",
+        "destination": "Audio/Drum/Gen_Drum_6_Six/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_7_Seven.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_SevenPunch_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_7_Seven.ptfx",
+        "genre": "Acid house",
+        "sha256": "cb52fc1d764f64265f27abd2cf5a6d80d39340bf6fb6421709a99b765d60e7eb",
+        "destination": "Audio/Drum/Gen_Drum_7_Seven/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KIT/KIT_SevenCutups_KIT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_7_Seven.ptfx",
+        "genre": "Breakcore",
+        "sha256": "6462bdb91a07bcd2219e37a694a327246a54d1e434bd0ae71b8cdea117130021",
+        "destination": "Audio/Drum/Gen_Drum_7_Seven/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/House/Samples/KIT/KIT_SevenDust_KIT.wav",
+        "manifest": "InstrumentPack/House/_support/source-plan.json",
+        "originalGenerator": "Gen_Drum_7_Seven.ptfx",
+        "genre": "House",
+        "sha256": "5e530324e2cb1c876b92c8cb4d861d1fb87b0aec0aa4fa2f623074db09e39135",
+        "destination": "Audio/Drum/Gen_Drum_7_Seven/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_8_Eight.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_DeepEight_KIT8_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_8_Eight",
+        "genre": "Trance",
+        "sha256": "e55ad69af0981f1429cf28d5172fbf5fa2c3d695ccb52d3c0aeb6dbd41a46601",
+        "destination": "Audio/Drum/Gen_Drum_8_Eight/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_ChicagoEight_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_8_Eight.ptfx",
+        "genre": "Acid house",
+        "sha256": "7f2337115478a77523dec47146afd5d0750da8acd5162d7e58dc7f5e85d37768",
+        "destination": "Audio/Drum/Gen_Drum_8_Eight/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KIT/KIT_EightPressure_KIT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_8_Eight.ptfx",
+        "genre": "Breakcore",
+        "sha256": "494c2af668ebc97d7401a8da4b18f6589141e956533c6d25345decadec18abf4",
+        "destination": "Audio/Drum/Gen_Drum_8_Eight/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Drum_9_Nine.ptfx",
+    "category": "Drum",
+    "demos": [
+      {
+        "source": "InstrumentPack/Trance/_support/source_auditions/KIT_ClassicNine_KIT8_C4scan.wav",
+        "manifest": "InstrumentPack/Trance/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_9_Nine",
+        "genre": "Trance",
+        "sha256": "a84b22c3c56b0b152bb0189ee81972b49f37c8cc9adf667bc4a067cf3d80bced",
+        "destination": "Audio/Drum/Gen_Drum_9_Nine/Demo-1.wav"
+      },
+      {
+        "source": "InstrumentPack/Acid house/Samples/KIT/KIT_WarehouseNine_KIT.wav",
+        "manifest": "InstrumentPack/Acid house/_support/source-plan.json",
+        "originalGenerator": "Polyend OG Generators\\ptfx\\Gen_Drum_9_Nine.ptfx",
+        "genre": "Acid house",
+        "sha256": "5f528907be226c6730a03fb9823d18c9421a2f3d94a457c5712cc7d6b305b547",
+        "destination": "Audio/Drum/Gen_Drum_9_Nine/Demo-2.wav"
+      },
+      {
+        "source": "InstrumentPack/Breakcore/Samples/KIT/KIT_NineRazor_KIT.wav",
+        "manifest": "InstrumentPack/Breakcore/_support/source_plan.json",
+        "originalGenerator": "Gen_Drum_9_Nine.ptfx",
+        "genre": "Breakcore",
+        "sha256": "02767c48d592c46ee8802a72609a7481ddace73daa21bac3794fe510da44cc77",
+        "destination": "Audio/Drum/Gen_Drum_9_Nine/Demo-3.wav"
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_01_Kick.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_01_Kick.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_01_Kick/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 350.0,
+          "Attack": 1.0,
+          "Balance": 35.0,
+          "Tone": 35.0,
+          "P Drop": 50.0,
+          "Drive": 0.0
+        },
+        "generator_sha256": "a8f7ececd7e34aa901a345be0f2c2c5d221ba9f61c88060c5dd283e4ec9bb3c1",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 30413
+      },
+      {
+        "generator": "Gen_Perc_01_Kick.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_01_Kick/Demo-2.wav",
+        "parameters": {
+          "Model": 3.0,
+          "Tune": -5.0,
+          "Decay": 350.0,
+          "Attack": 1.0,
+          "Balance": 35.0,
+          "Tone": 60.0,
+          "P Drop": 50.0,
+          "Drive": 0.0
+        },
+        "generator_sha256": "a8f7ececd7e34aa901a345be0f2c2c5d221ba9f61c88060c5dd283e4ec9bb3c1",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 30248
+      },
+      {
+        "generator": "Gen_Perc_01_Kick.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_01_Kick/Demo-3.wav",
+        "parameters": {
+          "Model": 6.0,
+          "Tune": 7.0,
+          "Decay": 350.0,
+          "Attack": 1.0,
+          "Balance": 35.0,
+          "Tone": 80.0,
+          "P Drop": 50.0,
+          "Drive": 0.0
+        },
+        "generator_sha256": "a8f7ececd7e34aa901a345be0f2c2c5d221ba9f61c88060c5dd283e4ec9bb3c1",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 30514
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_02_Snare.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_02_Snare.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_02_Snare/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 180.0,
+          "Attack": 0.25,
+          "Balance": 55.0,
+          "Tone": 35.0,
+          "WireDec": 100.0,
+          "BodyShp": 50.0
+        },
+        "generator_sha256": "145f9f8b714928df72c4c2c4a5a592819a111f5656aef869b890840aa98231fd",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 18448
+      },
+      {
+        "generator": "Gen_Perc_02_Snare.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_02_Snare/Demo-2.wav",
+        "parameters": {
+          "Model": 5.0,
+          "Tune": -5.0,
+          "Decay": 180.0,
+          "Attack": 0.25,
+          "Balance": 55.0,
+          "Tone": 60.0,
+          "WireDec": 100.0,
+          "BodyShp": 50.0
+        },
+        "generator_sha256": "145f9f8b714928df72c4c2c4a5a592819a111f5656aef869b890840aa98231fd",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 18599
+      },
+      {
+        "generator": "Gen_Perc_02_Snare.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_02_Snare/Demo-3.wav",
+        "parameters": {
+          "Model": 10.0,
+          "Tune": 7.0,
+          "Decay": 180.0,
+          "Attack": 0.25,
+          "Balance": 55.0,
+          "Tone": 80.0,
+          "WireDec": 100.0,
+          "BodyShp": 50.0
+        },
+        "generator_sha256": "145f9f8b714928df72c4c2c4a5a592819a111f5656aef869b890840aa98231fd",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 18449
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_03_Clap.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_03_Clap.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_03_Clap/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 200.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 35.0,
+          "Spacing": 11.0,
+          "Bursts": 3.0
+        },
+        "generator_sha256": "cb0cf35af5759bd5d38d0460cdaacabcb34e735e67cbabe6396b338de5798294",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 18150
+      },
+      {
+        "generator": "Gen_Perc_03_Clap.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_03_Clap/Demo-2.wav",
+        "parameters": {
+          "Model": 4.0,
+          "Tune": -5.0,
+          "Decay": 200.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 60.0,
+          "Spacing": 11.0,
+          "Bursts": 3.0
+        },
+        "generator_sha256": "cb0cf35af5759bd5d38d0460cdaacabcb34e735e67cbabe6396b338de5798294",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 19920
+      },
+      {
+        "generator": "Gen_Perc_03_Clap.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_03_Clap/Demo-3.wav",
+        "parameters": {
+          "Model": 7.0,
+          "Tune": 7.0,
+          "Decay": 200.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 80.0,
+          "Spacing": 11.0,
+          "Bursts": 3.0
+        },
+        "generator_sha256": "cb0cf35af5759bd5d38d0460cdaacabcb34e735e67cbabe6396b338de5798294",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 17719
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_04_Hat.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_04_Hat.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_04_Hat/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 150.0,
+          "Attack": 1.0,
+          "Balance": 65.0,
+          "Tone": 35.0,
+          "Met Dec": 100.0,
+          "Met Rat": 100.0
+        },
+        "generator_sha256": "8ffc67f2c876f292a08c23c37c802cbefd1d10999d196bb686dd59495b006fa9",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 16717
+      },
+      {
+        "generator": "Gen_Perc_04_Hat.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_04_Hat/Demo-2.wav",
+        "parameters": {
+          "Model": 4.0,
+          "Tune": -5.0,
+          "Decay": 150.0,
+          "Attack": 1.0,
+          "Balance": 65.0,
+          "Tone": 60.0,
+          "Met Dec": 100.0,
+          "Met Rat": 100.0
+        },
+        "generator_sha256": "8ffc67f2c876f292a08c23c37c802cbefd1d10999d196bb686dd59495b006fa9",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 16272
+      },
+      {
+        "generator": "Gen_Perc_04_Hat.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_04_Hat/Demo-3.wav",
+        "parameters": {
+          "Model": 9.0,
+          "Tune": 7.0,
+          "Decay": 150.0,
+          "Attack": 1.0,
+          "Balance": 65.0,
+          "Tone": 80.0,
+          "Met Dec": 100.0,
+          "Met Rat": 100.0
+        },
+        "generator_sha256": "8ffc67f2c876f292a08c23c37c802cbefd1d10999d196bb686dd59495b006fa9",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 16617
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_05_Tom.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_05_Tom.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_05_Tom/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 400.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 35.0,
+          "P Bend": 5.0,
+          "Reson": 50.0
+        },
+        "generator_sha256": "dc7bd2bdfa72fb1c9cf41961e59f3d2bfcb9790de7e50fc5ced35fc187ce1046",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 33302
+      },
+      {
+        "generator": "Gen_Perc_05_Tom.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_05_Tom/Demo-2.wav",
+        "parameters": {
+          "Model": 4.0,
+          "Tune": -5.0,
+          "Decay": 400.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 60.0,
+          "P Bend": 5.0,
+          "Reson": 50.0
+        },
+        "generator_sha256": "dc7bd2bdfa72fb1c9cf41961e59f3d2bfcb9790de7e50fc5ced35fc187ce1046",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 34031
+      },
+      {
+        "generator": "Gen_Perc_05_Tom.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_05_Tom/Demo-3.wav",
+        "parameters": {
+          "Model": 7.0,
+          "Tune": 7.0,
+          "Decay": 400.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 80.0,
+          "P Bend": 5.0,
+          "Reson": 50.0
+        },
+        "generator_sha256": "dc7bd2bdfa72fb1c9cf41961e59f3d2bfcb9790de7e50fc5ced35fc187ce1046",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 34462
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_06_Conga.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_06_Conga.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_06_Conga/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 220.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 35.0,
+          "P Bend": 3.0,
+          "Body": 50.0
+        },
+        "generator_sha256": "4f1cc4d5c27408ea519256a731ae03f358042416392d766c196464618d359955",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 20202
+      },
+      {
+        "generator": "Gen_Perc_06_Conga.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_06_Conga/Demo-2.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": -5.0,
+          "Decay": 220.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 60.0,
+          "P Bend": 3.0,
+          "Body": 50.0
+        },
+        "generator_sha256": "4f1cc4d5c27408ea519256a731ae03f358042416392d766c196464618d359955",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 20058
+      },
+      {
+        "generator": "Gen_Perc_06_Conga.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_06_Conga/Demo-3.wav",
+        "parameters": {
+          "Model": 1.0,
+          "Tune": 7.0,
+          "Decay": 220.0,
+          "Attack": 1.0,
+          "Balance": 0.0,
+          "Tone": 80.0,
+          "P Bend": 3.0,
+          "Body": 50.0
+        },
+        "generator_sha256": "4f1cc4d5c27408ea519256a731ae03f358042416392d766c196464618d359955",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 19980
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_07_Rim.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_07_Rim.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_07_Rim/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 45.0,
+          "Attack": 0.25,
+          "Balance": 50.0,
+          "Tone": 35.0,
+          "RingDec": 100.0,
+          "RingRat": 100.0
+        },
+        "generator_sha256": "29f0d6ade674bd10a93c15b3031569389d0d436448f3bbfd5430e24c09cec366",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 9023
+      },
+      {
+        "generator": "Gen_Perc_07_Rim.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_07_Rim/Demo-2.wav",
+        "parameters": {
+          "Model": 3.0,
+          "Tune": -5.0,
+          "Decay": 45.0,
+          "Attack": 0.25,
+          "Balance": 50.0,
+          "Tone": 60.0,
+          "RingDec": 100.0,
+          "RingRat": 100.0
+        },
+        "generator_sha256": "29f0d6ade674bd10a93c15b3031569389d0d436448f3bbfd5430e24c09cec366",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 9070
+      },
+      {
+        "generator": "Gen_Perc_07_Rim.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_07_Rim/Demo-3.wav",
+        "parameters": {
+          "Model": 6.0,
+          "Tune": 7.0,
+          "Decay": 45.0,
+          "Attack": 0.25,
+          "Balance": 50.0,
+          "Tone": 80.0,
+          "RingDec": 100.0,
+          "RingRat": 100.0
+        },
+        "generator_sha256": "29f0d6ade674bd10a93c15b3031569389d0d436448f3bbfd5430e24c09cec366",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 9000
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_08_Claves.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_08_Claves.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_08_Claves/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 60.0,
+          "Attack": 0.0,
+          "Balance": 0.0,
+          "Tone": 35.0,
+          "P Bend": 0.0,
+          "Hard": 40.0
+        },
+        "generator_sha256": "50d21d5dfad1eece1397a530e59b50464d3a02a778038df7fa8115fa1fb27c7d",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 10442
+      },
+      {
+        "generator": "Gen_Perc_08_Claves.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_08_Claves/Demo-2.wav",
+        "parameters": {
+          "Model": 2.0,
+          "Tune": -5.0,
+          "Decay": 60.0,
+          "Attack": 0.0,
+          "Balance": 0.0,
+          "Tone": 60.0,
+          "P Bend": 0.0,
+          "Hard": 40.0
+        },
+        "generator_sha256": "50d21d5dfad1eece1397a530e59b50464d3a02a778038df7fa8115fa1fb27c7d",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 11728
+      },
+      {
+        "generator": "Gen_Perc_08_Claves.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_08_Claves/Demo-3.wav",
+        "parameters": {
+          "Model": 4.0,
+          "Tune": 7.0,
+          "Decay": 60.0,
+          "Attack": 0.0,
+          "Balance": 0.0,
+          "Tone": 80.0,
+          "P Bend": 0.0,
+          "Hard": 40.0
+        },
+        "generator_sha256": "50d21d5dfad1eece1397a530e59b50464d3a02a778038df7fa8115fa1fb27c7d",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 10427
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_09_Cowbell.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_09_Cowbell.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_09_Cowbell/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 220.0,
+          "Attack": 0.5,
+          "Balance": 0.0,
+          "Tone": 35.0,
+          "DmpTilt": 0.0,
+          "Ratio": 1.0
+        },
+        "generator_sha256": "70fc8f9f0af55024fe976b34d4e36c63b5060fb001591bcc187209ceea7752ad",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 22015
+      },
+      {
+        "generator": "Gen_Perc_09_Cowbell.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_09_Cowbell/Demo-2.wav",
+        "parameters": {
+          "Model": 3.0,
+          "Tune": -5.0,
+          "Decay": 220.0,
+          "Attack": 0.5,
+          "Balance": 0.0,
+          "Tone": 60.0,
+          "DmpTilt": 0.0,
+          "Ratio": 1.0
+        },
+        "generator_sha256": "70fc8f9f0af55024fe976b34d4e36c63b5060fb001591bcc187209ceea7752ad",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 22023
+      },
+      {
+        "generator": "Gen_Perc_09_Cowbell.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_09_Cowbell/Demo-3.wav",
+        "parameters": {
+          "Model": 6.0,
+          "Tune": 7.0,
+          "Decay": 220.0,
+          "Attack": 0.5,
+          "Balance": 0.0,
+          "Tone": 80.0,
+          "DmpTilt": 0.0,
+          "Ratio": 1.0
+        },
+        "generator_sha256": "70fc8f9f0af55024fe976b34d4e36c63b5060fb001591bcc187209ceea7752ad",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 21658
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_10_Bell.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_10_Bell.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_10_Bell/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 0.5,
+          "Attack": 1.0,
+          "Balance": 50.0,
+          "Tone": 35.0,
+          "DmpTilt": 0.0,
+          "Inharm": 50.0
+        },
+        "generator_sha256": "e46879732aa7506724deb51019f9bc085cdb168962e38bc247f7afacad29a1e8",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 33964
+      },
+      {
+        "generator": "Gen_Perc_10_Bell.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_10_Bell/Demo-2.wav",
+        "parameters": {
+          "Model": 3.0,
+          "Tune": -5.0,
+          "Decay": 0.5,
+          "Attack": 1.0,
+          "Balance": 50.0,
+          "Tone": 60.0,
+          "DmpTilt": 0.0,
+          "Inharm": 50.0
+        },
+        "generator_sha256": "e46879732aa7506724deb51019f9bc085cdb168962e38bc247f7afacad29a1e8",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 34033
+      },
+      {
+        "generator": "Gen_Perc_10_Bell.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_10_Bell/Demo-3.wav",
+        "parameters": {
+          "Model": 6.0,
+          "Tune": 7.0,
+          "Decay": 0.5,
+          "Attack": 1.0,
+          "Balance": 50.0,
+          "Tone": 80.0,
+          "DmpTilt": 0.0,
+          "Inharm": 50.0
+        },
+        "generator_sha256": "e46879732aa7506724deb51019f9bc085cdb168962e38bc247f7afacad29a1e8",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 35383
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_11_Cymbal.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_11_Cymbal.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_11_Cymbal/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 1200.0,
+          "Attack": 1.0,
+          "Balance": 70.0,
+          "Tone": 35.0,
+          "DmpTilt": 0.0,
+          "Density": 60.0
+        },
+        "generator_sha256": "fa89d5e33e5427b1efadebd1e12b0b18b75d93839158e18317f07a485390768c",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 86060
+      },
+      {
+        "generator": "Gen_Perc_11_Cymbal.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_11_Cymbal/Demo-2.wav",
+        "parameters": {
+          "Model": 4.0,
+          "Tune": -5.0,
+          "Decay": 1200.0,
+          "Attack": 1.0,
+          "Balance": 70.0,
+          "Tone": 60.0,
+          "DmpTilt": 0.0,
+          "Density": 60.0
+        },
+        "generator_sha256": "fa89d5e33e5427b1efadebd1e12b0b18b75d93839158e18317f07a485390768c",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 86077
+      },
+      {
+        "generator": "Gen_Perc_11_Cymbal.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_11_Cymbal/Demo-3.wav",
+        "parameters": {
+          "Model": 8.0,
+          "Tune": 7.0,
+          "Decay": 1200.0,
+          "Attack": 1.0,
+          "Balance": 70.0,
+          "Tone": 80.0,
+          "DmpTilt": 0.0,
+          "Density": 60.0
+        },
+        "generator_sha256": "fa89d5e33e5427b1efadebd1e12b0b18b75d93839158e18317f07a485390768c",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 89163
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_12_Crash.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_12_Crash.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_12_Crash/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 0.44999998807907104,
+          "Attack": 1.0,
+          "Balance": 60.0,
+          "Tone": 35.0,
+          "Bloom": 30.0,
+          "Spread": 50.0
+        },
+        "generator_sha256": "dcd60f9abcc81b65693b2ba56913720affdc2327b206161d38b62b8309d86e68",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 40927
+      },
+      {
+        "generator": "Gen_Perc_12_Crash.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_12_Crash/Demo-2.wav",
+        "parameters": {
+          "Model": 3.0,
+          "Tune": -5.0,
+          "Decay": 0.44999998807907104,
+          "Attack": 1.0,
+          "Balance": 60.0,
+          "Tone": 60.0,
+          "Bloom": 30.0,
+          "Spread": 50.0
+        },
+        "generator_sha256": "dcd60f9abcc81b65693b2ba56913720affdc2327b206161d38b62b8309d86e68",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 41453
+      },
+      {
+        "generator": "Gen_Perc_12_Crash.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_12_Crash/Demo-3.wav",
+        "parameters": {
+          "Model": 6.0,
+          "Tune": 7.0,
+          "Decay": 0.44999998807907104,
+          "Attack": 1.0,
+          "Balance": 60.0,
+          "Tone": 80.0,
+          "Bloom": 30.0,
+          "Spread": 50.0
+        },
+        "generator_sha256": "dcd60f9abcc81b65693b2ba56913720affdc2327b206161d38b62b8309d86e68",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 40328
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_13_Ride.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_13_Ride.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_13_Ride/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 900.0,
+          "Attack": 1.0,
+          "Balance": 50.0,
+          "Tone": 35.0,
+          "WashDec": 100.0,
+          "BellRat": 1.4830000400543213
+        },
+        "generator_sha256": "49ff2a1899ba8d3e1ea083c01d51d9db18c0fa24d76fe91c59a1e8555e6eefef",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 68923
+      },
+      {
+        "generator": "Gen_Perc_13_Ride.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_13_Ride/Demo-2.wav",
+        "parameters": {
+          "Model": 3.0,
+          "Tune": -5.0,
+          "Decay": 900.0,
+          "Attack": 1.0,
+          "Balance": 50.0,
+          "Tone": 60.0,
+          "WashDec": 100.0,
+          "BellRat": 1.4830000400543213
+        },
+        "generator_sha256": "49ff2a1899ba8d3e1ea083c01d51d9db18c0fa24d76fe91c59a1e8555e6eefef",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 68683
+      },
+      {
+        "generator": "Gen_Perc_13_Ride.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_13_Ride/Demo-3.wav",
+        "parameters": {
+          "Model": 6.0,
+          "Tune": 7.0,
+          "Decay": 900.0,
+          "Attack": 1.0,
+          "Balance": 50.0,
+          "Tone": 80.0,
+          "WashDec": 100.0,
+          "BellRat": 1.4830000400543213
+        },
+        "generator_sha256": "49ff2a1899ba8d3e1ea083c01d51d9db18c0fa24d76fe91c59a1e8555e6eefef",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 70314
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_14_Maracas.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_14_Maracas.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_14_Maracas/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 75.0,
+          "Attack": 1.0,
+          "Balance": 35.0,
+          "Tone": 35.0,
+          "BurstTm": 25.0,
+          "Density": 8.0
+        },
+        "generator_sha256": "f59a493b78becd191745f7763eb5124cea8ee51e0d29776c5446728eacd30a38",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 11119
+      },
+      {
+        "generator": "Gen_Perc_14_Maracas.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_14_Maracas/Demo-2.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": -5.0,
+          "Decay": 75.0,
+          "Attack": 1.0,
+          "Balance": 35.0,
+          "Tone": 60.0,
+          "BurstTm": 25.0,
+          "Density": 8.0
+        },
+        "generator_sha256": "f59a493b78becd191745f7763eb5124cea8ee51e0d29776c5446728eacd30a38",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 11119
+      },
+      {
+        "generator": "Gen_Perc_14_Maracas.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_14_Maracas/Demo-3.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 7.0,
+          "Decay": 75.0,
+          "Attack": 1.0,
+          "Balance": 35.0,
+          "Tone": 80.0,
+          "BurstTm": 25.0,
+          "Density": 8.0
+        },
+        "generator_sha256": "f59a493b78becd191745f7763eb5124cea8ee51e0d29776c5446728eacd30a38",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 11119
+      }
+    ],
+    "missing": 0
+  },
+  {
+    "generator": "Gen_Perc_15_Zap.ptfx",
+    "category": "Percussion",
+    "demos": [
+      {
+        "generator": "Gen_Perc_15_Zap.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_15_Zap/Demo-1.wav",
+        "parameters": {
+          "Model": 0.0,
+          "Tune": 0.0,
+          "Decay": 220.0,
+          "Attack": 0.0,
+          "Balance": 50.0,
+          "Tone": 35.0,
+          "Sweep": 12.0,
+          "SwpTime": 120.0
+        },
+        "generator_sha256": "50827753c8b36fca06f7e057f62bdfd46aa16cc635b827ada06a758eb9f283ee",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 22156
+      },
+      {
+        "generator": "Gen_Perc_15_Zap.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_15_Zap/Demo-2.wav",
+        "parameters": {
+          "Model": 2.0,
+          "Tune": -5.0,
+          "Decay": 220.0,
+          "Attack": 0.0,
+          "Balance": 50.0,
+          "Tone": 60.0,
+          "Sweep": 12.0,
+          "SwpTime": 120.0
+        },
+        "generator_sha256": "50827753c8b36fca06f7e057f62bdfd46aa16cc635b827ada06a758eb9f283ee",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 22158
+      },
+      {
+        "generator": "Gen_Perc_15_Zap.ptfx",
+        "destination": "Audio/Percussion/Gen_Perc_15_Zap/Demo-3.wav",
+        "parameters": {
+          "Model": 4.0,
+          "Tune": 7.0,
+          "Decay": 220.0,
+          "Attack": 0.0,
+          "Balance": 50.0,
+          "Tone": 80.0,
+          "Sweep": 12.0,
+          "SwpTime": 120.0
+        },
+        "generator_sha256": "50827753c8b36fca06f7e057f62bdfd46aa16cc635b827ada06a758eb9f283ee",
+        "processing": "Exact rendered PCM, with 150 ms trailing silence",
+        "frames": 21865
+      }
+    ],
+    "missing": 0
+  }
+]
