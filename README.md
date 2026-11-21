@@ -64,6 +64,8 @@ The `.ptfx` creates the source audio. A `.pti` stores that audio together with p
 
 Each demo below identifies the PTI contribution. **Source audition** means the linked WAV does not demonstrate a finished PTI; **PTI preview** means it uses the saved instrument settings in an offline audition. Notes describe the saved settings, while the offline renderer may only approximate their sound on the Tracker. Source selections and render processing are recorded in [demo-sources.json](Audio/demo-sources.json).
 
+Architecture lines below are **conceptual signal flows based on the documented controls and behaviours**, not source-code-verified block diagrams. The PTFX renders audio; PTI instrument playback settings are separate.
+
 ## Gen
 
 [OSC](#osc) · [OSC WT](#osc-wt) · [PWM WT](#pwm-wt) · [FM WT](#fm-wt) · [PHASE WT](#phase-wt) · [ACID WT](#acid-wt) · [SYNC WT](#sync-wt) · [WAV WT](#wav-wt) · [STRING](#string) · [NOISE](#noise) · [BUZZ](#buzz) · [UNISON](#unison) · [FOLD WT](#fold-wt) · [STRUCK](#struck) · [FORMANT WT](#formant-wt) · [SUNSOFT](#sunsoft) · [DONK](#donk) · [HOOVER](#hoover) · [NEURO WT](#neuro-wt) · [REESE](#reese) · [SUPERSAW](#supersaw)
@@ -80,7 +82,9 @@ File: [`Gen_01_OSC.ptfx`](Generators/Synth/Gen_01_OSC.ptfx)
 - **[Demo 2](Audio/Synth/Gen_01_OSC/Demo-2.wav) — BiasedFoldFlutter:** PTI preview: looping sustains the generated source; the volume envelope adds a 20 ms attack and 180 ms release; a band-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_01_OSC/Demo-3.wav) — HalfSineWoodBurnished:** PTI preview: looping sustains the generated source; the volume envelope adds a 3 ms attack and 1000 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit.
 
-A starting point for basses, leads and chip sounds. It makes one of 16 waveforms, then lets you bend, fold, sync and reduce its resolution. Choose a single cycle or a longer sample.
+**Simply explained:** A starting point for basses, leads and chip sounds. It makes one of 16 waveforms, then lets you bend, fold, sync and reduce its resolution. Choose a single cycle or a longer sample.
+
+**Architecture (conceptual signal flow):** Waveform selection → shape/sync/ring/fold/skew → bit crushing → cycle or timed sample.
 
 #### Page 1
 
@@ -117,7 +121,9 @@ File: [`Gen_02_OSC_WT.ptfx`](Generators/Synth/Gen_02_OSC_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_02_OSC_WT/Demo-2.wav) — SyncSpectrumBubble:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 3 ms attack and 100 ms release; a low-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_02_OSC_WT/Demo-3.wav) — SharkFin:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 5 ms attack and 160 ms release.
 
-A quick way to put many basic waveforms in one instrument. It makes 16 frames, one for each waveform, with the same shaping controls applied to them all. Scan Position to change waveform.
+**Simply explained:** A quick way to put many basic waveforms in one instrument. It makes 16 frames, one for each waveform, with the same shaping controls applied to them all. Scan Position to change waveform.
+
+**Architecture (conceptual signal flow):** 16 waveform sources → shared shaping → wavetable frames.
 
 #### Page 1
 
@@ -148,7 +154,9 @@ File: [`Gen_03_PWM_WT.ptfx`](Generators/Synth/Gen_03_PWM_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_03_PWM_WT/Demo-2.wav) — ElasticSquareBubble:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 3 ms attack and 100 ms release; a band-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_03_PWM_WT/Demo-3.wav) — TriangularDewCeremony:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 1 ms attack and 1200 ms release; a low-pass filter shapes the frequency balance.
 
-For hollow, moving leads and basses. It changes the width of the selected wave across a wavetable, then adds optional folding and drive.
+**Simply explained:** For hollow, moving leads and basses. It changes the width of the selected wave across a wavetable, then adds optional folding and drive.
+
+**Architecture (conceptual signal flow):** Oscillator → pulse-width sweep → fold/drive → wavetable.
 
 #### Page 1
 
@@ -176,7 +184,9 @@ File: [`Gen_04_FM_WT.ptfx`](Generators/Synth/Gen_04_FM_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_04_FM_WT/Demo-2.wav) — FeedbackWireDrill:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 90 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 10-bit playback adds digital grain.
 - **[Demo 3](Audio/Synth/Gen_04_FM_WT/Demo-3.wav) — BasaltChoirFilament:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 1400 ms release; a high-pass filter moves with modulation to reshape brightness; 11-bit playback adds digital grain.
 
-For bells, bright basses and metallic digital tones. One oscillator bends the phase of another, giving an FM-style sound. The amount can change across the wavetable. C means carrier, the main tone; M means modulator, the wave shaping it.
+**Simply explained:** For bells, bright basses and metallic digital tones. One oscillator bends the phase of another, giving an FM-style sound. The amount can change across the wavetable. C means carrier, the main tone; M means modulator, the wave shaping it.
+
+**Architecture (conceptual signal flow):** Carrier + phase modulator → ratio/index/feedback → wavetable sweep.
 
 #### Page 1
 
@@ -216,7 +226,9 @@ File: [`Gen_05_PHASE_WT.ptfx`](Generators/Synth/Gen_05_PHASE_WT.ptfx)
 - **[Resonant Phase Sweep](Audio/Synth/Gen_05_PHASE_WT/Demo-2.wav) — *Techno* · Classic Res1:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
 - **[Extended Formant Sweep](Audio/Synth/Gen_05_PHASE_WT/Demo-3.wav) — *IDM* · Extended Formant:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
 
-For sharp digital basses, glassy tones and unusual moving shapes. It reshapes the timing within each wave cycle using 32 phase-shaping modes. Family chooses the left or right half of each paired Mode name. Some modes do not use every shaping control.
+**Simply explained:** For sharp digital basses, glassy tones and unusual moving shapes. It reshapes the timing within each wave cycle using 32 phase-shaping modes. Family chooses the left or right half of each paired Mode name. Some modes do not use every shaping control.
+
+**Architecture (conceptual signal flow):** Oscillator → phase-warp mode → depth/morph sweep → wavetable.
 
 #### Page 1
 
@@ -256,7 +268,9 @@ File: [`Gen_06_ACID_WT.ptfx`](Generators/Synth/Gen_06_ACID_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_06_ACID_WT/Demo-2.wav) — CharcoalDust:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 160 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 4-bit playback adds digital grain.
 - **[Demo 3](Audio/Synth/Gen_06_ACID_WT/Demo-3.wav) — DistantCurrentWeather:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 800 ms attack and 2000 ms release; a high-pass filter moves with modulation to reshape brightness; 9-bit playback adds digital grain.
 
-For squelchy acid bass and resonant leads. Saw and pulse sources feed a resonant filter-style sound, with different brightness sweeps spread across the wavetable.
+**Simply explained:** For squelchy acid bass and resonant leads. Saw and pulse sources feed a resonant filter-style sound, with different brightness sweeps spread across the wavetable.
+
+**Architecture (conceptual signal flow):** Saw/pulse/sub sources → resonant filter-style sweep → drive → wavetable.
 
 #### Page 1
 
@@ -287,7 +301,9 @@ File: [`Gen_07_SYNC_WT.ptfx`](Generators/Synth/Gen_07_SYNC_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_07_SYNC_WT/Demo-2.wav) — SharkAnchorAir:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_07_SYNC_WT/Demo-3.wav) — SawCathedralCavern:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 1700 ms attack and 2300 ms release; a low-pass filter moves with modulation to reshape brightness.
 
-For cutting leads and tearing basses. It combines two waveforms with oscillator sync: one wave is repeatedly restarted by another. The sync movement is written into the frames.
+**Simply explained:** For cutting leads and tearing basses. It combines two waveforms with oscillator sync: one wave is repeatedly restarted by another. The sync movement is written into the frames.
+
+**Architecture (conceptual signal flow):** Master oscillator resets second oscillator → sync ratio sweep → wavetable.
 
 #### Page 1
 
@@ -324,7 +340,9 @@ File: [`Gen_08_WAV_WT.ptfx`](Generators/Synth/Gen_08_WAV_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_08_WAV_WT/Demo-2.wav) — ParabolaRaspFlicker:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 2 ms attack and 120 ms release; a high-pass filter moves with modulation to reshape brightness; 6-bit playback adds digital grain.
 - **[Demo 3](Audio/Synth/Gen_08_WAV_WT/Demo-3.wav) — HalfMoonGlassFrost:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 1 ms attack and 850 ms release; a high-pass filter shapes the frequency balance; 12-bit playback adds digital grain.
 
-For sounds that change from one custom shape into another. Set the start and end waveforms, wrapping, phase and folding; the generator fills in the frames between them. S means start and E means end.
+**Simply explained:** For sounds that change from one custom shape into another. Set the start and end waveforms, wrapping, phase and folding; the generator fills in the frames between them. S means start and E means end.
+
+**Architecture (conceptual signal flow):** Start/end waveforms → wrap/phase/fold → interpolate → wavetable.
 
 #### Page 1
 
@@ -364,7 +382,9 @@ File: [`Gen_09_STRING.ptfx`](Generators/Synth/Gen_09_STRING.ptfx)
 - **[Demo 2](Audio/Synth/Gen_09_STRING/Demo-2.wav) — WirePluckDust:** PTI preview: looping sustains the generated source; the volume envelope keeps the attack immediate and sets a 160 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 4-bit playback adds digital grain.
 - **[Demo 3](Audio/Synth/Gen_09_STRING/Demo-3.wav) — BowedLinenSoftHorizon:** PTI preview: looping sustains the generated source; the volume envelope adds a 2300 ms attack and 2600 ms release; a low-pass filter moves with modulation to reshape brightness.
 
-For plucks and vintage string-machine pads. Plucked uses a vibrating-string model; Bowed layers filtered saw waves with an ensemble effect for a soft string-like sound.
+**Simply explained:** For plucks and vintage string-machine pads. Plucked uses a vibrating-string model; Bowed layers filtered saw waves with an ensemble effect for a soft string-like sound.
+
+**Architecture (conceptual signal flow):** Plucked: strike → string damping; bowed: saw layers → filter → ensemble.
 
 #### Page 1
 
@@ -401,7 +421,9 @@ File: [`Gen_10_NOISE.ptfx`](Generators/Synth/Gen_10_NOISE.ptfx)
 - **[Demo 2](Audio/Synth/Gen_10_NOISE/Demo-2.wav) — MetalWindAir:** PTI preview: looping sustains the generated source; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_10_NOISE/Demo-3.wav) — GustHorizonAirwash:** PTI preview: looping sustains the generated source; the volume envelope adds a 1600 ms attack and 2200 ms release; a high-pass filter shapes the frequency balance.
 
-For hiss, wind, crackle, percussion layers and effects. It makes different kinds of random or clocked noise, with colour and rate controls and an optional sweep.
+**Simply explained:** For hiss, wind, crackle, percussion layers and effects. It makes different kinds of random or clocked noise, with colour and rate controls and an optional sweep.
+
+**Architecture (conceptual signal flow):** Random/clocked noise → rate/colour shaping → sweep → sample.
 
 #### Page 1
 
@@ -432,7 +454,9 @@ File: [`Gen_11_BUZZ.ptfx`](Generators/Synth/Gen_11_BUZZ.ptfx)
 - **[Demo 2](Audio/Synth/Gen_11_BUZZ/Demo-2.wav) — MetalHarmonics:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 90 ms release.
 - **[Demo 3](Audio/Synth/Gen_11_BUZZ/Demo-3.wav) — VelvetBass:** PTI preview: looping sustains the generated source; the volume envelope adds a 250 ms attack and 350 ms release.
 
-For pitched noise, rough bass and chip-like textures. It uses the noise family with a frequency control, so you can steer its buzzing or clocked character toward a note. Not every noise mode has a clear musical pitch.
+**Simply explained:** For pitched noise, rough bass and chip-like textures. It uses the noise family with a frequency control, so you can steer its buzzing or clocked character toward a note. Not every noise mode has a clear musical pitch.
+
+**Architecture (conceptual signal flow):** Clock/noise source → frequency-controlled buzzing → sample.
 
 #### Page 1
 
@@ -469,7 +493,9 @@ File: [`Gen_12_UNISON.ptfx`](Generators/Synth/Gen_12_UNISON.ptfx)
 - **[Demo 2](Audio/Synth/Gen_12_UNISON/Demo-2.wav) — TriangleEnsembleTelephone:** PTI preview: looping sustains the generated source; the volume envelope adds a 8 ms attack and 130 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 8-bit playback adds digital grain.
 - **[Demo 3](Audio/Synth/Gen_12_UNISON/Demo-3.wav) — CurvedStringsHollowWaves:** PTI preview: looping sustains the generated source; the volume envelope adds a 900 ms attack and 1800 ms release; a band-pass filter moves with modulation to reshape brightness.
 
-For thick leads, basses and pads. It stacks copies of a waveform at slightly different pitches, then blends them with a central voice and optional sub tone.
+**Simply explained:** For thick leads, basses and pads. It stacks copies of a waveform at slightly different pitches, then blends them with a central voice and optional sub tone.
+
+**Architecture (conceptual signal flow):** Detuned oscillator layers + central/sub voice → mix → sample.
 
 #### Page 1
 
@@ -506,7 +532,9 @@ File: [`Gen_13_FOLD_WT.ptfx`](Generators/Synth/Gen_13_FOLD_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_13_FOLD_WT/Demo-2.wav) — RectifiedRootSnap:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 65 ms release; a low-pass filter moves with modulation to reshape brightness; overdrive adds grit.
 - **[Demo 3](Audio/Synth/Gen_13_FOLD_WT/Demo-3.wav) — ParabolicFlareWeather:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 800 ms attack and 2000 ms release; a high-pass filter moves with modulation to reshape brightness; 9-bit playback adds digital grain.
 
-For bright, rough or metallic tones. Wavefolding bends peaks back on themselves to add extra harmonics. The wavetable follows the selected folding path.
+**Simply explained:** For bright, rough or metallic tones. Wavefolding bends peaks back on themselves to add extra harmonics. The wavetable follows the selected folding path.
+
+**Architecture (conceptual signal flow):** Oscillator → folding depth sweep → wavetable.
 
 #### Page 1
 
@@ -536,7 +564,9 @@ File: [`Gen_14_STRUCK.ptfx`](Generators/Synth/Gen_14_STRUCK.ptfx)
 - **[Demo 2](Audio/Synth/Gen_14_STRUCK/Demo-2.wav) — HardExcitation:** PTI preview: one-shot playback preserves the generated hit; the volume envelope adds a 1 ms attack and 260 ms release.
 - **[Demo 3](Audio/Synth/Gen_14_STRUCK/Demo-3.wav) — BambooKey:** PTI preview: one-shot playback preserves the generated hit; the volume envelope keeps the attack immediate and sets a 20 ms release.
 
-For plucked, struck-string notes and tuned accents. A short noise excitation circulates through a tuned delay loop, with damping and decay making the vibration fade.
+**Simply explained:** For plucked, struck-string notes and tuned accents. A short noise excitation circulates through a tuned delay loop, with damping and decay making the vibration fade.
+
+**Architecture (conceptual signal flow):** Noise strike → tuned feedback delay → damping → note.
 
 #### Page 1
 
@@ -558,7 +588,9 @@ File: [`Gen_15_FORMANT_WT.ptfx`](Generators/Synth/Gen_15_FORMANT_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_15_FORMANT_WT/Demo-2.wav) — ThroatBassAir:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_15_FORMANT_WT/Demo-3.wav) — CurvedChantTide:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 2000 ms attack and 2500 ms release; a low-pass filter moves with modulation to reshape brightness.
 
-For vowel-like leads and talking basses. It shapes a waveform around vocal-style resonances and lays out the changing vowel colour across a wavetable.
+**Simply explained:** For vowel-like leads and talking basses. It shapes a waveform around vocal-style resonances and lays out the changing vowel colour across a wavetable.
+
+**Architecture (conceptual signal flow):** Oscillator → vocal resonances → vowel sweep → wavetable.
 
 #### Page 1
 
@@ -589,7 +621,9 @@ File: [`Gen_16_SUNSOFT.ptfx`](Generators/Synth/Gen_16_SUNSOFT.ptfx)
 - **[Retro Scale Runner](Audio/Synth/Gen_16_SUNSOFT/Demo-2.wav) — *Chiptune* · Note chain 2:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
 - **[Arcade Pitch Ladder](Audio/Synth/Gen_16_SUNSOFT/Demo-3.wav) — *Synthwave* · Note chain 3:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
 
-For crunchy game-style bass notes. It repitches an embedded sample into a chosen scale and passes each note through NES-style DPCM conversion. It makes a note chain, not a wavetable. Use Equal Slice: Chromatic = 12, Major/Minor/Dorian = 7, pentatonic scales = 5, Blues = 6. Reslice after changing Scale.
+**Simply explained:** For crunchy game-style bass notes. It repitches an embedded sample into a chosen scale and passes each note through NES-style DPCM conversion. It makes a note chain, not a wavetable. Use Equal Slice: Chromatic = 12, Major/Minor/Dorian = 7, pentatonic scales = 5, Blues = 6. Reslice after changing Scale.
+
+**Architecture (conceptual signal flow):** Embedded sample → scale repitching → NES-style DPCM → sliced note chain.
 
 #### Page 1
 
@@ -610,7 +644,9 @@ File: [`Gen_17_DONK.ptfx`](Generators/Synth/Gen_17_DONK.ptfx)
 - **[Demo 2](Audio/Synth/Gen_17_DONK/Demo-2.wav) — RubberDonk:** PTI preview: one-shot playback preserves the generated hit; the volume envelope adds a 2 ms attack and 90 ms release.
 - **[Demo 3](Audio/Synth/Gen_17_DONK/Demo-3.wav) — CopperThud:** PTI preview: one-shot playback preserves the generated hit; the volume envelope keeps the attack immediate and sets a 20 ms release.
 
-For short, knocking bass notes. A decaying FM-style tone is mixed with a low body and pitch punch, then driven for extra bite.
+**Simply explained:** For short, knocking bass notes. A decaying FM-style tone is mixed with a low body and pitch punch, then driven for extra bite.
+
+**Architecture (conceptual signal flow):** FM-style tone + low body → pitch punch → drive → sample.
 
 #### Page 1
 
@@ -647,7 +683,9 @@ File: [`Gen_18_HOOVER.ptfx`](Generators/Synth/Gen_18_HOOVER.ptfx)
 - **[Demo 2](Audio/Synth/Gen_18_HOOVER/Demo-2.wav) — SlowVacuumGrowl:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 110 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 11-bit playback adds digital grain.
 - **[Demo 3](Audio/Synth/Gen_18_HOOVER/Demo-3.wav) — HooverReed:** PTI preview: looping sustains the generated source; the volume envelope adds a 5 ms attack and 160 ms release.
 
-For buzzing rave leads and thick basses. Moving pulse widths, linked saw/pulse waves, a sub tone and a chorus-like layer build a changing mono sample.
+**Simply explained:** For buzzing rave leads and thick basses. Moving pulse widths, linked saw/pulse waves, a sub tone and a chorus-like layer build a changing mono sample.
+
+**Architecture (conceptual signal flow):** Swept pulse/saw layers + sub → chorus-like mix → sample.
 
 #### Page 1
 
@@ -685,7 +723,9 @@ File: [`Gen_19_NEURO_WT.ptfx`](Generators/Synth/Gen_19_NEURO_WT.ptfx)
 - **[Demo 2](Audio/Synth/Gen_19_NEURO_WT/Demo-2.wav) — WideJawBloom:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 180 ms attack and 500 ms release; a low-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_19_NEURO_WT/Demo-3.wav) — FoldSquish:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 2 ms attack and 90 ms release.
 
-For growling basses and aggressive moving textures. It combines Reese and FM-style sources with phase spreading, folding and distortion. Motion chooses how the colour changes across the frames.
+**Simply explained:** For growling basses and aggressive moving textures. It combines Reese and FM-style sources with phase spreading, folding and distortion. Motion chooses how the colour changes across the frames.
+
+**Architecture (conceptual signal flow):** Reese/FM sources → phase spread/fold/distortion → wavetable.
 
 #### Page 1
 
@@ -725,7 +765,9 @@ File: [`Gen_20_REESE.ptfx`](Generators/Synth/Gen_20_REESE.ptfx)
 - **[Demo 2](Audio/Synth/Gen_20_REESE/Demo-2.wav) — ReesePulseBubble:** PTI preview: looping sustains the generated source; the volume envelope adds a 3 ms attack and 100 ms release; a low-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_20_REESE/Demo-3.wav) — SevenPulseSwarm:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 90 ms release.
 
-For rolling, beating basses. Detuned oscillators interfere with one another, making the sound rise and fall in strength. Blend and Sub control its weight.
+**Simply explained:** For rolling, beating basses. Detuned oscillators interfere with one another, making the sound rise and fall in strength. Blend and Sub control its weight.
+
+**Architecture (conceptual signal flow):** Detuned oscillators → beating → sub blend → bass sample.
 
 #### Page 1
 
@@ -762,7 +804,9 @@ File: [`Gen_21_SUPERSAW.ptfx`](Generators/Synth/Gen_21_SUPERSAW.ptfx)
 - **[Demo 2](Audio/Synth/Gen_21_SUPERSAW/Demo-2.wav) — SevenSawAirBloom:** PTI preview: looping sustains the generated source; the volume envelope adds a 180 ms attack and 500 ms release; a low-pass filter moves with modulation to reshape brightness.
 - **[Demo 3](Audio/Synth/Gen_21_SUPERSAW/Demo-3.wav) — SevenfoldDawnSoftHorizon:** PTI preview: looping sustains the generated source; the volume envelope adds a 2300 ms attack and 2600 ms release; a low-pass filter moves with modulation to reshape brightness.
 
-For large leads, chords and pads. It stacks detuned saw waves around a central voice. Brightness and Blend let you move from a clearer tone to a dense, moving sound.
+**Simply explained:** For large leads, chords and pads. It stacks detuned saw waves around a central voice. Brightness and Blend let you move from a clearer tone to a dense, moving sound.
+
+**Architecture (conceptual signal flow):** Central saw + detuned saw layers → blend/brightness → sample.
 
 #### Page 1
 
@@ -808,7 +852,9 @@ File: [`Gen_Drum_1_Base.ptfx`](Generators/Drum/Gen_Drum_1_Base.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_1_Base/Demo-2.wav) — BaseCircuit:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit.
 - **[Demo 3](Audio/Drum/Gen_Drum_1_Base/Demo-3.wav) — SoftMachines:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
 
-For a useful everyday electronic kit. Sine-wave bodies, noise bursts and metallic pulse waves make kicks, snares, claps, hats and other percussion.
+**Simply explained:** For a useful everyday electronic kit. Sine-wave bodies, noise bursts and metallic pulse waves make kicks, snares, claps, hats and other percussion.
+
+**Architecture (conceptual signal flow):** Sine bodies + noise + metallic pulses → kit hit chain.
 
 #### Page 1
 
@@ -839,7 +885,9 @@ File: [`Gen_Drum_2_Tone.ptfx`](Generators/Drum/Gen_Drum_2_Tone.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_2_Tone/Demo-2.wav) — HybridTone:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
 - **[Demo 3](Audio/Drum/Gen_Drum_2_Tone/Demo-3.wav) — BentComponents:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
-For drum-machine sounds with a digital edge. It blends analog-style tones and noise with stepped, low-resolution digital voices. Style gives you a starting sound; the other controls reshape it.
+**Simply explained:** For drum-machine sounds with a digital edge. It blends analog-style tones and noise with stepped, low-resolution digital voices. Style gives you a starting sound; the other controls reshape it.
+
+**Architecture (conceptual signal flow):** Analog tones/noise + low-resolution digital voices → kit chain.
 
 #### Page 1
 
@@ -879,7 +927,9 @@ File: [`Gen_Drum_3_Chip.ptfx`](Generators/Drum/Gen_Drum_3_Chip.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_3_Chip/Demo-2.wav) — ArcadeFracture:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 - **[Demo 3](Audio/Drum/Gen_Drum_3_Chip/Demo-3.wav) — ArcadeExtras:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 0 ms release.
 
-For game-inspired beats and crunchy percussion. Pulse and triangle tones, small wave tables and clocked noise follow short pitch and volume programs.
+**Simply explained:** For game-inspired beats and crunchy percussion. Pulse and triangle tones, small wave tables and clocked noise follow short pitch and volume programs.
+
+**Architecture (conceptual signal flow):** Pulse/triangle/wavetable/clocked noise → pitch programs → kit chain.
 
 #### Page 1
 
@@ -919,7 +969,9 @@ File: [`Gen_Drum_4_FM.ptfx`](Generators/Drum/Gen_Drum_4_FM.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_4_FM/Demo-2.wav) — FMMetal:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
 - **[Demo 3](Audio/Drum/Gen_Drum_4_FM/Demo-3.wav) — CeramicRitual:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
 
-For deep kicks, metallic percussion and digital kits. Oscillators modulate one another with different pitch ratios and fading envelopes. Each drum uses an appropriate FM arrangement.
+**Simply explained:** For deep kicks, metallic percussion and digital kits. Oscillators modulate one another with different pitch ratios and fading envelopes. Each drum uses an appropriate FM arrangement.
+
+**Architecture (conceptual signal flow):** FM oscillator pairs → drum-specific envelopes → kit chain.
 
 #### Page 1
 
@@ -959,7 +1011,9 @@ File: [`Gen_Drum_5_Phase.ptfx`](Generators/Drum/Gen_Drum_5_Phase.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_5_Phase/Demo-2.wav) — PhaseClatter:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
 - **[Demo 3](Audio/Drum/Gen_Drum_5_Phase/Demo-3.wav) — PhaseStones:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
 
-For synthetic drums with a sharp, unusual edge. Phase distortion changes the shape of each oscillator over the hit, with noise and drive adding texture.
+**Simply explained:** For synthetic drums with a sharp, unusual edge. Phase distortion changes the shape of each oscillator over the hit, with noise and drive adding texture.
+
+**Architecture (conceptual signal flow):** Oscillator phase distortion → noise/drive → kit chain.
 
 #### Page 1
 
@@ -999,7 +1053,9 @@ File: [`Gen_Drum_6_Six.ptfx`](Generators/Drum/Gen_Drum_6_Six.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_6_Six/Demo-2.wav) — SilverSix:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
 - **[Demo 3](Audio/Drum/Gen_Drum_6_Six/Demo-3.wav) — SixFurnace:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
-For compact, lively analog-style kits. Damped ringing tones form the bodies, with filtered noise and metallic oscillators for the sharper sounds. MetalAcc6 and FullAcc8 include an accented snare.
+**Simply explained:** For compact, lively analog-style kits. Damped ringing tones form the bodies, with filtered noise and metallic oscillators for the sharper sounds. MetalAcc6 and FullAcc8 include an accented snare.
+
+**Architecture (conceptual signal flow):** Damped ringing + noise attacks + metal voices → kit chain.
 
 #### Page 1
 
@@ -1030,7 +1086,9 @@ File: [`Gen_Drum_7_Seven.ptfx`](Generators/Drum/Gen_Drum_7_Seven.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_7_Seven/Demo-2.wav) — SevenCutups:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 - **[Demo 3](Audio/Drum/Gen_Drum_7_Seven/Demo-3.wav) — SevenDust:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 5 ms release.
 
-For punchy PCM drum-machine sounds. It plays embedded drum samples, then changes their clock rate, envelopes, tone and bit resolution.
+**Simply explained:** For punchy PCM drum-machine sounds. It plays embedded drum samples, then changes their clock rate, envelopes, tone and bit resolution.
+
+**Architecture (conceptual signal flow):** Embedded PCM hits → clock/envelope/bit shaping → kit chain.
 
 #### Page 1
 
@@ -1061,7 +1119,9 @@ File: [`Gen_Drum_8_Eight.ptfx`](Generators/Drum/Gen_Drum_8_Eight.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_8_Eight/Demo-2.wav) — ChicagoEight:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
 - **[Demo 3](Audio/Drum/Gen_Drum_8_Eight/Demo-3.wav) — EightPressure:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
-For round bass drums, snappy snares and sizzling analog-style percussion. Ringing tone models, filtered noise and metallic pulse mixtures build the kit.
+**Simply explained:** For round bass drums, snappy snares and sizzling analog-style percussion. Ringing tone models, filtered noise and metallic pulse mixtures build the kit.
+
+**Architecture (conceptual signal flow):** Ringing tones + noise + metallic pulses → kit chain.
 
 #### Page 1
 
@@ -1098,7 +1158,9 @@ File: [`Gen_Drum_9_Nine.ptfx`](Generators/Drum/Gen_Drum_9_Nine.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_9_Nine/Demo-2.wav) — WarehouseNine:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit.
 - **[Demo 3](Audio/Drum/Gen_Drum_9_Nine/Demo-3.wav) — NineRazor:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
-For punchy dance kits. It combines synthesized drum bodies and noise with embedded PCM hats and cymbals. The metal tuning can be changed separately.
+**Simply explained:** For punchy dance kits. It combines synthesized drum bodies and noise with embedded PCM hats and cymbals. The metal tuning can be changed separately.
+
+**Architecture (conceptual signal flow):** Synth drum bodies + PCM metal parts → kit chain.
 
 #### Page 1
 
@@ -1129,7 +1191,9 @@ File: [`Gen_Drum_10_Wave.ptfx`](Generators/Drum/Gen_Drum_10_Wave.ptfx)
 - **[Demo 2](Audio/Drum/Gen_Drum_10_Wave/Demo-2.wav) — WaveRelics:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
 - **[Demo 3](Audio/Drum/Gen_Drum_10_Wave/Demo-3.wav) — CrushedObjects:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
-For flexible digital percussion. Changing wave shapes, folding, noise and resolution reduction build a kit that can range from clean to crushed.
+**Simply explained:** For flexible digital percussion. Changing wave shapes, folding, noise and resolution reduction build a kit that can range from clean to crushed.
+
+**Architecture (conceptual signal flow):** Wave shaping/folding + noise + bit crushing → kit chain.
 
 #### Page 1
 
@@ -1176,7 +1240,9 @@ File: [`Gen_Perc_01_Kick.ptfx`](Generators/Percussion/Gen_Perc_01_Kick.ptfx)
 - **[Low Floor Driver](Audio/Percussion/Gen_Perc_01_Kick/Demo-2.wav) — *House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Punch Kick](Audio/Percussion/Gen_Perc_01_Kick/Demo-3.wav) — *Hard Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For designing a single bass drum. Choose a sine-based, digital, chip, FM, phase, PCM or wave-based model, then shape the body, click and falling pitch.
+**Simply explained:** For designing a single bass drum. Choose a sine-based, digital, chip, FM, phase, PCM or wave-based model, then shape the body, click and falling pitch.
+
+**Architecture (conceptual signal flow):** Bass drum model → falling pitch/body/click → kick.
 
 #### Page 1
 
@@ -1207,7 +1273,9 @@ File: [`Gen_Perc_02_Snare.ptfx`](Generators/Percussion/Gen_Perc_02_Snare.ptfx)
 - **[Low Body Crack](Audio/Percussion/Gen_Perc_02_Snare/Demo-2.wav) — *Drum and Bass* · Model 5, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Snare Strike](Audio/Percussion/Gen_Perc_02_Snare/Demo-3.wav) — *Jungle* · Model 10, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For one snare with control over its body and noisy wires. Models use different combinations of oscillators, noise, FM, chip programs or PCM playback.
+**Simply explained:** For one snare with control over its body and noisy wires. Models use different combinations of oscillators, noise, FM, chip programs or PCM playback.
+
+**Architecture (conceptual signal flow):** Oscillator body + noise/wire or PCM → snare.
 
 #### Page 1
 
@@ -1238,7 +1306,9 @@ File: [`Gen_Perc_03_Clap.ptfx`](Generators/Percussion/Gen_Perc_03_Clap.ptfx)
 - **[Low Burst Clap](Audio/Percussion/Gen_Perc_03_Clap/Demo-2.wav) — *Lo-Fi House* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Crowd Clap](Audio/Percussion/Gen_Perc_03_Clap/Demo-3.wav) — *Disco House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For handclap-style hits and burst effects. Several short bursts lead into a tail. Different models use filtered noise, chip noise, FM, phase shaping or PCM layers.
+**Simply explained:** For handclap-style hits and burst effects. Several short bursts lead into a tail. Different models use filtered noise, chip noise, FM, phase shaping or PCM layers.
+
+**Architecture (conceptual signal flow):** Transient bursts → tail → clap.
 
 #### Page 1
 
@@ -1269,7 +1339,9 @@ File: [`Gen_Perc_04_Hat.ptfx`](Generators/Percussion/Gen_Perc_04_Hat.ptfx)
 - **[Low Metallic Hat](Audio/Percussion/Gen_Perc_04_Hat/Demo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Hat Spark](Audio/Percussion/Gen_Perc_04_Hat/Demo-3.wav) — *House* · Model 9, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For short closed hats or longer open-hat sounds. It blends noisy and metallic parts, or shapes PCM hat material, with separate controls for the metallic tail.
+**Simply explained:** For short closed hats or longer open-hat sounds. It blends noisy and metallic parts, or shapes PCM hat material, with separate controls for the metallic tail.
+
+**Architecture (conceptual signal flow):** Metal/noise or PCM → decay → hat.
 
 #### Page 1
 
@@ -1300,7 +1372,9 @@ File: [`Gen_Perc_05_Tom.ptfx`](Generators/Percussion/Gen_Perc_05_Tom.ptfx)
 - **[Low Tom Pulse](Audio/Percussion/Gen_Perc_05_Tom/Demo-2.wav) — *Techno* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Tribal Tom](Audio/Percussion/Gen_Perc_05_Tom/Demo-3.wav) — *Tribal House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For tuned fills and rounded percussion. Different ringing, digital and PCM models make a drum body with a controllable pitch bend and resonance.
+**Simply explained:** For tuned fills and rounded percussion. Different ringing, digital and PCM models make a drum body with a controllable pitch bend and resonance.
+
+**Architecture (conceptual signal flow):** Resonant body → pitch bend → tom.
 
 #### Page 1
 
@@ -1331,7 +1405,9 @@ File: [`Gen_Perc_06_Conga.ptfx`](Generators/Percussion/Gen_Perc_06_Conga.ptfx)
 - **[Low Conga Knock](Audio/Percussion/Gen_Perc_06_Conga/Demo-2.wav) — *Downtempo* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[High Conga Pop](Audio/Percussion/Gen_Perc_06_Conga/Demo-3.wav) — *Latin House* · Model 1, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For rounded hand-drum-style hits. Two related tone models make a body and strike, with a short pitch bend and adjustable body colour.
+**Simply explained:** For rounded hand-drum-style hits. Two related tone models make a body and strike, with a short pitch bend and adjustable body colour.
+
+**Architecture (conceptual signal flow):** Attack + ringing body → pitch bend → conga.
 
 #### Page 1
 
@@ -1362,7 +1438,9 @@ File: [`Gen_Perc_07_Rim.ptfx`](Generators/Percussion/Gen_Perc_07_Rim.ptfx)
 - **[Low Rim Knock](Audio/Percussion/Gen_Perc_07_Rim/Demo-2.wav) — *Dub Techno* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Rim Shot](Audio/Percussion/Gen_Perc_07_Rim/Demo-3.wav) — *Breakbeat* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For tight rimshots, clicks and ringing stick sounds. Different models combine a short strike with a ringing body. Ring controls shape the second part; the PCM model adds a resonator to its recorded hit.
+**Simply explained:** For tight rimshots, clicks and ringing stick sounds. Different models combine a short strike with a ringing body. Ring controls shape the second part; the PCM model adds a resonator to its recorded hit.
+
+**Architecture (conceptual signal flow):** Stick attack + ring/PCM resonance → rim.
 
 #### Page 1
 
@@ -1393,7 +1471,9 @@ File: [`Gen_Perc_08_Claves.ptfx`](Generators/Percussion/Gen_Perc_08_Claves.ptfx)
 - **[Low Clave Knock](Audio/Percussion/Gen_Perc_08_Claves/Demo-2.wav) — *Downtempo* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Clave Click](Audio/Percussion/Gen_Perc_08_Claves/Demo-3.wav) — *Afro House* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For short wooden clicks and pitched accents. Tonal and chip-style models make a brief strike with a small ringing body. Hard changes the attack character.
+**Simply explained:** For short wooden clicks and pitched accents. Tonal and chip-style models make a brief strike with a small ringing body. Hard changes the attack character.
+
+**Architecture (conceptual signal flow):** Hard attack + tonal resonance → claves.
 
 #### Page 1
 
@@ -1424,7 +1504,9 @@ File: [`Gen_Perc_09_Cowbell.ptfx`](Generators/Percussion/Gen_Perc_09_Cowbell.ptf
 - **[Low Bell Knock](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Cowbell Ring](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-3.wav) — *Disco* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For clanging rhythmic accents. Paired tones or PCM bands create low and high components. Their balance, tuning relationship and damping set the clang.
+**Simply explained:** For clanging rhythmic accents. Paired tones or PCM bands create low and high components. Their balance, tuning relationship and damping set the clang.
+
+**Architecture (conceptual signal flow):** Paired metal tones or PCM → cowbell.
 
 #### Page 1
 
@@ -1455,7 +1537,9 @@ File: [`Gen_Perc_10_Bell.ptfx`](Generators/Percussion/Gen_Perc_10_Bell.ptfx)
 - **[Low Bell Chime](Audio/Percussion/Gen_Perc_10_Bell/Demo-2.wav) — *Downtempo* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[High Shimmer Bell](Audio/Percussion/Gen_Perc_10_Bell/Demo-3.wav) — *IDM* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For ringing bell-like accents. Paired tones, digital shaping or processed PCM produce a strike and a longer body. Inharm changes how closely the upper tones relate to the main pitch.
+**Simply explained:** For ringing bell-like accents. Paired tones, digital shaping or processed PCM produce a strike and a longer body. Inharm changes how closely the upper tones relate to the main pitch.
+
+**Architecture (conceptual signal flow):** Strike + inharmonic ringing body → bell.
 
 #### Page 1
 
@@ -1486,7 +1570,9 @@ File: [`Gen_Perc_11_Cymbal.ptfx`](Generators/Percussion/Gen_Perc_11_Cymbal.ptfx)
 - **[Low Metallic Wash](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Cymbal Shimmer](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-3.wav) — *Techno* · Model 8, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For metallic hits and noisy washes. Oscillator, noise, FM, chip and PCM models offer different kinds of metal, with density and damping controls.
+**Simply explained:** For metallic hits and noisy washes. Oscillator, noise, FM, chip and PCM models offer different kinds of metal, with density and damping controls.
+
+**Architecture (conceptual signal flow):** Metal/noise/FM/chip/PCM → density/damping → cymbal.
 
 #### Page 1
 
@@ -1517,7 +1603,9 @@ File: [`Gen_Perc_12_Crash.ptfx`](Generators/Percussion/Gen_Perc_12_Crash.ptfx)
 - **[Low Crash Burst](Audio/Percussion/Gen_Perc_12_Crash/Demo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Impact Crash](Audio/Percussion/Gen_Perc_12_Crash/Demo-3.wav) — *Drum and Bass* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For impact accents that open into a wash. It uses synthetic, chip or PCM metal sources. Bloom lets the wash rise and last longer; Spread changes the sound within a mono sample.
+**Simply explained:** For impact accents that open into a wash. It uses synthetic, chip or PCM metal sources. Bloom lets the wash rise and last longer; Spread changes the sound within a mono sample.
+
+**Architecture (conceptual signal flow):** Metal source → bloom/spread → crash.
 
 #### Page 1
 
@@ -1548,7 +1636,9 @@ File: [`Gen_Perc_13_Ride.ptfx`](Generators/Percussion/Gen_Perc_13_Ride.ptfx)
 - **[Low Ride Pulse](Audio/Percussion/Gen_Perc_13_Ride/Demo-2.wav) — *Deep House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Ride Bell](Audio/Percussion/Gen_Perc_13_Ride/Demo-3.wav) — *Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For a clear ping over a longer cymbal wash. Different tone, chip, FM, phase and PCM models provide the source. Balance and WashDec let the ping or wash lead.
+**Simply explained:** For a clear ping over a longer cymbal wash. Different tone, chip, FM, phase and PCM models provide the source. Balance and WashDec let the ping or wash lead.
+
+**Architecture (conceptual signal flow):** Ping + metallic wash → decay → ride.
 
 #### Page 1
 
@@ -1579,7 +1669,9 @@ File: [`Gen_Perc_14_Maracas.ptfx`](Generators/Percussion/Gen_Perc_14_Maracas.ptf
 - **[Low Shaker Shuffle](Audio/Percussion/Gen_Perc_14_Maracas/Demo-2.wav) — *Afro House* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[Bright Maraca Shake](Audio/Percussion/Gen_Perc_14_Maracas/Demo-3.wav) — *Latin House* · Model 0, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For a single shaker gesture. The Eight model uses filtered noise with an initial hit and a group of small grains. Density and BurstTm control the rattle. Eight is intentionally the only model.
+**Simply explained:** For a single shaker gesture. The Eight model uses filtered noise with an initial hit and a group of small grains. Density and BurstTm control the rattle. Eight is intentionally the only model.
+
+**Architecture (conceptual signal flow):** Filtered noise burst → grains → maracas.
 
 #### Page 1
 
@@ -1610,7 +1702,9 @@ File: [`Gen_Perc_15_Zap.ptfx`](Generators/Percussion/Gen_Perc_15_Zap.ptfx)
 - **[Low Zap Sweep](Audio/Percussion/Gen_Perc_15_Zap/Demo-2.wav) — *IDM* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 - **[High Arcade Zap](Audio/Percussion/Gen_Perc_15_Zap/Demo-3.wav) — *Chiptune* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
-For laser hits, disco tom effects and falling electronic blips. Sine, chip, FM, phase and wave-based models follow a strong downward pitch sweep.
+**Simply explained:** For laser hits, disco tom effects and falling electronic blips. Sine, chip, FM, phase and wave-based models follow a strong downward pitch sweep.
+
+**Architecture (conceptual signal flow):** Oscillator → downward pitch sweep → zap.
 
 #### Page 1
 
