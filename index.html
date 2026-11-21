@@ -31,7 +31,7 @@
 const source='Audio/demo-sources.json';
 const repo='https://github.com/Aisjam/polyendtracker_Effects/blob/main/';
 const search=document.getElementById('search'),filters=document.getElementById('filters'),results=document.getElementById('results'),count=document.getElementById('count'),audio=document.getElementById('audio'),now=document.getElementById('now');
-let catalog=[],category='All',active='';
+let catalog=[],guide={},category='All',active='';
 const categories=['All','Synth','Drum','Percussion'];
 function label(name){return name.replace(/\.ptfx$/i,'').replace(/^Gen_(?:Drum_|Perc_)?\d+_/i,'').replace(/_/g,' ').replace(/\bWT\b/g,'WT');}
 function displayDemo(d,i){if(d.name)return d.name;const path=d.source||'';const file=path.split(/[\\/]/).pop()||'';const name=file.replace(/\.wav$/i,'').replace(/^(?:BASS|LEAD|KEYS|DRONE|DRUM|PERC|FX|PAD|SYNTH|SFX)_/i,'').replace(/_(?:WT|C4scan)$/i,'').replace(/_/g,' ');return name&&name!=='Demo-'+(i+1)?name:'Demo '+(i+1);}
@@ -44,6 +44,7 @@ function redraw(){
  for(const g of selected){
  const card=make('article','card');const tag=make('div','tag',g.category);card.append(tag,make('h2','',label(g.generator)));
  const note=make('p','',g.generator);card.append(note);
+ const details=guide[g.generator];if(details){card.append(make('strong','','How it works'),make('p','',details.simple),make('strong','','Architecture · conceptual signal flow'),make('p','',details.architecture))}
  const demos=make('div','demos');
  for(let i=0;i<g.demos.length;i++){const d=g.demos[i];if(!/^Audio\/(?:Drum|Percussion|Synth)\/[A-Za-z0-9_-]+\/Demo-[1-9][0-9]*\.wav$/.test(d.destination||''))continue;
  const item=make('div','demo');const btn=make('button','play',active===d.destination&&!audio.paused?'Pause':'Play');btn.type='button';const description=make('div','demo-name',displayDemo(d,i));description.append(make('small','',d.genre||g.category));
@@ -54,7 +55,7 @@ function redraw(){
 }
 function updateButtons(){for(const b of results.querySelectorAll('.play')){const item=b.parentElement;const card=b.closest('.card');const g=catalog.find(x=>x.generator===card.querySelector('p').textContent);if(!g)continue;const index=Array.from(item.parentElement.children).indexOf(item);const d=g.demos[index];b.textContent=d&&d.destination===active&&!audio.paused?'Pause':'Play';}}
 search.addEventListener('input',redraw);audio.addEventListener('play',updateButtons);audio.addEventListener('pause',updateButtons);audio.addEventListener('ended',updateButtons);
-fetch('./'+source).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{catalog=data.filter(g=>categories.includes(g.category)&&Array.isArray(g.demos));redraw()}).catch(e=>{count.textContent='Unable to load the demo index.';results.replaceChildren(make('p','notice','Please reload this page or check '+source+' ('+e.message+').'))});
+Promise.all([fetch('./'+source).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}),fetch('./generator-guide.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()})]).then(([data,descriptions])=>{guide=descriptions;catalog=data.filter(g=>categories.includes(g.category)&&Array.isArray(g.demos));redraw()}).catch(e=>{count.textContent='Unable to load the demo index.';results.replaceChildren(make('p','notice','Please reload this page or check the JSON data ('+e.message+').'))});
 </script>
 </body>
 </html>
