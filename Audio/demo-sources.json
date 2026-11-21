@@ -131,64 +131,70 @@
         "generator": "Gen_05_PHASE_WT.ptfx",
         "destination": "Audio/Synth/Gen_05_PHASE_WT/Demo-1.wav",
         "parameters": {
-          "Family": 0.0,
-          "Mode": 0.0,
-          "Shape": 40.0,
-          "Morph": 50.0,
-          "Depth": 10.0,
-          "Sweep": 85.0,
-          "Motion": 0.0,
-          "Cross": 0.0,
-          "Window": 2.0,
-          "Frames": 2.0,
-          "Phase": 0.0,
-          "Drive": 0.0
+          "Family": 0,
+          "Mode": 0,
+          "Shape": 40,
+          "Morph": 50,
+          "Depth": 10,
+          "Sweep": 85,
+          "Motion": 0,
+          "Cross": 0,
+          "Window": 2,
+          "Frames": 2,
+          "Phase": 0,
+          "Drive": 0
         },
         "generator_sha256": "1cec06a6012b37c2384877b680dbea1ffc86feca445e1ae1cc86aef4fc359a39",
         "processing": "3-second linear wavetable scan with interpolation, gain 0.8 and onset/release fades",
-        "frames": 138915
+        "frames": 138915,
+        "name": "Classic Saw Sweep",
+        "genre": "Synthwave"
       },
       {
         "generator": "Gen_05_PHASE_WT.ptfx",
         "destination": "Audio/Synth/Gen_05_PHASE_WT/Demo-2.wav",
         "parameters": {
-          "Family": 0.0,
-          "Mode": 5.0,
-          "Shape": 65.0,
-          "Morph": 50.0,
-          "Depth": 10.0,
-          "Sweep": 85.0,
-          "Motion": 0.0,
-          "Cross": 0.0,
-          "Window": 2.0,
-          "Frames": 2.0,
-          "Phase": 0.0,
-          "Drive": 0.0
+          "Family": 0,
+          "Mode": 5,
+          "Shape": 65,
+          "Morph": 50,
+          "Depth": 10,
+          "Sweep": 85,
+          "Motion": 0,
+          "Cross": 0,
+          "Window": 2,
+          "Frames": 2,
+          "Phase": 0,
+          "Drive": 0
         },
         "generator_sha256": "1cec06a6012b37c2384877b680dbea1ffc86feca445e1ae1cc86aef4fc359a39",
         "processing": "3-second linear wavetable scan with interpolation, gain 0.8 and onset/release fades",
-        "frames": 138915
+        "frames": 138915,
+        "name": "Resonant Phase Sweep",
+        "genre": "Techno"
       },
       {
         "generator": "Gen_05_PHASE_WT.ptfx",
         "destination": "Audio/Synth/Gen_05_PHASE_WT/Demo-3.wav",
         "parameters": {
-          "Family": 1.0,
-          "Mode": 0.0,
-          "Shape": 75.0,
-          "Morph": 50.0,
-          "Depth": 10.0,
-          "Sweep": 85.0,
-          "Motion": 0.0,
-          "Cross": 0.0,
-          "Window": 2.0,
-          "Frames": 2.0,
-          "Phase": 0.0,
-          "Drive": 0.0
+          "Family": 1,
+          "Mode": 0,
+          "Shape": 75,
+          "Morph": 50,
+          "Depth": 10,
+          "Sweep": 85,
+          "Motion": 0,
+          "Cross": 0,
+          "Window": 2,
+          "Frames": 2,
+          "Phase": 0,
+          "Drive": 0
         },
         "generator_sha256": "1cec06a6012b37c2384877b680dbea1ffc86feca445e1ae1cc86aef4fc359a39",
         "processing": "3-second linear wavetable scan with interpolation, gain 0.8 and onset/release fades",
-        "frames": 138915
+        "frames": 138915,
+        "name": "Extended Formant Sweep",
+        "genre": "IDM"
       }
     ],
     "missing": 0
@@ -511,37 +517,43 @@
         "generator": "Gen_16_SUNSOFT.ptfx",
         "destination": "Audio/Synth/Gen_16_SUNSOFT/Demo-1.wav",
         "parameters": {
-          "Root": 0.0,
-          "Octave": 2.0,
-          "Scale": 1.0
+          "Root": 0,
+          "Octave": 2,
+          "Scale": 1
         },
         "generator_sha256": "ea6314541067d73ab35d5b4fc27c546e8208a6c09b6eaedfdb643209d96bc10d",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 94815
+        "frames": 94815,
+        "name": "Sunsoft Note Cascade",
+        "genre": "Chiptune"
       },
       {
         "generator": "Gen_16_SUNSOFT.ptfx",
         "destination": "Audio/Synth/Gen_16_SUNSOFT/Demo-2.wav",
         "parameters": {
-          "Root": 5.0,
-          "Octave": 2.0,
-          "Scale": 2.0
+          "Root": 5,
+          "Octave": 2,
+          "Scale": 2
         },
         "generator_sha256": "ea6314541067d73ab35d5b4fc27c546e8208a6c09b6eaedfdb643209d96bc10d",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 94815
+        "frames": 94815,
+        "name": "Retro Scale Runner",
+        "genre": "Chiptune"
       },
       {
         "generator": "Gen_16_SUNSOFT.ptfx",
         "destination": "Audio/Synth/Gen_16_SUNSOFT/Demo-3.wav",
         "parameters": {
-          "Root": 7.0,
-          "Octave": 3.0,
-          "Scale": 5.0
+          "Root": 7,
+          "Octave": 3,
+          "Scale": 5
         },
         "generator_sha256": "ea6314541067d73ab35d5b4fc27c546e8208a6c09b6eaedfdb643209d96bc10d",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 94815
+        "frames": 94815,
+        "name": "Arcade Pitch Ladder",
+        "genre": "Synthwave"
       }
     ],
     "missing": 0
@@ -1019,52 +1031,58 @@
         "generator": "Gen_Perc_01_Kick.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_01_Kick/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 350.0,
-          "Attack": 1.0,
-          "Balance": 35.0,
-          "Tone": 35.0,
-          "P Drop": 50.0,
-          "Drive": 0.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 350,
+          "Attack": 1,
+          "Balance": 35,
+          "Tone": 35,
+          "P Drop": 50,
+          "Drive": 0
         },
         "generator_sha256": "a8f7ececd7e34aa901a345be0f2c2c5d221ba9f61c88060c5dd283e4ec9bb3c1",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 30413
+        "frames": 30413,
+        "name": "Sub Foundation",
+        "genre": "Techno"
       },
       {
         "generator": "Gen_Perc_01_Kick.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_01_Kick/Demo-2.wav",
         "parameters": {
-          "Model": 3.0,
-          "Tune": -5.0,
-          "Decay": 350.0,
-          "Attack": 1.0,
-          "Balance": 35.0,
-          "Tone": 60.0,
-          "P Drop": 50.0,
-          "Drive": 0.0
+          "Model": 3,
+          "Tune": -5,
+          "Decay": 350,
+          "Attack": 1,
+          "Balance": 35,
+          "Tone": 60,
+          "P Drop": 50,
+          "Drive": 0
         },
         "generator_sha256": "a8f7ececd7e34aa901a345be0f2c2c5d221ba9f61c88060c5dd283e4ec9bb3c1",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 30248
+        "frames": 30248,
+        "name": "Low Floor Driver",
+        "genre": "House"
       },
       {
         "generator": "Gen_Perc_01_Kick.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_01_Kick/Demo-3.wav",
         "parameters": {
-          "Model": 6.0,
-          "Tune": 7.0,
-          "Decay": 350.0,
-          "Attack": 1.0,
-          "Balance": 35.0,
-          "Tone": 80.0,
-          "P Drop": 50.0,
-          "Drive": 0.0
+          "Model": 6,
+          "Tune": 7,
+          "Decay": 350,
+          "Attack": 1,
+          "Balance": 35,
+          "Tone": 80,
+          "P Drop": 50,
+          "Drive": 0
         },
         "generator_sha256": "a8f7ececd7e34aa901a345be0f2c2c5d221ba9f61c88060c5dd283e4ec9bb3c1",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 30514
+        "frames": 30514,
+        "name": "Bright Punch Kick",
+        "genre": "Hard Techno"
       }
     ],
     "missing": 0
@@ -1077,52 +1095,58 @@
         "generator": "Gen_Perc_02_Snare.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_02_Snare/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 180.0,
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 180,
           "Attack": 0.25,
-          "Balance": 55.0,
-          "Tone": 35.0,
-          "WireDec": 100.0,
-          "BodyShp": 50.0
+          "Balance": 55,
+          "Tone": 35,
+          "WireDec": 100,
+          "BodyShp": 50
         },
         "generator_sha256": "145f9f8b714928df72c4c2c4a5a592819a111f5656aef869b890840aa98231fd",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 18448
+        "frames": 18448,
+        "name": "Dry Wire Snap",
+        "genre": "Breakbeat"
       },
       {
         "generator": "Gen_Perc_02_Snare.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_02_Snare/Demo-2.wav",
         "parameters": {
-          "Model": 5.0,
-          "Tune": -5.0,
-          "Decay": 180.0,
+          "Model": 5,
+          "Tune": -5,
+          "Decay": 180,
           "Attack": 0.25,
-          "Balance": 55.0,
-          "Tone": 60.0,
-          "WireDec": 100.0,
-          "BodyShp": 50.0
+          "Balance": 55,
+          "Tone": 60,
+          "WireDec": 100,
+          "BodyShp": 50
         },
         "generator_sha256": "145f9f8b714928df72c4c2c4a5a592819a111f5656aef869b890840aa98231fd",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 18599
+        "frames": 18599,
+        "name": "Low Body Crack",
+        "genre": "Drum and Bass"
       },
       {
         "generator": "Gen_Perc_02_Snare.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_02_Snare/Demo-3.wav",
         "parameters": {
-          "Model": 10.0,
-          "Tune": 7.0,
-          "Decay": 180.0,
+          "Model": 10,
+          "Tune": 7,
+          "Decay": 180,
           "Attack": 0.25,
-          "Balance": 55.0,
-          "Tone": 80.0,
-          "WireDec": 100.0,
-          "BodyShp": 50.0
+          "Balance": 55,
+          "Tone": 80,
+          "WireDec": 100,
+          "BodyShp": 50
         },
         "generator_sha256": "145f9f8b714928df72c4c2c4a5a592819a111f5656aef869b890840aa98231fd",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 18449
+        "frames": 18449,
+        "name": "Bright Snare Strike",
+        "genre": "Jungle"
       }
     ],
     "missing": 0
@@ -1135,52 +1159,58 @@
         "generator": "Gen_Perc_03_Clap.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_03_Clap/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 200.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 35.0,
-          "Spacing": 11.0,
-          "Bursts": 3.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 200,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 35,
+          "Spacing": 11,
+          "Bursts": 3
         },
         "generator_sha256": "cb0cf35af5759bd5d38d0460cdaacabcb34e735e67cbabe6396b338de5798294",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 18150
+        "frames": 18150,
+        "name": "Tight Handclap",
+        "genre": "House"
       },
       {
         "generator": "Gen_Perc_03_Clap.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_03_Clap/Demo-2.wav",
         "parameters": {
-          "Model": 4.0,
-          "Tune": -5.0,
-          "Decay": 200.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 60.0,
-          "Spacing": 11.0,
-          "Bursts": 3.0
+          "Model": 4,
+          "Tune": -5,
+          "Decay": 200,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 60,
+          "Spacing": 11,
+          "Bursts": 3
         },
         "generator_sha256": "cb0cf35af5759bd5d38d0460cdaacabcb34e735e67cbabe6396b338de5798294",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 19920
+        "frames": 19920,
+        "name": "Low Burst Clap",
+        "genre": "Lo-Fi House"
       },
       {
         "generator": "Gen_Perc_03_Clap.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_03_Clap/Demo-3.wav",
         "parameters": {
-          "Model": 7.0,
-          "Tune": 7.0,
-          "Decay": 200.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 80.0,
-          "Spacing": 11.0,
-          "Bursts": 3.0
+          "Model": 7,
+          "Tune": 7,
+          "Decay": 200,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 80,
+          "Spacing": 11,
+          "Bursts": 3
         },
         "generator_sha256": "cb0cf35af5759bd5d38d0460cdaacabcb34e735e67cbabe6396b338de5798294",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 17719
+        "frames": 17719,
+        "name": "Bright Crowd Clap",
+        "genre": "Disco House"
       }
     ],
     "missing": 0
@@ -1193,52 +1223,58 @@
         "generator": "Gen_Perc_04_Hat.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_04_Hat/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 150.0,
-          "Attack": 1.0,
-          "Balance": 65.0,
-          "Tone": 35.0,
-          "Met Dec": 100.0,
-          "Met Rat": 100.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 150,
+          "Attack": 1,
+          "Balance": 65,
+          "Tone": 35,
+          "Met Dec": 100,
+          "Met Rat": 100
         },
         "generator_sha256": "8ffc67f2c876f292a08c23c37c802cbefd1d10999d196bb686dd59495b006fa9",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 16717
+        "frames": 16717,
+        "name": "Dry Hat Tick",
+        "genre": "Minimal Techno"
       },
       {
         "generator": "Gen_Perc_04_Hat.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_04_Hat/Demo-2.wav",
         "parameters": {
-          "Model": 4.0,
-          "Tune": -5.0,
-          "Decay": 150.0,
-          "Attack": 1.0,
-          "Balance": 65.0,
-          "Tone": 60.0,
-          "Met Dec": 100.0,
-          "Met Rat": 100.0
+          "Model": 4,
+          "Tune": -5,
+          "Decay": 150,
+          "Attack": 1,
+          "Balance": 65,
+          "Tone": 60,
+          "Met Dec": 100,
+          "Met Rat": 100
         },
         "generator_sha256": "8ffc67f2c876f292a08c23c37c802cbefd1d10999d196bb686dd59495b006fa9",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 16272
+        "frames": 16272,
+        "name": "Low Metallic Hat",
+        "genre": "Industrial"
       },
       {
         "generator": "Gen_Perc_04_Hat.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_04_Hat/Demo-3.wav",
         "parameters": {
-          "Model": 9.0,
-          "Tune": 7.0,
-          "Decay": 150.0,
-          "Attack": 1.0,
-          "Balance": 65.0,
-          "Tone": 80.0,
-          "Met Dec": 100.0,
-          "Met Rat": 100.0
+          "Model": 9,
+          "Tune": 7,
+          "Decay": 150,
+          "Attack": 1,
+          "Balance": 65,
+          "Tone": 80,
+          "Met Dec": 100,
+          "Met Rat": 100
         },
         "generator_sha256": "8ffc67f2c876f292a08c23c37c802cbefd1d10999d196bb686dd59495b006fa9",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 16617
+        "frames": 16617,
+        "name": "Bright Hat Spark",
+        "genre": "House"
       }
     ],
     "missing": 0
@@ -1251,52 +1287,58 @@
         "generator": "Gen_Perc_05_Tom.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_05_Tom/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 400.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 35.0,
-          "P Bend": 5.0,
-          "Reson": 50.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 400,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 35,
+          "P Bend": 5,
+          "Reson": 50
         },
         "generator_sha256": "dc7bd2bdfa72fb1c9cf41961e59f3d2bfcb9790de7e50fc5ced35fc187ce1046",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 33302
+        "frames": 33302,
+        "name": "Round Floor Tom",
+        "genre": "Ambient"
       },
       {
         "generator": "Gen_Perc_05_Tom.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_05_Tom/Demo-2.wav",
         "parameters": {
-          "Model": 4.0,
-          "Tune": -5.0,
-          "Decay": 400.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 60.0,
-          "P Bend": 5.0,
-          "Reson": 50.0
+          "Model": 4,
+          "Tune": -5,
+          "Decay": 400,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 60,
+          "P Bend": 5,
+          "Reson": 50
         },
         "generator_sha256": "dc7bd2bdfa72fb1c9cf41961e59f3d2bfcb9790de7e50fc5ced35fc187ce1046",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 34031
+        "frames": 34031,
+        "name": "Low Tom Pulse",
+        "genre": "Techno"
       },
       {
         "generator": "Gen_Perc_05_Tom.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_05_Tom/Demo-3.wav",
         "parameters": {
-          "Model": 7.0,
-          "Tune": 7.0,
-          "Decay": 400.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 80.0,
-          "P Bend": 5.0,
-          "Reson": 50.0
+          "Model": 7,
+          "Tune": 7,
+          "Decay": 400,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 80,
+          "P Bend": 5,
+          "Reson": 50
         },
         "generator_sha256": "dc7bd2bdfa72fb1c9cf41961e59f3d2bfcb9790de7e50fc5ced35fc187ce1046",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 34462
+        "frames": 34462,
+        "name": "Bright Tribal Tom",
+        "genre": "Tribal House"
       }
     ],
     "missing": 0
@@ -1309,52 +1351,58 @@
         "generator": "Gen_Perc_06_Conga.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_06_Conga/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 220.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 35.0,
-          "P Bend": 3.0,
-          "Body": 50.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 220,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 35,
+          "P Bend": 3,
+          "Body": 50
         },
         "generator_sha256": "4f1cc4d5c27408ea519256a731ae03f358042416392d766c196464618d359955",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 20202
+        "frames": 20202,
+        "name": "Warm Conga Tap",
+        "genre": "Afro House"
       },
       {
         "generator": "Gen_Perc_06_Conga.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_06_Conga/Demo-2.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": -5.0,
-          "Decay": 220.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 60.0,
-          "P Bend": 3.0,
-          "Body": 50.0
+          "Model": 0,
+          "Tune": -5,
+          "Decay": 220,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 60,
+          "P Bend": 3,
+          "Body": 50
         },
         "generator_sha256": "4f1cc4d5c27408ea519256a731ae03f358042416392d766c196464618d359955",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 20058
+        "frames": 20058,
+        "name": "Low Conga Knock",
+        "genre": "Downtempo"
       },
       {
         "generator": "Gen_Perc_06_Conga.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_06_Conga/Demo-3.wav",
         "parameters": {
-          "Model": 1.0,
-          "Tune": 7.0,
-          "Decay": 220.0,
-          "Attack": 1.0,
-          "Balance": 0.0,
-          "Tone": 80.0,
-          "P Bend": 3.0,
-          "Body": 50.0
+          "Model": 1,
+          "Tune": 7,
+          "Decay": 220,
+          "Attack": 1,
+          "Balance": 0,
+          "Tone": 80,
+          "P Bend": 3,
+          "Body": 50
         },
         "generator_sha256": "4f1cc4d5c27408ea519256a731ae03f358042416392d766c196464618d359955",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 19980
+        "frames": 19980,
+        "name": "High Conga Pop",
+        "genre": "Latin House"
       }
     ],
     "missing": 0
@@ -1367,52 +1415,58 @@
         "generator": "Gen_Perc_07_Rim.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_07_Rim/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 45.0,
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 45,
           "Attack": 0.25,
-          "Balance": 50.0,
-          "Tone": 35.0,
-          "RingDec": 100.0,
-          "RingRat": 100.0
+          "Balance": 50,
+          "Tone": 35,
+          "RingDec": 100,
+          "RingRat": 100
         },
         "generator_sha256": "29f0d6ade674bd10a93c15b3031569389d0d436448f3bbfd5430e24c09cec366",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 9023
+        "frames": 9023,
+        "name": "Tight Rim Click",
+        "genre": "Minimal House"
       },
       {
         "generator": "Gen_Perc_07_Rim.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_07_Rim/Demo-2.wav",
         "parameters": {
-          "Model": 3.0,
-          "Tune": -5.0,
-          "Decay": 45.0,
+          "Model": 3,
+          "Tune": -5,
+          "Decay": 45,
           "Attack": 0.25,
-          "Balance": 50.0,
-          "Tone": 60.0,
-          "RingDec": 100.0,
-          "RingRat": 100.0
+          "Balance": 50,
+          "Tone": 60,
+          "RingDec": 100,
+          "RingRat": 100
         },
         "generator_sha256": "29f0d6ade674bd10a93c15b3031569389d0d436448f3bbfd5430e24c09cec366",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 9070
+        "frames": 9070,
+        "name": "Low Rim Knock",
+        "genre": "Dub Techno"
       },
       {
         "generator": "Gen_Perc_07_Rim.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_07_Rim/Demo-3.wav",
         "parameters": {
-          "Model": 6.0,
-          "Tune": 7.0,
-          "Decay": 45.0,
+          "Model": 6,
+          "Tune": 7,
+          "Decay": 45,
           "Attack": 0.25,
-          "Balance": 50.0,
-          "Tone": 80.0,
-          "RingDec": 100.0,
-          "RingRat": 100.0
+          "Balance": 50,
+          "Tone": 80,
+          "RingDec": 100,
+          "RingRat": 100
         },
         "generator_sha256": "29f0d6ade674bd10a93c15b3031569389d0d436448f3bbfd5430e24c09cec366",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 9000
+        "frames": 9000,
+        "name": "Bright Rim Shot",
+        "genre": "Breakbeat"
       }
     ],
     "missing": 0
@@ -1425,52 +1479,58 @@
         "generator": "Gen_Perc_08_Claves.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_08_Claves/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 60.0,
-          "Attack": 0.0,
-          "Balance": 0.0,
-          "Tone": 35.0,
-          "P Bend": 0.0,
-          "Hard": 40.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 60,
+          "Attack": 0,
+          "Balance": 0,
+          "Tone": 35,
+          "P Bend": 0,
+          "Hard": 40
         },
         "generator_sha256": "50d21d5dfad1eece1397a530e59b50464d3a02a778038df7fa8115fa1fb27c7d",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 10442
+        "frames": 10442,
+        "name": "Wooden Clave Tick",
+        "genre": "Latin House"
       },
       {
         "generator": "Gen_Perc_08_Claves.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_08_Claves/Demo-2.wav",
         "parameters": {
-          "Model": 2.0,
-          "Tune": -5.0,
-          "Decay": 60.0,
-          "Attack": 0.0,
-          "Balance": 0.0,
-          "Tone": 60.0,
-          "P Bend": 0.0,
-          "Hard": 40.0
+          "Model": 2,
+          "Tune": -5,
+          "Decay": 60,
+          "Attack": 0,
+          "Balance": 0,
+          "Tone": 60,
+          "P Bend": 0,
+          "Hard": 40
         },
         "generator_sha256": "50d21d5dfad1eece1397a530e59b50464d3a02a778038df7fa8115fa1fb27c7d",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 11728
+        "frames": 11728,
+        "name": "Low Clave Knock",
+        "genre": "Downtempo"
       },
       {
         "generator": "Gen_Perc_08_Claves.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_08_Claves/Demo-3.wav",
         "parameters": {
-          "Model": 4.0,
-          "Tune": 7.0,
-          "Decay": 60.0,
-          "Attack": 0.0,
-          "Balance": 0.0,
-          "Tone": 80.0,
-          "P Bend": 0.0,
-          "Hard": 40.0
+          "Model": 4,
+          "Tune": 7,
+          "Decay": 60,
+          "Attack": 0,
+          "Balance": 0,
+          "Tone": 80,
+          "P Bend": 0,
+          "Hard": 40
         },
         "generator_sha256": "50d21d5dfad1eece1397a530e59b50464d3a02a778038df7fa8115fa1fb27c7d",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 10427
+        "frames": 10427,
+        "name": "Bright Clave Click",
+        "genre": "Afro House"
       }
     ],
     "missing": 0
@@ -1483,52 +1543,58 @@
         "generator": "Gen_Perc_09_Cowbell.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_09_Cowbell/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 220.0,
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 220,
           "Attack": 0.5,
-          "Balance": 0.0,
-          "Tone": 35.0,
-          "DmpTilt": 0.0,
-          "Ratio": 1.0
+          "Balance": 0,
+          "Tone": 35,
+          "DmpTilt": 0,
+          "Ratio": 1
         },
         "generator_sha256": "70fc8f9f0af55024fe976b34d4e36c63b5060fb001591bcc187209ceea7752ad",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 22015
+        "frames": 22015,
+        "name": "Classic Cowbell Pulse",
+        "genre": "Electro"
       },
       {
         "generator": "Gen_Perc_09_Cowbell.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_09_Cowbell/Demo-2.wav",
         "parameters": {
-          "Model": 3.0,
-          "Tune": -5.0,
-          "Decay": 220.0,
+          "Model": 3,
+          "Tune": -5,
+          "Decay": 220,
           "Attack": 0.5,
-          "Balance": 0.0,
-          "Tone": 60.0,
-          "DmpTilt": 0.0,
-          "Ratio": 1.0
+          "Balance": 0,
+          "Tone": 60,
+          "DmpTilt": 0,
+          "Ratio": 1
         },
         "generator_sha256": "70fc8f9f0af55024fe976b34d4e36c63b5060fb001591bcc187209ceea7752ad",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 22023
+        "frames": 22023,
+        "name": "Low Bell Knock",
+        "genre": "Industrial"
       },
       {
         "generator": "Gen_Perc_09_Cowbell.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_09_Cowbell/Demo-3.wav",
         "parameters": {
-          "Model": 6.0,
-          "Tune": 7.0,
-          "Decay": 220.0,
+          "Model": 6,
+          "Tune": 7,
+          "Decay": 220,
           "Attack": 0.5,
-          "Balance": 0.0,
-          "Tone": 80.0,
-          "DmpTilt": 0.0,
-          "Ratio": 1.0
+          "Balance": 0,
+          "Tone": 80,
+          "DmpTilt": 0,
+          "Ratio": 1
         },
         "generator_sha256": "70fc8f9f0af55024fe976b34d4e36c63b5060fb001591bcc187209ceea7752ad",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 21658
+        "frames": 21658,
+        "name": "Bright Cowbell Ring",
+        "genre": "Disco"
       }
     ],
     "missing": 0
@@ -1541,52 +1607,58 @@
         "generator": "Gen_Perc_10_Bell.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_10_Bell/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
+          "Model": 0,
+          "Tune": 0,
           "Decay": 0.5,
-          "Attack": 1.0,
-          "Balance": 50.0,
-          "Tone": 35.0,
-          "DmpTilt": 0.0,
-          "Inharm": 50.0
+          "Attack": 1,
+          "Balance": 50,
+          "Tone": 35,
+          "DmpTilt": 0,
+          "Inharm": 50
         },
         "generator_sha256": "e46879732aa7506724deb51019f9bc085cdb168962e38bc247f7afacad29a1e8",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 33964
+        "frames": 33964,
+        "name": "Soft Metal Bell",
+        "genre": "Ambient"
       },
       {
         "generator": "Gen_Perc_10_Bell.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_10_Bell/Demo-2.wav",
         "parameters": {
-          "Model": 3.0,
-          "Tune": -5.0,
+          "Model": 3,
+          "Tune": -5,
           "Decay": 0.5,
-          "Attack": 1.0,
-          "Balance": 50.0,
-          "Tone": 60.0,
-          "DmpTilt": 0.0,
-          "Inharm": 50.0
+          "Attack": 1,
+          "Balance": 50,
+          "Tone": 60,
+          "DmpTilt": 0,
+          "Inharm": 50
         },
         "generator_sha256": "e46879732aa7506724deb51019f9bc085cdb168962e38bc247f7afacad29a1e8",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 34033
+        "frames": 34033,
+        "name": "Low Bell Chime",
+        "genre": "Downtempo"
       },
       {
         "generator": "Gen_Perc_10_Bell.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_10_Bell/Demo-3.wav",
         "parameters": {
-          "Model": 6.0,
-          "Tune": 7.0,
+          "Model": 6,
+          "Tune": 7,
           "Decay": 0.5,
-          "Attack": 1.0,
-          "Balance": 50.0,
-          "Tone": 80.0,
-          "DmpTilt": 0.0,
-          "Inharm": 50.0
+          "Attack": 1,
+          "Balance": 50,
+          "Tone": 80,
+          "DmpTilt": 0,
+          "Inharm": 50
         },
         "generator_sha256": "e46879732aa7506724deb51019f9bc085cdb168962e38bc247f7afacad29a1e8",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 35383
+        "frames": 35383,
+        "name": "High Shimmer Bell",
+        "genre": "IDM"
       }
     ],
     "missing": 0
@@ -1599,52 +1671,58 @@
         "generator": "Gen_Perc_11_Cymbal.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_11_Cymbal/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 1200.0,
-          "Attack": 1.0,
-          "Balance": 70.0,
-          "Tone": 35.0,
-          "DmpTilt": 0.0,
-          "Density": 60.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 1200,
+          "Attack": 1,
+          "Balance": 70,
+          "Tone": 35,
+          "DmpTilt": 0,
+          "Density": 60
         },
         "generator_sha256": "fa89d5e33e5427b1efadebd1e12b0b18b75d93839158e18317f07a485390768c",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 86060
+        "frames": 86060,
+        "name": "Dark Cymbal Wash",
+        "genre": "Ambient"
       },
       {
         "generator": "Gen_Perc_11_Cymbal.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_11_Cymbal/Demo-2.wav",
         "parameters": {
-          "Model": 4.0,
-          "Tune": -5.0,
-          "Decay": 1200.0,
-          "Attack": 1.0,
-          "Balance": 70.0,
-          "Tone": 60.0,
-          "DmpTilt": 0.0,
-          "Density": 60.0
+          "Model": 4,
+          "Tune": -5,
+          "Decay": 1200,
+          "Attack": 1,
+          "Balance": 70,
+          "Tone": 60,
+          "DmpTilt": 0,
+          "Density": 60
         },
         "generator_sha256": "fa89d5e33e5427b1efadebd1e12b0b18b75d93839158e18317f07a485390768c",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 86077
+        "frames": 86077,
+        "name": "Low Metallic Wash",
+        "genre": "Industrial"
       },
       {
         "generator": "Gen_Perc_11_Cymbal.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_11_Cymbal/Demo-3.wav",
         "parameters": {
-          "Model": 8.0,
-          "Tune": 7.0,
-          "Decay": 1200.0,
-          "Attack": 1.0,
-          "Balance": 70.0,
-          "Tone": 80.0,
-          "DmpTilt": 0.0,
-          "Density": 60.0
+          "Model": 8,
+          "Tune": 7,
+          "Decay": 1200,
+          "Attack": 1,
+          "Balance": 70,
+          "Tone": 80,
+          "DmpTilt": 0,
+          "Density": 60
         },
         "generator_sha256": "fa89d5e33e5427b1efadebd1e12b0b18b75d93839158e18317f07a485390768c",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 89163
+        "frames": 89163,
+        "name": "Bright Cymbal Shimmer",
+        "genre": "Techno"
       }
     ],
     "missing": 0
@@ -1657,52 +1735,58 @@
         "generator": "Gen_Perc_12_Crash.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_12_Crash/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
+          "Model": 0,
+          "Tune": 0,
           "Decay": 0.44999998807907104,
-          "Attack": 1.0,
-          "Balance": 60.0,
-          "Tone": 35.0,
-          "Bloom": 30.0,
-          "Spread": 50.0
+          "Attack": 1,
+          "Balance": 60,
+          "Tone": 35,
+          "Bloom": 30,
+          "Spread": 50
         },
         "generator_sha256": "dcd60f9abcc81b65693b2ba56913720affdc2327b206161d38b62b8309d86e68",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 40927
+        "frames": 40927,
+        "name": "Deep Crash Bloom",
+        "genre": "Cinematic"
       },
       {
         "generator": "Gen_Perc_12_Crash.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_12_Crash/Demo-2.wav",
         "parameters": {
-          "Model": 3.0,
-          "Tune": -5.0,
+          "Model": 3,
+          "Tune": -5,
           "Decay": 0.44999998807907104,
-          "Attack": 1.0,
-          "Balance": 60.0,
-          "Tone": 60.0,
-          "Bloom": 30.0,
-          "Spread": 50.0
+          "Attack": 1,
+          "Balance": 60,
+          "Tone": 60,
+          "Bloom": 30,
+          "Spread": 50
         },
         "generator_sha256": "dcd60f9abcc81b65693b2ba56913720affdc2327b206161d38b62b8309d86e68",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 41453
+        "frames": 41453,
+        "name": "Low Crash Burst",
+        "genre": "Industrial"
       },
       {
         "generator": "Gen_Perc_12_Crash.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_12_Crash/Demo-3.wav",
         "parameters": {
-          "Model": 6.0,
-          "Tune": 7.0,
+          "Model": 6,
+          "Tune": 7,
           "Decay": 0.44999998807907104,
-          "Attack": 1.0,
-          "Balance": 60.0,
-          "Tone": 80.0,
-          "Bloom": 30.0,
-          "Spread": 50.0
+          "Attack": 1,
+          "Balance": 60,
+          "Tone": 80,
+          "Bloom": 30,
+          "Spread": 50
         },
         "generator_sha256": "dcd60f9abcc81b65693b2ba56913720affdc2327b206161d38b62b8309d86e68",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 40328
+        "frames": 40328,
+        "name": "Bright Impact Crash",
+        "genre": "Drum and Bass"
       }
     ],
     "missing": 0
@@ -1715,52 +1799,58 @@
         "generator": "Gen_Perc_13_Ride.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_13_Ride/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 900.0,
-          "Attack": 1.0,
-          "Balance": 50.0,
-          "Tone": 35.0,
-          "WashDec": 100.0,
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 900,
+          "Attack": 1,
+          "Balance": 50,
+          "Tone": 35,
+          "WashDec": 100,
           "BellRat": 1.4830000400543213
         },
         "generator_sha256": "49ff2a1899ba8d3e1ea083c01d51d9db18c0fa24d76fe91c59a1e8555e6eefef",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 68923
+        "frames": 68923,
+        "name": "Steady Ride Wash",
+        "genre": "Jazz House"
       },
       {
         "generator": "Gen_Perc_13_Ride.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_13_Ride/Demo-2.wav",
         "parameters": {
-          "Model": 3.0,
-          "Tune": -5.0,
-          "Decay": 900.0,
-          "Attack": 1.0,
-          "Balance": 50.0,
-          "Tone": 60.0,
-          "WashDec": 100.0,
+          "Model": 3,
+          "Tune": -5,
+          "Decay": 900,
+          "Attack": 1,
+          "Balance": 50,
+          "Tone": 60,
+          "WashDec": 100,
           "BellRat": 1.4830000400543213
         },
         "generator_sha256": "49ff2a1899ba8d3e1ea083c01d51d9db18c0fa24d76fe91c59a1e8555e6eefef",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 68683
+        "frames": 68683,
+        "name": "Low Ride Pulse",
+        "genre": "Deep House"
       },
       {
         "generator": "Gen_Perc_13_Ride.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_13_Ride/Demo-3.wav",
         "parameters": {
-          "Model": 6.0,
-          "Tune": 7.0,
-          "Decay": 900.0,
-          "Attack": 1.0,
-          "Balance": 50.0,
-          "Tone": 80.0,
-          "WashDec": 100.0,
+          "Model": 6,
+          "Tune": 7,
+          "Decay": 900,
+          "Attack": 1,
+          "Balance": 50,
+          "Tone": 80,
+          "WashDec": 100,
           "BellRat": 1.4830000400543213
         },
         "generator_sha256": "49ff2a1899ba8d3e1ea083c01d51d9db18c0fa24d76fe91c59a1e8555e6eefef",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 70314
+        "frames": 70314,
+        "name": "Bright Ride Bell",
+        "genre": "Techno"
       }
     ],
     "missing": 0
@@ -1773,52 +1863,58 @@
         "generator": "Gen_Perc_14_Maracas.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_14_Maracas/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 75.0,
-          "Attack": 1.0,
-          "Balance": 35.0,
-          "Tone": 35.0,
-          "BurstTm": 25.0,
-          "Density": 8.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 75,
+          "Attack": 1,
+          "Balance": 35,
+          "Tone": 35,
+          "BurstTm": 25,
+          "Density": 8
         },
         "generator_sha256": "f59a493b78becd191745f7763eb5124cea8ee51e0d29776c5446728eacd30a38",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 11119
+        "frames": 11119,
+        "name": "Soft Shaker Burst",
+        "genre": "Downtempo"
       },
       {
         "generator": "Gen_Perc_14_Maracas.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_14_Maracas/Demo-2.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": -5.0,
-          "Decay": 75.0,
-          "Attack": 1.0,
-          "Balance": 35.0,
-          "Tone": 60.0,
-          "BurstTm": 25.0,
-          "Density": 8.0
+          "Model": 0,
+          "Tune": -5,
+          "Decay": 75,
+          "Attack": 1,
+          "Balance": 35,
+          "Tone": 60,
+          "BurstTm": 25,
+          "Density": 8
         },
         "generator_sha256": "f59a493b78becd191745f7763eb5124cea8ee51e0d29776c5446728eacd30a38",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 11119
+        "frames": 11119,
+        "name": "Low Shaker Shuffle",
+        "genre": "Afro House"
       },
       {
         "generator": "Gen_Perc_14_Maracas.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_14_Maracas/Demo-3.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 7.0,
-          "Decay": 75.0,
-          "Attack": 1.0,
-          "Balance": 35.0,
-          "Tone": 80.0,
-          "BurstTm": 25.0,
-          "Density": 8.0
+          "Model": 0,
+          "Tune": 7,
+          "Decay": 75,
+          "Attack": 1,
+          "Balance": 35,
+          "Tone": 80,
+          "BurstTm": 25,
+          "Density": 8
         },
         "generator_sha256": "f59a493b78becd191745f7763eb5124cea8ee51e0d29776c5446728eacd30a38",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 11119
+        "frames": 11119,
+        "name": "Bright Maraca Shake",
+        "genre": "Latin House"
       }
     ],
     "missing": 0
@@ -1831,52 +1927,58 @@
         "generator": "Gen_Perc_15_Zap.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_15_Zap/Demo-1.wav",
         "parameters": {
-          "Model": 0.0,
-          "Tune": 0.0,
-          "Decay": 220.0,
-          "Attack": 0.0,
-          "Balance": 50.0,
-          "Tone": 35.0,
-          "Sweep": 12.0,
-          "SwpTime": 120.0
+          "Model": 0,
+          "Tune": 0,
+          "Decay": 220,
+          "Attack": 0,
+          "Balance": 50,
+          "Tone": 35,
+          "Sweep": 12,
+          "SwpTime": 120
         },
         "generator_sha256": "50827753c8b36fca06f7e057f62bdfd46aa16cc635b827ada06a758eb9f283ee",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 22156
+        "frames": 22156,
+        "name": "Classic Laser Zap",
+        "genre": "Electro"
       },
       {
         "generator": "Gen_Perc_15_Zap.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_15_Zap/Demo-2.wav",
         "parameters": {
-          "Model": 2.0,
-          "Tune": -5.0,
-          "Decay": 220.0,
-          "Attack": 0.0,
-          "Balance": 50.0,
-          "Tone": 60.0,
-          "Sweep": 12.0,
-          "SwpTime": 120.0
+          "Model": 2,
+          "Tune": -5,
+          "Decay": 220,
+          "Attack": 0,
+          "Balance": 50,
+          "Tone": 60,
+          "Sweep": 12,
+          "SwpTime": 120
         },
         "generator_sha256": "50827753c8b36fca06f7e057f62bdfd46aa16cc635b827ada06a758eb9f283ee",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 22158
+        "frames": 22158,
+        "name": "Low Zap Sweep",
+        "genre": "IDM"
       },
       {
         "generator": "Gen_Perc_15_Zap.ptfx",
         "destination": "Audio/Percussion/Gen_Perc_15_Zap/Demo-3.wav",
         "parameters": {
-          "Model": 4.0,
-          "Tune": 7.0,
-          "Decay": 220.0,
-          "Attack": 0.0,
-          "Balance": 50.0,
-          "Tone": 80.0,
-          "Sweep": 12.0,
-          "SwpTime": 120.0
+          "Model": 4,
+          "Tune": 7,
+          "Decay": 220,
+          "Attack": 0,
+          "Balance": 50,
+          "Tone": 80,
+          "Sweep": 12,
+          "SwpTime": 120
         },
         "generator_sha256": "50827753c8b36fca06f7e057f62bdfd46aa16cc635b827ada06a758eb9f283ee",
         "processing": "Exact rendered PCM, with 150 ms trailing silence",
-        "frames": 21865
+        "frames": 21865,
+        "name": "High Arcade Zap",
+        "genre": "Chiptune"
       }
     ],
     "missing": 0
