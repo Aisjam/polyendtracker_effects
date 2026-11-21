@@ -212,9 +212,9 @@ File: [`Gen_05_PHASE_WT.ptfx`](Generators/Synth/Gen_05_PHASE_WT.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](Audio/Synth/Gen_05_PHASE_WT/Demo-1.wav) — Classic Saw:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
-- **[Demo 2](Audio/Synth/Gen_05_PHASE_WT/Demo-2.wav) — Classic Res1:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
-- **[Demo 3](Audio/Synth/Gen_05_PHASE_WT/Demo-3.wav) — Extended Formant:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
+- **[Classic Saw Sweep](Audio/Synth/Gen_05_PHASE_WT/Demo-1.wav) — *Synthwave* · Classic Saw:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
+- **[Resonant Phase Sweep](Audio/Synth/Gen_05_PHASE_WT/Demo-2.wav) — *Techno* · Classic Res1:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
+- **[Extended Formant Sweep](Audio/Synth/Gen_05_PHASE_WT/Demo-3.wav) — *IDM* · Extended Formant:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
 
 For sharp digital basses, glassy tones and unusual moving shapes. It reshapes the timing within each wave cycle using 32 phase-shaping modes. Family chooses the left or right half of each paired Mode name. Some modes do not use every shaping control.
 
@@ -585,9 +585,9 @@ File: [`Gen_16_SUNSOFT.ptfx`](Generators/Synth/Gen_16_SUNSOFT.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Longer generated samples and more complex models increase the work.
 
-- **[Demo 1](Audio/Synth/Gen_16_SUNSOFT/Demo-1.wav) — Note chain 1:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
-- **[Demo 2](Audio/Synth/Gen_16_SUNSOFT/Demo-2.wav) — Note chain 2:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
-- **[Demo 3](Audio/Synth/Gen_16_SUNSOFT/Demo-3.wav) — Note chain 3:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
+- **[Sunsoft Note Cascade](Audio/Synth/Gen_16_SUNSOFT/Demo-1.wav) — *Chiptune* · Note chain 1:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
+- **[Retro Scale Runner](Audio/Synth/Gen_16_SUNSOFT/Demo-2.wav) — *Chiptune* · Note chain 2:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
+- **[Arcade Pitch Ladder](Audio/Synth/Gen_16_SUNSOFT/Demo-3.wav) — *Synthwave* · Note chain 3:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
 
 For crunchy game-style bass notes. It repitches an embedded sample into a chosen scale and passes each note through NES-style DPCM conversion. It makes a note chain, not a wavetable. Use Equal Slice: Chromatic = 12, Major/Minor/Dorian = 7, pentatonic scales = 5, Blues = 6. Reslice after changing Scale.
 
@@ -1172,9 +1172,9 @@ File: [`Gen_Perc_01_Kick.ptfx`](Generators/Percussion/Gen_Perc_01_Kick.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_01_Kick/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_01_Kick/Demo-2.wav) — Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_01_Kick/Demo-3.wav) — Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Sub Foundation](Audio/Percussion/Gen_Perc_01_Kick/Demo-1.wav) — *Techno* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Floor Driver](Audio/Percussion/Gen_Perc_01_Kick/Demo-2.wav) — *House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Punch Kick](Audio/Percussion/Gen_Perc_01_Kick/Demo-3.wav) — *Hard Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For designing a single bass drum. Choose a sine-based, digital, chip, FM, phase, PCM or wave-based model, then shape the body, click and falling pitch.
 
@@ -1203,9 +1203,9 @@ File: [`Gen_Perc_02_Snare.ptfx`](Generators/Percussion/Gen_Perc_02_Snare.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_02_Snare/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_02_Snare/Demo-2.wav) — Model 5, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_02_Snare/Demo-3.wav) — Model 10, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Dry Wire Snap](Audio/Percussion/Gen_Perc_02_Snare/Demo-1.wav) — *Breakbeat* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Body Crack](Audio/Percussion/Gen_Perc_02_Snare/Demo-2.wav) — *Drum and Bass* · Model 5, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Snare Strike](Audio/Percussion/Gen_Perc_02_Snare/Demo-3.wav) — *Jungle* · Model 10, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For one snare with control over its body and noisy wires. Models use different combinations of oscillators, noise, FM, chip programs or PCM playback.
 
@@ -1234,9 +1234,9 @@ File: [`Gen_Perc_03_Clap.ptfx`](Generators/Percussion/Gen_Perc_03_Clap.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_03_Clap/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_03_Clap/Demo-2.wav) — Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_03_Clap/Demo-3.wav) — Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Tight Handclap](Audio/Percussion/Gen_Perc_03_Clap/Demo-1.wav) — *House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Burst Clap](Audio/Percussion/Gen_Perc_03_Clap/Demo-2.wav) — *Lo-Fi House* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Crowd Clap](Audio/Percussion/Gen_Perc_03_Clap/Demo-3.wav) — *Disco House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For handclap-style hits and burst effects. Several short bursts lead into a tail. Different models use filtered noise, chip noise, FM, phase shaping or PCM layers.
 
@@ -1265,9 +1265,9 @@ File: [`Gen_Perc_04_Hat.ptfx`](Generators/Percussion/Gen_Perc_04_Hat.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_04_Hat/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_04_Hat/Demo-2.wav) — Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_04_Hat/Demo-3.wav) — Model 9, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Dry Hat Tick](Audio/Percussion/Gen_Perc_04_Hat/Demo-1.wav) — *Minimal Techno* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Metallic Hat](Audio/Percussion/Gen_Perc_04_Hat/Demo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Hat Spark](Audio/Percussion/Gen_Perc_04_Hat/Demo-3.wav) — *House* · Model 9, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For short closed hats or longer open-hat sounds. It blends noisy and metallic parts, or shapes PCM hat material, with separate controls for the metallic tail.
 
@@ -1296,9 +1296,9 @@ File: [`Gen_Perc_05_Tom.ptfx`](Generators/Percussion/Gen_Perc_05_Tom.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_05_Tom/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_05_Tom/Demo-2.wav) — Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_05_Tom/Demo-3.wav) — Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Round Floor Tom](Audio/Percussion/Gen_Perc_05_Tom/Demo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Tom Pulse](Audio/Percussion/Gen_Perc_05_Tom/Demo-2.wav) — *Techno* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Tribal Tom](Audio/Percussion/Gen_Perc_05_Tom/Demo-3.wav) — *Tribal House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For tuned fills and rounded percussion. Different ringing, digital and PCM models make a drum body with a controllable pitch bend and resonance.
 
@@ -1327,9 +1327,9 @@ File: [`Gen_Perc_06_Conga.ptfx`](Generators/Percussion/Gen_Perc_06_Conga.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_06_Conga/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_06_Conga/Demo-2.wav) — Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_06_Conga/Demo-3.wav) — Model 1, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Warm Conga Tap](Audio/Percussion/Gen_Perc_06_Conga/Demo-1.wav) — *Afro House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Conga Knock](Audio/Percussion/Gen_Perc_06_Conga/Demo-2.wav) — *Downtempo* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[High Conga Pop](Audio/Percussion/Gen_Perc_06_Conga/Demo-3.wav) — *Latin House* · Model 1, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For rounded hand-drum-style hits. Two related tone models make a body and strike, with a short pitch bend and adjustable body colour.
 
@@ -1358,9 +1358,9 @@ File: [`Gen_Perc_07_Rim.ptfx`](Generators/Percussion/Gen_Perc_07_Rim.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_07_Rim/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_07_Rim/Demo-2.wav) — Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_07_Rim/Demo-3.wav) — Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Tight Rim Click](Audio/Percussion/Gen_Perc_07_Rim/Demo-1.wav) — *Minimal House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Rim Knock](Audio/Percussion/Gen_Perc_07_Rim/Demo-2.wav) — *Dub Techno* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Rim Shot](Audio/Percussion/Gen_Perc_07_Rim/Demo-3.wav) — *Breakbeat* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For tight rimshots, clicks and ringing stick sounds. Different models combine a short strike with a ringing body. Ring controls shape the second part; the PCM model adds a resonator to its recorded hit.
 
@@ -1389,9 +1389,9 @@ File: [`Gen_Perc_08_Claves.ptfx`](Generators/Percussion/Gen_Perc_08_Claves.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_08_Claves/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_08_Claves/Demo-2.wav) — Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_08_Claves/Demo-3.wav) — Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Wooden Clave Tick](Audio/Percussion/Gen_Perc_08_Claves/Demo-1.wav) — *Latin House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Clave Knock](Audio/Percussion/Gen_Perc_08_Claves/Demo-2.wav) — *Downtempo* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Clave Click](Audio/Percussion/Gen_Perc_08_Claves/Demo-3.wav) — *Afro House* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For short wooden clicks and pitched accents. Tonal and chip-style models make a brief strike with a small ringing body. Hard changes the attack character.
 
@@ -1420,9 +1420,9 @@ File: [`Gen_Perc_09_Cowbell.ptfx`](Generators/Percussion/Gen_Perc_09_Cowbell.ptf
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-2.wav) — Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-3.wav) — Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Classic Cowbell Pulse](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-1.wav) — *Electro* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Bell Knock](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Cowbell Ring](Audio/Percussion/Gen_Perc_09_Cowbell/Demo-3.wav) — *Disco* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For clanging rhythmic accents. Paired tones or PCM bands create low and high components. Their balance, tuning relationship and damping set the clang.
 
@@ -1451,9 +1451,9 @@ File: [`Gen_Perc_10_Bell.ptfx`](Generators/Percussion/Gen_Perc_10_Bell.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_10_Bell/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_10_Bell/Demo-2.wav) — Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_10_Bell/Demo-3.wav) — Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Soft Metal Bell](Audio/Percussion/Gen_Perc_10_Bell/Demo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Bell Chime](Audio/Percussion/Gen_Perc_10_Bell/Demo-2.wav) — *Downtempo* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[High Shimmer Bell](Audio/Percussion/Gen_Perc_10_Bell/Demo-3.wav) — *IDM* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For ringing bell-like accents. Paired tones, digital shaping or processed PCM produce a strike and a longer body. Inharm changes how closely the upper tones relate to the main pitch.
 
@@ -1482,9 +1482,9 @@ File: [`Gen_Perc_11_Cymbal.ptfx`](Generators/Percussion/Gen_Perc_11_Cymbal.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-2.wav) — Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-3.wav) — Model 8, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Dark Cymbal Wash](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Metallic Wash](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Cymbal Shimmer](Audio/Percussion/Gen_Perc_11_Cymbal/Demo-3.wav) — *Techno* · Model 8, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For metallic hits and noisy washes. Oscillator, noise, FM, chip and PCM models offer different kinds of metal, with density and damping controls.
 
@@ -1513,9 +1513,9 @@ File: [`Gen_Perc_12_Crash.ptfx`](Generators/Percussion/Gen_Perc_12_Crash.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_12_Crash/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_12_Crash/Demo-2.wav) — Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_12_Crash/Demo-3.wav) — Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Deep Crash Bloom](Audio/Percussion/Gen_Perc_12_Crash/Demo-1.wav) — *Cinematic* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Crash Burst](Audio/Percussion/Gen_Perc_12_Crash/Demo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Impact Crash](Audio/Percussion/Gen_Perc_12_Crash/Demo-3.wav) — *Drum and Bass* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For impact accents that open into a wash. It uses synthetic, chip or PCM metal sources. Bloom lets the wash rise and last longer; Spread changes the sound within a mono sample.
 
@@ -1544,9 +1544,9 @@ File: [`Gen_Perc_13_Ride.ptfx`](Generators/Percussion/Gen_Perc_13_Ride.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_13_Ride/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_13_Ride/Demo-2.wav) — Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_13_Ride/Demo-3.wav) — Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Steady Ride Wash](Audio/Percussion/Gen_Perc_13_Ride/Demo-1.wav) — *Jazz House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Ride Pulse](Audio/Percussion/Gen_Perc_13_Ride/Demo-2.wav) — *Deep House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Ride Bell](Audio/Percussion/Gen_Perc_13_Ride/Demo-3.wav) — *Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For a clear ping over a longer cymbal wash. Different tone, chip, FM, phase and PCM models provide the source. Balance and WashDec let the ping or wash lead.
 
@@ -1575,9 +1575,9 @@ File: [`Gen_Perc_14_Maracas.ptfx`](Generators/Percussion/Gen_Perc_14_Maracas.ptf
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_14_Maracas/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_14_Maracas/Demo-2.wav) — Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_14_Maracas/Demo-3.wav) — Model 0, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Soft Shaker Burst](Audio/Percussion/Gen_Perc_14_Maracas/Demo-1.wav) — *Downtempo* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Shaker Shuffle](Audio/Percussion/Gen_Perc_14_Maracas/Demo-2.wav) — *Afro House* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Maraca Shake](Audio/Percussion/Gen_Perc_14_Maracas/Demo-3.wav) — *Latin House* · Model 0, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For a single shaker gesture. The Eight model uses filtered noise with an initial hit and a group of small grains. Density and BurstTm control the rattle. Eight is intentionally the only model.
 
@@ -1606,9 +1606,9 @@ File: [`Gen_Perc_15_Zap.ptfx`](Generators/Percussion/Gen_Perc_15_Zap.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Demo 1](Audio/Percussion/Gen_Perc_15_Zap/Demo-1.wav) — Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 2](Audio/Percussion/Gen_Perc_15_Zap/Demo-2.wav) — Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Demo 3](Audio/Percussion/Gen_Perc_15_Zap/Demo-3.wav) — Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Classic Laser Zap](Audio/Percussion/Gen_Perc_15_Zap/Demo-1.wav) — *Electro* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Zap Sweep](Audio/Percussion/Gen_Perc_15_Zap/Demo-2.wav) — *IDM* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[High Arcade Zap](Audio/Percussion/Gen_Perc_15_Zap/Demo-3.wav) — *Chiptune* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 For laser hits, disco tom effects and falling electronic blips. Sine, chip, FM, phase and wave-based models follow a strong downward pitch sweep.
 
