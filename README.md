@@ -14,6 +14,16 @@ These generators grew out of the synthesizers and drum engines I developed for *
 
 The Polyend versions adapt those ideas to the Tracker's sample-generation workflow and parameter controls. They aren't necessarily identical, feature-for-feature ports of the Contour instruments; they're another way to explore the synthesis engines and make sounds to use in your own music.
 
+## Support the project
+
+The generators and effects in this repository are free to explore, use and experiment with. If you enjoy them and would like to support my work, I've also put together a **[Polyend Tracker Generator Instrument Pack](https://aisjam.gumroad.com/l/polyendtracker_generator_pack)** on Gumroad, with both **free and paid sounds created using these generators**.
+
+**[Explore the free and paid sound packs on Gumroad](https://aisjam.gumroad.com/l/polyendtracker_generator_pack)**
+
+Your support is genuinely appreciated. Every purchase helps me spend more time developing and sharing new effects, generators and sounds for the Polyend Tracker. It also helps fund **Contour – Visual Tracker**, my independent music-making project where many of these synthesis ideas began.
+
+Whether you download the free sounds, buy a pack, share the project or simply make music with these tools, thank you for being part of it.
+
 ## Listen to the audio demos
 
 **[▶ Open the interactive audio demo browser](https://aisjam.github.io/polyendtracker_Effects/)** — preview Synth, Drum and Percussion generators before downloading. Search by generator, genre or demo name, and play all three WAV examples for each generator directly in your browser.
