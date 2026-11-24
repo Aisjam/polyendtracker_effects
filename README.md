@@ -26,7 +26,7 @@ Whether you download the free sounds, buy a pack, share the project or simply ma
 
 ## Listen to the audio demos
 
-**[▶ Open the interactive audio demo browser](https://aisjam.github.io/polyendtracker_Effects/)** — preview Synth, Drum and Percussion generators before downloading. Search by generator, genre or demo name, and play all three WAV examples for each generator directly in your browser.
+**[▶ Open the interactive audio demo browser](https://aisjam.github.io/polyendtracker_effects/)** — preview Synth, Drum and Percussion generators before downloading. Search by generator, genre or demo name, and play all three WAV examples for each generator directly in your browser.
 
 **Each linked demo below opens the web player directly at that sound.** You can also use the small **Link** control beside a sound in the browser to share its preview. The original WAV files remain in [Audio/](Audio/) for downloading.
 
@@ -94,9 +94,9 @@ File: [`Gen_01_OSC.ptfx`](Generators/Synth/Gen_01_OSC.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). A single cycle is very small; longer sample settings take more work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_01_OSC%2FDemo-1.wav) — HollowFoundation:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_01_OSC%2FDemo-2.wav) — BiasedFoldFlutter:** PTI preview: looping sustains the generated source; the volume envelope adds a 20 ms attack and 180 ms release; a band-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_01_OSC%2FDemo-3.wav) — HalfSineWoodBurnished:** PTI preview: looping sustains the generated source; the volume envelope adds a 3 ms attack and 1000 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_01_OSC%2FDemo-1.wav) — HollowFoundation:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_01_OSC%2FDemo-2.wav) — BiasedFoldFlutter:** PTI preview: looping sustains the generated source; the volume envelope adds a 20 ms attack and 180 ms release; a band-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_01_OSC%2FDemo-3.wav) — HalfSineWoodBurnished:** PTI preview: looping sustains the generated source; the volume envelope adds a 3 ms attack and 1000 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit.
 
 **Simply explained:** A starting point for basses, leads and chip sounds. It makes one of 16 waveforms, then lets you bend, fold, sync and reduce its resolution. Choose a single cycle or a longer sample.
 
@@ -133,9 +133,9 @@ File: [`Gen_02_OSC_WT.ptfx`](Generators/Synth/Gen_02_OSC_WT.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_02_OSC_WT%2FDemo-1.wav) — RingCarousel:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_02_OSC_WT%2FDemo-2.wav) — SyncSpectrumBubble:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 3 ms attack and 100 ms release; a low-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_02_OSC_WT%2FDemo-3.wav) — SharkFin:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 5 ms attack and 160 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_02_OSC_WT%2FDemo-1.wav) — RingCarousel:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_02_OSC_WT%2FDemo-2.wav) — SyncSpectrumBubble:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 3 ms attack and 100 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_02_OSC_WT%2FDemo-3.wav) — SharkFin:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 5 ms attack and 160 ms release.
 
 **Simply explained:** A quick way to put many basic waveforms in one instrument. It makes 16 frames, one for each waveform, with the same shaping controls applied to them all. Scan Position to change waveform.
 
@@ -166,9 +166,9 @@ File: [`Gen_03_PWM_WT.ptfx`](Generators/Synth/Gen_03_PWM_WT.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_03_PWM_WT%2FDemo-1.wav) — SharkBite:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_03_PWM_WT%2FDemo-2.wav) — ElasticSquareBubble:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 3 ms attack and 100 ms release; a band-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_03_PWM_WT%2FDemo-3.wav) — TriangularDewCeremony:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 1 ms attack and 1200 ms release; a low-pass filter shapes the frequency balance.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_03_PWM_WT%2FDemo-1.wav) — SharkBite:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_03_PWM_WT%2FDemo-2.wav) — ElasticSquareBubble:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 3 ms attack and 100 ms release; a band-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_03_PWM_WT%2FDemo-3.wav) — TriangularDewCeremony:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 1 ms attack and 1200 ms release; a low-pass filter shapes the frequency balance.
 
 **Simply explained:** For hollow, moving leads and basses. It changes the width of the selected wave across a wavetable, then adds optional folding and drive.
 
@@ -196,9 +196,9 @@ File: [`Gen_04_FM_WT.ptfx`](Generators/Synth/Gen_04_FM_WT.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_04_FM_WT%2FDemo-1.wav) — FeedbackCoil:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_04_FM_WT%2FDemo-2.wav) — FeedbackWireDrill:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 90 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 10-bit playback adds digital grain.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_04_FM_WT%2FDemo-3.wav) — BasaltChoirFilament:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 1400 ms release; a high-pass filter moves with modulation to reshape brightness; 11-bit playback adds digital grain.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_04_FM_WT%2FDemo-1.wav) — FeedbackCoil:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_04_FM_WT%2FDemo-2.wav) — FeedbackWireDrill:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 90 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 10-bit playback adds digital grain.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_04_FM_WT%2FDemo-3.wav) — BasaltChoirFilament:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 1400 ms release; a high-pass filter moves with modulation to reshape brightness; 11-bit playback adds digital grain.
 
 **Simply explained:** For bells, bright basses and metallic digital tones. One oscillator bends the phase of another, giving an FM-style sound. The amount can change across the wavetable. C means carrier, the main tone; M means modulator, the wave shaping it.
 
@@ -238,9 +238,9 @@ File: [`Gen_05_PHASE_WT.ptfx`](Generators/Synth/Gen_05_PHASE_WT.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Classic Saw Sweep](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_05_PHASE_WT%2FDemo-1.wav) — *Synthwave* · Classic Saw:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
-- **[Resonant Phase Sweep](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_05_PHASE_WT%2FDemo-2.wav) — *Techno* · Classic Res1:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
-- **[Extended Formant Sweep](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_05_PHASE_WT%2FDemo-3.wav) — *IDM* · Extended Formant:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
+- **[Classic Saw Sweep](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_05_PHASE_WT%2FDemo-1.wav) — *Synthwave* · Classic Saw:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
+- **[Resonant Phase Sweep](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_05_PHASE_WT%2FDemo-2.wav) — *Techno* · Classic Res1:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
+- **[Extended Formant Sweep](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_05_PHASE_WT%2FDemo-3.wav) — *IDM* · Extended Formant:** Source audition: no PTI is used. The preview adds a three-second linear wavetable scan and short fades; a PTI Position envelope or LFO can provide similar movement during playback.
 
 **Simply explained:** For sharp digital basses, glassy tones and unusual moving shapes. It reshapes the timing within each wave cycle using 32 phase-shaping modes. Family chooses the left or right half of each paired Mode name. Some modes do not use every shaping control.
 
@@ -280,9 +280,9 @@ File: [`Gen_06_ACID_WT.ptfx`](Generators/Synth/Gen_06_ACID_WT.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_06_ACID_WT%2FDemo-1.wav) — DualAcidEngine:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_06_ACID_WT%2FDemo-2.wav) — CharcoalDust:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 160 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 4-bit playback adds digital grain.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_06_ACID_WT%2FDemo-3.wav) — DistantCurrentWeather:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 800 ms attack and 2000 ms release; a high-pass filter moves with modulation to reshape brightness; 9-bit playback adds digital grain.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_06_ACID_WT%2FDemo-1.wav) — DualAcidEngine:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_06_ACID_WT%2FDemo-2.wav) — CharcoalDust:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 160 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 4-bit playback adds digital grain.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_06_ACID_WT%2FDemo-3.wav) — DistantCurrentWeather:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 800 ms attack and 2000 ms release; a high-pass filter moves with modulation to reshape brightness; 9-bit playback adds digital grain.
 
 **Simply explained:** For squelchy acid bass and resonant leads. Saw and pulse sources feed a resonant filter-style sound, with different brightness sweeps spread across the wavetable.
 
@@ -313,9 +313,9 @@ File: [`Gen_07_SYNC_WT.ptfx`](Generators/Synth/Gen_07_SYNC_WT.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_07_SYNC_WT%2FDemo-1.wav) — ResetHammer:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_07_SYNC_WT%2FDemo-2.wav) — SharkAnchorAir:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_07_SYNC_WT%2FDemo-3.wav) — SawCathedralCavern:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 1700 ms attack and 2300 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_07_SYNC_WT%2FDemo-1.wav) — ResetHammer:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_07_SYNC_WT%2FDemo-2.wav) — SharkAnchorAir:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_07_SYNC_WT%2FDemo-3.wav) — SawCathedralCavern:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 1700 ms attack and 2300 ms release; a low-pass filter moves with modulation to reshape brightness.
 
 **Simply explained:** For cutting leads and tearing basses. It combines two waveforms with oscillator sync: one wave is repeatedly restarted by another. The sync movement is written into the frames.
 
@@ -352,9 +352,9 @@ File: [`Gen_08_WAV_WT.ptfx`](Generators/Synth/Gen_08_WAV_WT.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_08_WAV_WT%2FDemo-1.wav) — SquareToShark:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_08_WAV_WT%2FDemo-2.wav) — ParabolaRaspFlicker:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 2 ms attack and 120 ms release; a high-pass filter moves with modulation to reshape brightness; 6-bit playback adds digital grain.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_08_WAV_WT%2FDemo-3.wav) — HalfMoonGlassFrost:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 1 ms attack and 850 ms release; a high-pass filter shapes the frequency balance; 12-bit playback adds digital grain.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_08_WAV_WT%2FDemo-1.wav) — SquareToShark:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_08_WAV_WT%2FDemo-2.wav) — ParabolaRaspFlicker:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 2 ms attack and 120 ms release; a high-pass filter moves with modulation to reshape brightness; 6-bit playback adds digital grain.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_08_WAV_WT%2FDemo-3.wav) — HalfMoonGlassFrost:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 1 ms attack and 850 ms release; a high-pass filter shapes the frequency balance; 12-bit playback adds digital grain.
 
 **Simply explained:** For sounds that change from one custom shape into another. Set the start and end waveforms, wrapping, phase and folding; the generator fills in the frames between them. S means start and E means end.
 
@@ -394,9 +394,9 @@ File: [`Gen_09_STRING.ptfx`](Generators/Synth/Gen_09_STRING.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Longer generated samples and more complex models increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_09_STRING%2FDemo-1.wav) — NylonStarlight:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_09_STRING%2FDemo-2.wav) — WirePluckDust:** PTI preview: looping sustains the generated source; the volume envelope keeps the attack immediate and sets a 160 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 4-bit playback adds digital grain.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_09_STRING%2FDemo-3.wav) — BowedLinenSoftHorizon:** PTI preview: looping sustains the generated source; the volume envelope adds a 2300 ms attack and 2600 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_09_STRING%2FDemo-1.wav) — NylonStarlight:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_09_STRING%2FDemo-2.wav) — WirePluckDust:** PTI preview: looping sustains the generated source; the volume envelope keeps the attack immediate and sets a 160 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 4-bit playback adds digital grain.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_09_STRING%2FDemo-3.wav) — BowedLinenSoftHorizon:** PTI preview: looping sustains the generated source; the volume envelope adds a 2300 ms attack and 2600 ms release; a low-pass filter moves with modulation to reshape brightness.
 
 **Simply explained:** For plucks and vintage string-machine pads. Plucked uses a vibrating-string model; Bowed layers filtered saw waves with an ensemble effect for a soft string-like sound.
 
@@ -433,9 +433,9 @@ File: [`Gen_10_NOISE.ptfx`](Generators/Synth/Gen_10_NOISE.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Longer generated samples and more complex models increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_10_NOISE%2FDemo-1.wav) — ParticleVeil:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_10_NOISE%2FDemo-2.wav) — MetalWindAir:** PTI preview: looping sustains the generated source; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_10_NOISE%2FDemo-3.wav) — GustHorizonAirwash:** PTI preview: looping sustains the generated source; the volume envelope adds a 1600 ms attack and 2200 ms release; a high-pass filter shapes the frequency balance.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_10_NOISE%2FDemo-1.wav) — ParticleVeil:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_10_NOISE%2FDemo-2.wav) — MetalWindAir:** PTI preview: looping sustains the generated source; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_10_NOISE%2FDemo-3.wav) — GustHorizonAirwash:** PTI preview: looping sustains the generated source; the volume envelope adds a 1600 ms attack and 2200 ms release; a high-pass filter shapes the frequency balance.
 
 **Simply explained:** For hiss, wind, crackle, percussion layers and effects. It makes different kinds of random or clocked noise, with colour and rate controls and an optional sweep.
 
@@ -466,9 +466,9 @@ File: [`Gen_11_BUZZ.ptfx`](Generators/Synth/Gen_11_BUZZ.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Longer generated samples and more complex models increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_11_BUZZ%2FDemo-1.wav) — BuzzMetal:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_11_BUZZ%2FDemo-2.wav) — MetalHarmonics:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 90 ms release.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_11_BUZZ%2FDemo-3.wav) — VelvetBass:** PTI preview: looping sustains the generated source; the volume envelope adds a 250 ms attack and 350 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_11_BUZZ%2FDemo-1.wav) — BuzzMetal:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_11_BUZZ%2FDemo-2.wav) — MetalHarmonics:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 90 ms release.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_11_BUZZ%2FDemo-3.wav) — VelvetBass:** PTI preview: looping sustains the generated source; the volume envelope adds a 250 ms attack and 350 ms release.
 
 **Simply explained:** For pitched noise, rough bass and chip-like textures. It uses the noise family with a frequency control, so you can steer its buzzing or clocked character toward a note. Not every noise mode has a clear musical pitch.
 
@@ -505,9 +505,9 @@ File: [`Gen_12_UNISON.ptfx`](Generators/Synth/Gen_12_UNISON.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Layered oscillators and longer samples increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_12_UNISON%2FDemo-1.wav) — PulseEnsemble:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_12_UNISON%2FDemo-2.wav) — TriangleEnsembleTelephone:** PTI preview: looping sustains the generated source; the volume envelope adds a 8 ms attack and 130 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 8-bit playback adds digital grain.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_12_UNISON%2FDemo-3.wav) — CurvedStringsHollowWaves:** PTI preview: looping sustains the generated source; the volume envelope adds a 900 ms attack and 1800 ms release; a band-pass filter moves with modulation to reshape brightness.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_12_UNISON%2FDemo-1.wav) — PulseEnsemble:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_12_UNISON%2FDemo-2.wav) — TriangleEnsembleTelephone:** PTI preview: looping sustains the generated source; the volume envelope adds a 8 ms attack and 130 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 8-bit playback adds digital grain.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_12_UNISON%2FDemo-3.wav) — CurvedStringsHollowWaves:** PTI preview: looping sustains the generated source; the volume envelope adds a 900 ms attack and 1800 ms release; a band-pass filter moves with modulation to reshape brightness.
 
 **Simply explained:** For thick leads, basses and pads. It stacks copies of a waveform at slightly different pitches, then blends them with a central voice and optional sub tone.
 
@@ -544,9 +544,9 @@ File: [`Gen_13_FOLD_WT.ptfx`](Generators/Synth/Gen_13_FOLD_WT.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_13_FOLD_WT%2FDemo-1.wav) — FoldSawClaw:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_13_FOLD_WT%2FDemo-2.wav) — RectifiedRootSnap:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 65 ms release; a low-pass filter moves with modulation to reshape brightness; overdrive adds grit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_13_FOLD_WT%2FDemo-3.wav) — ParabolicFlareWeather:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 800 ms attack and 2000 ms release; a high-pass filter moves with modulation to reshape brightness; 9-bit playback adds digital grain.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_13_FOLD_WT%2FDemo-1.wav) — FoldSawClaw:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_13_FOLD_WT%2FDemo-2.wav) — RectifiedRootSnap:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope keeps the attack immediate and sets a 65 ms release; a low-pass filter moves with modulation to reshape brightness; overdrive adds grit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_13_FOLD_WT%2FDemo-3.wav) — ParabolicFlareWeather:** PTI preview: an LFO moves through the wavetable for changing tone; the volume envelope adds a 800 ms attack and 2000 ms release; a high-pass filter moves with modulation to reshape brightness; 9-bit playback adds digital grain.
 
 **Simply explained:** For bright, rough or metallic tones. Wavefolding bends peaks back on themselves to add extra harmonics. The wavetable follows the selected folding path.
 
@@ -576,9 +576,9 @@ File: [`Gen_14_STRUCK.ptfx`](Generators/Synth/Gen_14_STRUCK.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Longer generated samples and more complex models increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_14_STRUCK%2FDemo-1.wav) — ResonatorStone:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_14_STRUCK%2FDemo-2.wav) — HardExcitation:** PTI preview: one-shot playback preserves the generated hit; the volume envelope adds a 1 ms attack and 260 ms release.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_14_STRUCK%2FDemo-3.wav) — BambooKey:** PTI preview: one-shot playback preserves the generated hit; the volume envelope keeps the attack immediate and sets a 20 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_14_STRUCK%2FDemo-1.wav) — ResonatorStone:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_14_STRUCK%2FDemo-2.wav) — HardExcitation:** PTI preview: one-shot playback preserves the generated hit; the volume envelope adds a 1 ms attack and 260 ms release.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_14_STRUCK%2FDemo-3.wav) — BambooKey:** PTI preview: one-shot playback preserves the generated hit; the volume envelope keeps the attack immediate and sets a 20 ms release.
 
 **Simply explained:** For plucked, struck-string notes and tuned accents. A short noise excitation circulates through a tuned delay loop, with damping and decay making the vibration fade.
 
@@ -600,9 +600,9 @@ File: [`Gen_15_FORMANT_WT.ptfx`](Generators/Synth/Gen_15_FORMANT_WT.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_15_FORMANT_WT%2FDemo-1.wav) — VocalGlass:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_15_FORMANT_WT%2FDemo-2.wav) — ThroatBassAir:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_15_FORMANT_WT%2FDemo-3.wav) — CurvedChantTide:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 2000 ms attack and 2500 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_15_FORMANT_WT%2FDemo-1.wav) — VocalGlass:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_15_FORMANT_WT%2FDemo-2.wav) — ThroatBassAir:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 500 ms attack and 800 ms release; a high-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_15_FORMANT_WT%2FDemo-3.wav) — CurvedChantTide:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 2000 ms attack and 2500 ms release; a low-pass filter moves with modulation to reshape brightness.
 
 **Simply explained:** For vowel-like leads and talking basses. It shapes a waveform around vocal-style resonances and lays out the changing vowel colour across a wavetable.
 
@@ -633,9 +633,9 @@ File: [`Gen_16_SUNSOFT.ptfx`](Generators/Synth/Gen_16_SUNSOFT.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Longer generated samples and more complex models increase the work.
 
-- **[Sunsoft Note Cascade](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_16_SUNSOFT%2FDemo-1.wav) — *Chiptune* · Note chain 1:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
-- **[Retro Scale Runner](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_16_SUNSOFT%2FDemo-2.wav) — *Chiptune* · Note chain 2:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
-- **[Arcade Pitch Ladder](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_16_SUNSOFT%2FDemo-3.wav) — *Synthwave* · Note chain 3:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
+- **[Sunsoft Note Cascade](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_16_SUNSOFT%2FDemo-1.wav) — *Chiptune* · Note chain 1:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
+- **[Retro Scale Runner](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_16_SUNSOFT%2FDemo-2.wav) — *Chiptune* · Note chain 2:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
+- **[Arcade Pitch Ladder](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_16_SUNSOFT%2FDemo-3.wav) — *Synthwave* · Note chain 3:** Source audition: no PTI processing is added; the pitched note chain comes from the generator. A sliced PTI can make the individual notes separately playable. The WAV only adds trailing silence.
 
 **Simply explained:** For crunchy game-style bass notes. It repitches an embedded sample into a chosen scale and passes each note through NES-style DPCM conversion. It makes a note chain, not a wavetable. Use Equal Slice: Chromatic = 12, Major/Minor/Dorian = 7, pentatonic scales = 5, Blues = 6. Reslice after changing Scale.
 
@@ -656,9 +656,9 @@ File: [`Gen_17_DONK.ptfx`](Generators/Synth/Gen_17_DONK.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Longer generated samples and more complex models increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_17_DONK%2FDemo-1.wav) — DonkVessel:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_17_DONK%2FDemo-2.wav) — RubberDonk:** PTI preview: one-shot playback preserves the generated hit; the volume envelope adds a 2 ms attack and 90 ms release.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_17_DONK%2FDemo-3.wav) — CopperThud:** PTI preview: one-shot playback preserves the generated hit; the volume envelope keeps the attack immediate and sets a 20 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_17_DONK%2FDemo-1.wav) — DonkVessel:** Source audition: the attack and timbre come from the generated sample, with no finished PTI processing demonstrated. A PTI can add playback tuning, filtering and a note envelope.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_17_DONK%2FDemo-2.wav) — RubberDonk:** PTI preview: one-shot playback preserves the generated hit; the volume envelope adds a 2 ms attack and 90 ms release.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_17_DONK%2FDemo-3.wav) — CopperThud:** PTI preview: one-shot playback preserves the generated hit; the volume envelope keeps the attack immediate and sets a 20 ms release.
 
 **Simply explained:** For short, knocking bass notes. A decaying FM-style tone is mixed with a low body and pitch punch, then driven for extra bite.
 
@@ -695,9 +695,9 @@ File: [`Gen_18_HOOVER.ptfx`](Generators/Synth/Gen_18_HOOVER.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ ☕ (5/5)** — provisional allowance: about 1–3 minutes or longer; see the [coffee guide](#generation-time-the-coffee-guide). Layered oscillators and longer samples increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_18_HOOVER%2FDemo-1.wav) — HooverTurbine:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_18_HOOVER%2FDemo-2.wav) — SlowVacuumGrowl:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 110 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 11-bit playback adds digital grain.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_18_HOOVER%2FDemo-3.wav) — HooverReed:** PTI preview: looping sustains the generated source; the volume envelope adds a 5 ms attack and 160 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_18_HOOVER%2FDemo-1.wav) — HooverTurbine:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_18_HOOVER%2FDemo-2.wav) — SlowVacuumGrowl:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 110 ms release; a band-pass filter moves with modulation to reshape brightness; overdrive adds grit; 11-bit playback adds digital grain.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_18_HOOVER%2FDemo-3.wav) — HooverReed:** PTI preview: looping sustains the generated source; the volume envelope adds a 5 ms attack and 160 ms release.
 
 **Simply explained:** For buzzing rave leads and thick basses. Moving pulse widths, linked saw/pulse waves, a sub tone and a chorus-like layer build a changing mono sample.
 
@@ -735,9 +735,9 @@ File: [`Gen_19_NEURO_WT.ptfx`](Generators/Synth/Gen_19_NEURO_WT.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ ☕ (5/5)** — provisional allowance: about 1–3 minutes or longer; see the [coffee guide](#generation-time-the-coffee-guide). Window × Frames sets the output size; shaping complexity also affects the wait.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_19_NEURO_WT%2FDemo-1.wav) — CombCrawler:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_19_NEURO_WT%2FDemo-2.wav) — WideJawBloom:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 180 ms attack and 500 ms release; a low-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_19_NEURO_WT%2FDemo-3.wav) — FoldSquish:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 2 ms attack and 90 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_19_NEURO_WT%2FDemo-1.wav) — CombCrawler:** Source audition: the preview scans the generated wavetable; no finished PTI processing is demonstrated. A PTI can store Position modulation and an amplitude envelope to make that changing tone playable.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_19_NEURO_WT%2FDemo-2.wav) — WideJawBloom:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 180 ms attack and 500 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_19_NEURO_WT%2FDemo-3.wav) — FoldSquish:** PTI preview: an envelope moves through the wavetable for changing tone; the volume envelope adds a 2 ms attack and 90 ms release.
 
 **Simply explained:** For growling basses and aggressive moving textures. It combines Reese and FM-style sources with phase spreading, folding and distortion. Motion chooses how the colour changes across the frames.
 
@@ -777,9 +777,9 @@ File: [`Gen_20_REESE.ptfx`](Generators/Synth/Gen_20_REESE.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Layered oscillators and longer samples increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_20_REESE%2FDemo-1.wav) — ReeseSquare:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_20_REESE%2FDemo-2.wav) — ReesePulseBubble:** PTI preview: looping sustains the generated source; the volume envelope adds a 3 ms attack and 100 ms release; a low-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_20_REESE%2FDemo-3.wav) — SevenPulseSwarm:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 90 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_20_REESE%2FDemo-1.wav) — ReeseSquare:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_20_REESE%2FDemo-2.wav) — ReesePulseBubble:** PTI preview: looping sustains the generated source; the volume envelope adds a 3 ms attack and 100 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_20_REESE%2FDemo-3.wav) — SevenPulseSwarm:** PTI preview: looping sustains the generated source; the volume envelope adds a 2 ms attack and 90 ms release.
 
 **Simply explained:** For rolling, beating basses. Detuned oscillators interfere with one another, making the sound rise and fall in strength. Blend and Sub control its weight.
 
@@ -816,9 +816,9 @@ File: [`Gen_21_SUPERSAW.ptfx`](Generators/Synth/Gen_21_SUPERSAW.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ ☕ (5/5)** — provisional allowance: about 1–3 minutes or longer; see the [coffee guide](#generation-time-the-coffee-guide). Layered oscillators and longer samples increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_21_SUPERSAW%2FDemo-1.wav) — AnthemSeven:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_21_SUPERSAW%2FDemo-2.wav) — SevenSawAirBloom:** PTI preview: looping sustains the generated source; the volume envelope adds a 180 ms attack and 500 ms release; a low-pass filter moves with modulation to reshape brightness.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FSynth%2FGen_21_SUPERSAW%2FDemo-3.wav) — SevenfoldDawnSoftHorizon:** PTI preview: looping sustains the generated source; the volume envelope adds a 2300 ms attack and 2600 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_21_SUPERSAW%2FDemo-1.wav) — AnthemSeven:** Source audition: no finished PTI processing is demonstrated. A PTI can sustain this source with looping and add an amplitude envelope to control the attack and note-off tail.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_21_SUPERSAW%2FDemo-2.wav) — SevenSawAirBloom:** PTI preview: looping sustains the generated source; the volume envelope adds a 180 ms attack and 500 ms release; a low-pass filter moves with modulation to reshape brightness.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FSynth%2FGen_21_SUPERSAW%2FDemo-3.wav) — SevenfoldDawnSoftHorizon:** PTI preview: looping sustains the generated source; the volume envelope adds a 2300 ms attack and 2600 ms release; a low-pass filter moves with modulation to reshape brightness.
 
 **Simply explained:** For large leads, chords and pads. It stacks detuned saw waves around a central voice. Brightness and Blend let you move from a clearer tone to a dense, moving sound.
 
@@ -864,9 +864,9 @@ File: [`Gen_Drum_1_Base.ptfx`](Generators/Drum/Gen_Drum_1_Base.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_1_Base%2FDemo-1.wav) — BasePunch:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_1_Base%2FDemo-2.wav) — BaseCircuit:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_1_Base%2FDemo-3.wav) — SoftMachines:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_1_Base%2FDemo-1.wav) — BasePunch:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_1_Base%2FDemo-2.wav) — BaseCircuit:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_1_Base%2FDemo-3.wav) — SoftMachines:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
 
 **Simply explained:** For a useful everyday electronic kit. Sine-wave bodies, noise bursts and metallic pulse waves make kicks, snares, claps, hats and other percussion.
 
@@ -897,9 +897,9 @@ File: [`Gen_Drum_2_Tone.ptfx`](Generators/Drum/Gen_Drum_2_Tone.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_2_Tone%2FDemo-1.wav) — ToneHybrid:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_2_Tone%2FDemo-2.wav) — HybridTone:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_2_Tone%2FDemo-3.wav) — BentComponents:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_2_Tone%2FDemo-1.wav) — ToneHybrid:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_2_Tone%2FDemo-2.wav) — HybridTone:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_2_Tone%2FDemo-3.wav) — BentComponents:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
 **Simply explained:** For drum-machine sounds with a digital edge. It blends analog-style tones and noise with stepped, low-resolution digital voices. Style gives you a starting sound; the other controls reshape it.
 
@@ -939,9 +939,9 @@ File: [`Gen_Drum_3_Chip.ptfx`](Generators/Drum/Gen_Drum_3_Chip.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_3_Chip%2FDemo-1.wav) — ChipVector:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_3_Chip%2FDemo-2.wav) — ArcadeFracture:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_3_Chip%2FDemo-3.wav) — ArcadeExtras:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 0 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_3_Chip%2FDemo-1.wav) — ChipVector:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_3_Chip%2FDemo-2.wav) — ArcadeFracture:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_3_Chip%2FDemo-3.wav) — ArcadeExtras:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 0 ms release.
 
 **Simply explained:** For game-inspired beats and crunchy percussion. Pulse and triangle tones, small wave tables and clocked noise follow short pitch and volume programs.
 
@@ -981,9 +981,9 @@ File: [`Gen_Drum_4_FM.ptfx`](Generators/Drum/Gen_Drum_4_FM.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_4_FM%2FDemo-1.wav) — FMImpact:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_4_FM%2FDemo-2.wav) — FMMetal:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_4_FM%2FDemo-3.wav) — CeramicRitual:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_4_FM%2FDemo-1.wav) — FMImpact:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_4_FM%2FDemo-2.wav) — FMMetal:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_4_FM%2FDemo-3.wav) — CeramicRitual:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
 
 **Simply explained:** For deep kicks, metallic percussion and digital kits. Oscillators modulate one another with different pitch ratios and fading envelopes. Each drum uses an appropriate FM arrangement.
 
@@ -1023,9 +1023,9 @@ File: [`Gen_Drum_5_Phase.ptfx`](Generators/Drum/Gen_Drum_5_Phase.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_5_Phase%2FDemo-1.wav) — PhaseChrome:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_5_Phase%2FDemo-2.wav) — PhaseClatter:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_5_Phase%2FDemo-3.wav) — PhaseStones:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_5_Phase%2FDemo-1.wav) — PhaseChrome:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_5_Phase%2FDemo-2.wav) — PhaseClatter:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_5_Phase%2FDemo-3.wav) — PhaseStones:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
 
 **Simply explained:** For synthetic drums with a sharp, unusual edge. Phase distortion changes the shape of each oscillator over the hit, with noise and drive adding texture.
 
@@ -1065,9 +1065,9 @@ File: [`Gen_Drum_6_Six.ptfx`](Generators/Drum/Gen_Drum_6_Six.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_6_Six%2FDemo-1.wav) — SixMachine:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_6_Six%2FDemo-2.wav) — SilverSix:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_6_Six%2FDemo-3.wav) — SixFurnace:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_6_Six%2FDemo-1.wav) — SixMachine:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_6_Six%2FDemo-2.wav) — SilverSix:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_6_Six%2FDemo-3.wav) — SixFurnace:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
 **Simply explained:** For compact, lively analog-style kits. Damped ringing tones form the bodies, with filtered noise and metallic oscillators for the sharper sounds. MetalAcc6 and FullAcc8 include an accented snare.
 
@@ -1098,9 +1098,9 @@ File: [`Gen_Drum_7_Seven.ptfx`](Generators/Drum/Gen_Drum_7_Seven.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_7_Seven%2FDemo-1.wav) — SevenPunch:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_7_Seven%2FDemo-2.wav) — SevenCutups:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_7_Seven%2FDemo-3.wav) — SevenDust:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 5 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_7_Seven%2FDemo-1.wav) — SevenPunch:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_7_Seven%2FDemo-2.wav) — SevenCutups:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_7_Seven%2FDemo-3.wav) — SevenDust:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 5 ms release.
 
 **Simply explained:** For punchy PCM drum-machine sounds. It plays embedded drum samples, then changes their clock rate, envelopes, tone and bit resolution.
 
@@ -1131,9 +1131,9 @@ File: [`Gen_Drum_8_Eight.ptfx`](Generators/Drum/Gen_Drum_8_Eight.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_8_Eight%2FDemo-1.wav) — DeepEight:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_8_Eight%2FDemo-2.wav) — ChicagoEight:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_8_Eight%2FDemo-3.wav) — EightPressure:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_8_Eight%2FDemo-1.wav) — DeepEight:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_8_Eight%2FDemo-2.wav) — ChicagoEight:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_8_Eight%2FDemo-3.wav) — EightPressure:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
 **Simply explained:** For round bass drums, snappy snares and sizzling analog-style percussion. Ringing tone models, filtered noise and metallic pulse mixtures build the kit.
 
@@ -1170,9 +1170,9 @@ File: [`Gen_Drum_9_Nine.ptfx`](Generators/Drum/Gen_Drum_9_Nine.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_9_Nine%2FDemo-1.wav) — ClassicNine:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_9_Nine%2FDemo-2.wav) — WarehouseNine:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_9_Nine%2FDemo-3.wav) — NineRazor:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_9_Nine%2FDemo-1.wav) — ClassicNine:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_9_Nine%2FDemo-2.wav) — WarehouseNine:** PTI preview: Beat Slice maps 6 generated hits to separate notes for a playable kit.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_9_Nine%2FDemo-3.wav) — NineRazor:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
 **Simply explained:** For punchy dance kits. It combines synthesized drum bodies and noise with embedded PCM hats and cymbals. The metal tuning can be changed separately.
 
@@ -1203,9 +1203,9 @@ File: [`Gen_Drum_10_Wave.ptfx`](Generators/Drum/Gen_Drum_10_Wave.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ ☕ (5/5)** — provisional allowance: about 1–3 minutes or longer; see the [coffee guide](#generation-time-the-coffee-guide). Renders a complete chain of drum voices; longer slots increase the work.
 
-- **[Demo 1](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_10_Wave%2FDemo-1.wav) — DigitalEdge:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
-- **[Demo 2](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_10_Wave%2FDemo-2.wav) — WaveRelics:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
-- **[Demo 3](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FDrum%2FGen_Drum_10_Wave%2FDemo-3.wav) — CrushedObjects:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
+- **[Demo 1](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_10_Wave%2FDemo-1.wav) — DigitalEdge:** Source audition: no finished PTI processing is demonstrated. A Beat Slice PTI can map the generated drum slots to separate notes so the kit can be sequenced hit by hit.
+- **[Demo 2](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_10_Wave%2FDemo-2.wav) — WaveRelics:** PTI preview: Beat Slice maps 4 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 50 ms release.
+- **[Demo 3](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FDrum%2FGen_Drum_10_Wave%2FDemo-3.wav) — CrushedObjects:** PTI preview: Beat Slice maps 8 generated hits to separate notes for a playable kit; the volume envelope keeps the attack immediate and sets a 30 ms release.
 
 **Simply explained:** For flexible digital percussion. Changing wave shapes, folding, noise and resolution reduction build a kit that can range from clean to crushed.
 
@@ -1252,9 +1252,9 @@ File: [`Gen_Perc_01_Kick.ptfx`](Generators/Percussion/Gen_Perc_01_Kick.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Sub Foundation](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_01_Kick%2FDemo-1.wav) — *Techno* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Floor Driver](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_01_Kick%2FDemo-2.wav) — *House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Punch Kick](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_01_Kick%2FDemo-3.wav) — *Hard Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Sub Foundation](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_01_Kick%2FDemo-1.wav) — *Techno* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Floor Driver](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_01_Kick%2FDemo-2.wav) — *House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Punch Kick](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_01_Kick%2FDemo-3.wav) — *Hard Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For designing a single bass drum. Choose a sine-based, digital, chip, FM, phase, PCM or wave-based model, then shape the body, click and falling pitch.
 
@@ -1285,9 +1285,9 @@ File: [`Gen_Perc_02_Snare.ptfx`](Generators/Percussion/Gen_Perc_02_Snare.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Dry Wire Snap](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_02_Snare%2FDemo-1.wav) — *Breakbeat* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Body Crack](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_02_Snare%2FDemo-2.wav) — *Drum and Bass* · Model 5, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Snare Strike](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_02_Snare%2FDemo-3.wav) — *Jungle* · Model 10, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Dry Wire Snap](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_02_Snare%2FDemo-1.wav) — *Breakbeat* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Body Crack](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_02_Snare%2FDemo-2.wav) — *Drum and Bass* · Model 5, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Snare Strike](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_02_Snare%2FDemo-3.wav) — *Jungle* · Model 10, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For one snare with control over its body and noisy wires. Models use different combinations of oscillators, noise, FM, chip programs or PCM playback.
 
@@ -1318,9 +1318,9 @@ File: [`Gen_Perc_03_Clap.ptfx`](Generators/Percussion/Gen_Perc_03_Clap.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Tight Handclap](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_03_Clap%2FDemo-1.wav) — *House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Burst Clap](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_03_Clap%2FDemo-2.wav) — *Lo-Fi House* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Crowd Clap](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_03_Clap%2FDemo-3.wav) — *Disco House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Tight Handclap](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_03_Clap%2FDemo-1.wav) — *House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Burst Clap](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_03_Clap%2FDemo-2.wav) — *Lo-Fi House* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Crowd Clap](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_03_Clap%2FDemo-3.wav) — *Disco House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For handclap-style hits and burst effects. Several short bursts lead into a tail. Different models use filtered noise, chip noise, FM, phase shaping or PCM layers.
 
@@ -1351,9 +1351,9 @@ File: [`Gen_Perc_04_Hat.ptfx`](Generators/Percussion/Gen_Perc_04_Hat.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Dry Hat Tick](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_04_Hat%2FDemo-1.wav) — *Minimal Techno* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Metallic Hat](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_04_Hat%2FDemo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Hat Spark](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_04_Hat%2FDemo-3.wav) — *House* · Model 9, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Dry Hat Tick](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_04_Hat%2FDemo-1.wav) — *Minimal Techno* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Metallic Hat](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_04_Hat%2FDemo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Hat Spark](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_04_Hat%2FDemo-3.wav) — *House* · Model 9, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For short closed hats or longer open-hat sounds. It blends noisy and metallic parts, or shapes PCM hat material, with separate controls for the metallic tail.
 
@@ -1384,9 +1384,9 @@ File: [`Gen_Perc_05_Tom.ptfx`](Generators/Percussion/Gen_Perc_05_Tom.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Round Floor Tom](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_05_Tom%2FDemo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Tom Pulse](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_05_Tom%2FDemo-2.wav) — *Techno* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Tribal Tom](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_05_Tom%2FDemo-3.wav) — *Tribal House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Round Floor Tom](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_05_Tom%2FDemo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Tom Pulse](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_05_Tom%2FDemo-2.wav) — *Techno* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Tribal Tom](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_05_Tom%2FDemo-3.wav) — *Tribal House* · Model 7, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For tuned fills and rounded percussion. Different ringing, digital and PCM models make a drum body with a controllable pitch bend and resonance.
 
@@ -1417,9 +1417,9 @@ File: [`Gen_Perc_06_Conga.ptfx`](Generators/Percussion/Gen_Perc_06_Conga.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Warm Conga Tap](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_06_Conga%2FDemo-1.wav) — *Afro House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Conga Knock](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_06_Conga%2FDemo-2.wav) — *Downtempo* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[High Conga Pop](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_06_Conga%2FDemo-3.wav) — *Latin House* · Model 1, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Warm Conga Tap](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_06_Conga%2FDemo-1.wav) — *Afro House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Conga Knock](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_06_Conga%2FDemo-2.wav) — *Downtempo* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[High Conga Pop](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_06_Conga%2FDemo-3.wav) — *Latin House* · Model 1, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For rounded hand-drum-style hits. Two related tone models make a body and strike, with a short pitch bend and adjustable body colour.
 
@@ -1450,9 +1450,9 @@ File: [`Gen_Perc_07_Rim.ptfx`](Generators/Percussion/Gen_Perc_07_Rim.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Tight Rim Click](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_07_Rim%2FDemo-1.wav) — *Minimal House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Rim Knock](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_07_Rim%2FDemo-2.wav) — *Dub Techno* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Rim Shot](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_07_Rim%2FDemo-3.wav) — *Breakbeat* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Tight Rim Click](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_07_Rim%2FDemo-1.wav) — *Minimal House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Rim Knock](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_07_Rim%2FDemo-2.wav) — *Dub Techno* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Rim Shot](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_07_Rim%2FDemo-3.wav) — *Breakbeat* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For tight rimshots, clicks and ringing stick sounds. Different models combine a short strike with a ringing body. Ring controls shape the second part; the PCM model adds a resonator to its recorded hit.
 
@@ -1483,9 +1483,9 @@ File: [`Gen_Perc_08_Claves.ptfx`](Generators/Percussion/Gen_Perc_08_Claves.ptfx)
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Wooden Clave Tick](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_08_Claves%2FDemo-1.wav) — *Latin House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Clave Knock](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_08_Claves%2FDemo-2.wav) — *Downtempo* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Clave Click](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_08_Claves%2FDemo-3.wav) — *Afro House* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Wooden Clave Tick](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_08_Claves%2FDemo-1.wav) — *Latin House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Clave Knock](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_08_Claves%2FDemo-2.wav) — *Downtempo* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Clave Click](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_08_Claves%2FDemo-3.wav) — *Afro House* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For short wooden clicks and pitched accents. Tonal and chip-style models make a brief strike with a small ringing body. Hard changes the attack character.
 
@@ -1516,9 +1516,9 @@ File: [`Gen_Perc_09_Cowbell.ptfx`](Generators/Percussion/Gen_Perc_09_Cowbell.ptf
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Classic Cowbell Pulse](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_09_Cowbell%2FDemo-1.wav) — *Electro* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Bell Knock](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_09_Cowbell%2FDemo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Cowbell Ring](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_09_Cowbell%2FDemo-3.wav) — *Disco* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Classic Cowbell Pulse](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_09_Cowbell%2FDemo-1.wav) — *Electro* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Bell Knock](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_09_Cowbell%2FDemo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Cowbell Ring](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_09_Cowbell%2FDemo-3.wav) — *Disco* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For clanging rhythmic accents. Paired tones or PCM bands create low and high components. Their balance, tuning relationship and damping set the clang.
 
@@ -1549,9 +1549,9 @@ File: [`Gen_Perc_10_Bell.ptfx`](Generators/Percussion/Gen_Perc_10_Bell.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Soft Metal Bell](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_10_Bell%2FDemo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Bell Chime](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_10_Bell%2FDemo-2.wav) — *Downtempo* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[High Shimmer Bell](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_10_Bell%2FDemo-3.wav) — *IDM* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Soft Metal Bell](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_10_Bell%2FDemo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Bell Chime](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_10_Bell%2FDemo-2.wav) — *Downtempo* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[High Shimmer Bell](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_10_Bell%2FDemo-3.wav) — *IDM* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For ringing bell-like accents. Paired tones, digital shaping or processed PCM produce a strike and a longer body. Inharm changes how closely the upper tones relate to the main pitch.
 
@@ -1582,9 +1582,9 @@ File: [`Gen_Perc_11_Cymbal.ptfx`](Generators/Percussion/Gen_Perc_11_Cymbal.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Dark Cymbal Wash](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_11_Cymbal%2FDemo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Metallic Wash](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_11_Cymbal%2FDemo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Cymbal Shimmer](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_11_Cymbal%2FDemo-3.wav) — *Techno* · Model 8, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Dark Cymbal Wash](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_11_Cymbal%2FDemo-1.wav) — *Ambient* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Metallic Wash](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_11_Cymbal%2FDemo-2.wav) — *Industrial* · Model 4, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Cymbal Shimmer](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_11_Cymbal%2FDemo-3.wav) — *Techno* · Model 8, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For metallic hits and noisy washes. Oscillator, noise, FM, chip and PCM models offer different kinds of metal, with density and damping controls.
 
@@ -1615,9 +1615,9 @@ File: [`Gen_Perc_12_Crash.ptfx`](Generators/Percussion/Gen_Perc_12_Crash.ptfx)
 
 **Generation speed: ☕ ☕ ☕ (3/5)** — provisional allowance: about 15–30 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Deep Crash Bloom](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_12_Crash%2FDemo-1.wav) — *Cinematic* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Crash Burst](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_12_Crash%2FDemo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Impact Crash](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_12_Crash%2FDemo-3.wav) — *Drum and Bass* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Deep Crash Bloom](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_12_Crash%2FDemo-1.wav) — *Cinematic* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Crash Burst](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_12_Crash%2FDemo-2.wav) — *Industrial* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Impact Crash](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_12_Crash%2FDemo-3.wav) — *Drum and Bass* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For impact accents that open into a wash. It uses synthetic, chip or PCM metal sources. Bloom lets the wash rise and last longer; Spread changes the sound within a mono sample.
 
@@ -1648,9 +1648,9 @@ File: [`Gen_Perc_13_Ride.ptfx`](Generators/Percussion/Gen_Perc_13_Ride.ptfx)
 
 **Generation speed: ☕ ☕ ☕ ☕ (4/5)** — provisional allowance: about 30–60 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Steady Ride Wash](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_13_Ride%2FDemo-1.wav) — *Jazz House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Ride Pulse](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_13_Ride%2FDemo-2.wav) — *Deep House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Ride Bell](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_13_Ride%2FDemo-3.wav) — *Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Steady Ride Wash](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_13_Ride%2FDemo-1.wav) — *Jazz House* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Ride Pulse](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_13_Ride%2FDemo-2.wav) — *Deep House* · Model 3, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Ride Bell](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_13_Ride%2FDemo-3.wav) — *Techno* · Model 6, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For a clear ping over a longer cymbal wash. Different tone, chip, FM, phase and PCM models provide the source. Balance and WashDec let the ping or wash lead.
 
@@ -1681,9 +1681,9 @@ File: [`Gen_Perc_14_Maracas.ptfx`](Generators/Percussion/Gen_Perc_14_Maracas.ptf
 
 **Generation speed: ☕ (1/5)** — provisional allowance: under 5 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Soft Shaker Burst](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_14_Maracas%2FDemo-1.wav) — *Downtempo* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Shaker Shuffle](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_14_Maracas%2FDemo-2.wav) — *Afro House* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Bright Maraca Shake](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_14_Maracas%2FDemo-3.wav) — *Latin House* · Model 0, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Soft Shaker Burst](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_14_Maracas%2FDemo-1.wav) — *Downtempo* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Shaker Shuffle](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_14_Maracas%2FDemo-2.wav) — *Afro House* · Model 0, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Bright Maraca Shake](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_14_Maracas%2FDemo-3.wav) — *Latin House* · Model 0, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For a single shaker gesture. The Eight model uses filtered noise with an initial hit and a group of small grains. Density and BurstTm control the rattle. Eight is intentionally the only model.
 
@@ -1714,9 +1714,9 @@ File: [`Gen_Perc_15_Zap.ptfx`](Generators/Percussion/Gen_Perc_15_Zap.ptfx)
 
 **Generation speed: ☕ ☕ (2/5)** — provisional allowance: about 5–15 seconds; see the [coffee guide](#generation-time-the-coffee-guide). One hit at a time; model choice and tail length change the workload.
 
-- **[Classic Laser Zap](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_15_Zap%2FDemo-1.wav) — *Electro* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[Low Zap Sweep](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_15_Zap%2FDemo-2.wav) — *IDM* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
-- **[High Arcade Zap](https://aisjam.github.io/polyendtracker_Effects/?demo=Audio%2FPercussion%2FGen_Perc_15_Zap%2FDemo-3.wav) — *Chiptune* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Classic Laser Zap](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_15_Zap%2FDemo-1.wav) — *Electro* · Model 0, Tune 0 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[Low Zap Sweep](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_15_Zap%2FDemo-2.wav) — *IDM* · Model 2, Tune -5 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
+- **[High Arcade Zap](https://aisjam.github.io/polyendtracker_effects/?demo=Audio%2FPercussion%2FGen_Perc_15_Zap%2FDemo-3.wav) — *Chiptune* · Model 4, Tune 7 st:** Source audition: no PTI processing is added; the tone and decay are generated directly. A one-shot PTI can add filtering and a volume envelope, but those additions are not heard here.
 
 **Simply explained:** For laser hits, disco tom effects and falling electronic blips. Sine, chip, FM, phase and wave-based models follow a strong downward pitch sweep.
 
